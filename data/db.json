@@ -1,0 +1,4669 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Leanne Graham",
+            "username": "Bret",
+            "email": "Sincere@april.biz",
+            "address": {
+                "street": "Kulas Light",
+                "suite": "Apt. 556",
+                "city": "Gwenborough",
+                "zipcode": "92998-3874",
+                "geo": {
+                    "lat": "-37.3159",
+                    "lng": "81.1496"
+                }
+            },
+            "phone": "1-770-736-8031 x56442",
+            "website": "hildegard.org",
+            "company": {
+                "name": "Romaguera-Crona",
+                "catchPhrase": "Multi-layered client-server neural-net",
+                "bs": "harness real-time e-markets"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Ervin Howell",
+            "username": "Antonette",
+            "email": "Shanna@melissa.tv",
+            "address": {
+                "street": "Victor Plains",
+                "suite": "Suite 879",
+                "city": "Wisokyburgh",
+                "zipcode": "90566-7771",
+                "geo": {
+                    "lat": "-43.9509",
+                    "lng": "-34.4618"
+                }
+            },
+            "phone": "010-692-6593 x09125",
+            "website": "anastasia.net",
+            "company": {
+                "name": "Deckow-Crist",
+                "catchPhrase": "Proactive didactic contingency",
+                "bs": "synergize scalable supply-chains"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Clementine Bauch",
+            "username": "Samantha",
+            "email": "Nathan@yesenia.net",
+            "address": {
+                "street": "Douglas Extension",
+                "suite": "Suite 847",
+                "city": "McKenziehaven",
+                "zipcode": "59590-4157",
+                "geo": {
+                    "lat": "-68.6102",
+                    "lng": "-47.0653"
+                }
+            },
+            "phone": "1-463-123-4447",
+            "website": "ramiro.info",
+            "company": {
+                "name": "Romaguera-Jacobson",
+                "catchPhrase": "Face to face bifurcated interface",
+                "bs": "e-enable strategic applications"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Patricia Lebsack",
+            "username": "Karianne",
+            "email": "Julianne.OConner@kory.org",
+            "address": {
+                "street": "Hoeger Mall",
+                "suite": "Apt. 692",
+                "city": "South Elvis",
+                "zipcode": "53919-4257",
+                "geo": {
+                    "lat": "29.4572",
+                    "lng": "-164.2990"
+                }
+            },
+            "phone": "493-170-9623 x156",
+            "website": "kale.biz",
+            "company": {
+                "name": "Robel-Corkery",
+                "catchPhrase": "Multi-tiered zero tolerance productivity",
+                "bs": "transition cutting-edge web services"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Chelsey Dietrich",
+            "username": "Kamren",
+            "email": "Lucio_Hettinger@annie.ca",
+            "address": {
+                "street": "Skiles Walks",
+                "suite": "Suite 351",
+                "city": "Roscoeview",
+                "zipcode": "33263",
+                "geo": {
+                    "lat": "-31.8129",
+                    "lng": "62.5342"
+                }
+            },
+            "phone": "(254)954-1289",
+            "website": "demarco.info",
+            "company": {
+                "name": "Keebler LLC",
+                "catchPhrase": "User-centric fault-tolerant solution",
+                "bs": "revolutionize end-to-end systems"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Mrs. Dennis Schulist",
+            "username": "Leopoldo_Corkery",
+            "email": "Karley_Dach@jasper.info",
+            "address": {
+                "street": "Norberto Crossing",
+                "suite": "Apt. 950",
+                "city": "South Christy",
+                "zipcode": "23505-1337",
+                "geo": {
+                    "lat": "-71.4197",
+                    "lng": "71.7478"
+                }
+            },
+            "phone": "1-477-935-8478 x6430",
+            "website": "ola.org",
+            "company": {
+                "name": "Considine-Lockman",
+                "catchPhrase": "Synchronised bottom-line interface",
+                "bs": "e-enable innovative applications"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Kurtis Weissnat",
+            "username": "Elwyn.Skiles",
+            "email": "Telly.Hoeger@billy.biz",
+            "address": {
+                "street": "Rex Trail",
+                "suite": "Suite 280",
+                "city": "Howemouth",
+                "zipcode": "58804-1099",
+                "geo": {
+                    "lat": "24.8918",
+                    "lng": "21.8984"
+                }
+            },
+            "phone": "210.067.6132",
+            "website": "elvis.io",
+            "company": {
+                "name": "Johns Group",
+                "catchPhrase": "Configurable multimedia task-force",
+                "bs": "generate enterprise e-tailers"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Nicholas Runolfsdottir V",
+            "username": "Maxime_Nienow",
+            "email": "Sherwood@rosamond.me",
+            "address": {
+                "street": "Ellsworth Summit",
+                "suite": "Suite 729",
+                "city": "Aliyaview",
+                "zipcode": "45169",
+                "geo": {
+                    "lat": "-14.3990",
+                    "lng": "-120.7677"
+                }
+            },
+            "phone": "586.493.6943 x140",
+            "website": "jacynthe.com",
+            "company": {
+                "name": "Abernathy Group",
+                "catchPhrase": "Implemented secondary concept",
+                "bs": "e-enable extensible e-tailers"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Glenna Reichert",
+            "username": "Delphine",
+            "email": "Chaim_McDermott@dana.io",
+            "address": {
+                "street": "Dayna Park",
+                "suite": "Suite 449",
+                "city": "Bartholomebury",
+                "zipcode": "76495-3109",
+                "geo": {
+                    "lat": "24.6463",
+                    "lng": "-168.8889"
+                }
+            },
+            "phone": "(775)976-6794 x41206",
+            "website": "conrad.com",
+            "company": {
+                "name": "Yost and Sons",
+                "catchPhrase": "Switchable contextually-based project",
+                "bs": "aggregate real-time technologies"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Clementina DuBuque",
+            "username": "Moriah.Stanton",
+            "email": "Rey.Padberg@karina.biz",
+            "address": {
+                "street": "Kattie Turnpike",
+                "suite": "Suite 198",
+                "city": "Lebsackbury",
+                "zipcode": "31428-2261",
+                "geo": {
+                    "lat": "-38.2386",
+                    "lng": "57.2232"
+                }
+            },
+            "phone": "024-648-3804",
+            "website": "ambrose.net",
+            "company": {
+                "name": "Hoeger LLC",
+                "catchPhrase": "Centralized empowering task-force",
+                "bs": "target end-to-end models"
+            }
+        }
+    ],
+    "commodities-smartphones": [
+        {
+            "id": 1,
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "series": "iPhone 12",
+            "color": "red",
+            "screenRefreshRate": "144 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "microscope lens",
+                "optical stabilization",
+                "ultra wide lens",
+                "macro lens",
+                "thermal imager"
+            ],
+            "price": 1207.37,
+            "category": "smartphone"
+        },
+        {
+            "id": 2,
+            "brand": "Apple",
+            "model": "iPhone 11",
+            "series": "iPhone 11",
+            "color": "black",
+            "screenRefreshRate": "60 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["telephoto lens", "microscope lens", "macro lens", "night vision camera"],
+            "price": 928.51,
+            "category": "smartphone"
+        },
+        {
+            "id": 3,
+            "brand": "Apple",
+            "model": "iPhone 13",
+            "series": "iPhone 13",
+            "color": "blue",
+            "screenRefreshRate": "90 Hz",
+            "storage": "256 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "ultra wide lens",
+                "telephoto lens",
+                "microscope lens",
+                "optical stabilization",
+                "sensor stabilization",
+                "thermal imager"
+            ],
+            "price": 1119.76,
+            "category": "smartphone"
+        },
+        {
+            "id": 4,
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "series": "iPhone 12",
+            "color": "yellow",
+            "screenRefreshRate": "90 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "sensor stabilization",
+                "microscope lens",
+                "thermal imager",
+                "macro lens",
+                "optical stabilization"
+            ],
+            "price": 647.28,
+            "category": "smartphone"
+        },
+        {
+            "id": 5,
+            "brand": "Apple",
+            "model": "iPhone 14",
+            "series": "iPhone 14",
+            "color": "yellow",
+            "screenRefreshRate": "120 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["telephoto lens", "thermal imager"],
+            "price": 1395.04,
+            "category": "smartphone"
+        },
+        {
+            "id": 6,
+            "brand": "Apple",
+            "model": "iPhone SE",
+            "series": "iPhone SE",
+            "color": "yellow",
+            "screenRefreshRate": "60 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "sensor stabilization",
+                "macro lens",
+                "telephoto lens",
+                "optical stabilization",
+                "night vision camera",
+                "microscope lens"
+            ],
+            "price": 1192.35,
+            "category": "smartphone"
+        },
+        {
+            "id": 7,
+            "brand": "Apple",
+            "model": "iPhone 12 Pro",
+            "series": "iPhone 12",
+            "color": "blue",
+            "screenRefreshRate": "120 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "macro lens",
+                "night vision camera",
+                "sensor stabilization",
+                "optical stabilization"
+            ],
+            "price": 994.08,
+            "category": "smartphone"
+        },
+        {
+            "id": 8,
+            "brand": "Apple",
+            "model": "iPhone X",
+            "series": "iPhone X",
+            "color": "yellow",
+            "screenRefreshRate": "165 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": ["telephoto lens", "macro lens"],
+            "price": 908.86,
+            "category": "smartphone"
+        },
+        {
+            "id": 9,
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "series": "iPhone 12",
+            "color": "black",
+            "screenRefreshRate": "90 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": ["macro lens", "telephoto lens"],
+            "price": 943,
+            "category": "smartphone"
+        },
+        {
+            "id": 10,
+            "brand": "Apple",
+            "model": "iPhone SE",
+            "series": "iPhone SE",
+            "color": "yellow",
+            "screenRefreshRate": "90 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["microscope lens", "night vision camera"],
+            "price": 1314.49,
+            "category": "smartphone"
+        },
+        {
+            "id": 11,
+            "brand": "Apple",
+            "model": "iPhone X",
+            "series": "iPhone X",
+            "color": "blue",
+            "screenRefreshRate": "144 Hz",
+            "storage": "",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "telephoto lens",
+                "ultra wide lens",
+                "macro lens",
+                "night vision camera",
+                "thermal imager",
+                "sensor stabilization"
+            ],
+            "price": 855.46,
+            "category": "smartphone"
+        },
+        {
+            "id": 12,
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "series": "iPhone 12",
+            "color": "black",
+            "screenRefreshRate": "60 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "microscope lens",
+                "optical stabilization",
+                "sensor stabilization",
+                "ultra wide lens",
+                "macro lens"
+            ],
+            "price": 1185.67,
+            "category": "smartphone"
+        },
+        {
+            "id": 13,
+            "brand": "Apple",
+            "model": "iPhone 12 Pro",
+            "series": "iPhone 12",
+            "color": "blue",
+            "screenRefreshRate": "90 Hz",
+            "storage": "256 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["thermal imager", "sensor stabilization"],
+            "price": 988.09,
+            "category": "smartphone"
+        },
+        {
+            "id": 14,
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "series": "iPhone 12",
+            "color": "blue",
+            "screenRefreshRate": "144 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "telephoto lens",
+                "optical stabilization",
+                "macro lens",
+                "sensor stabilization",
+                "night vision camera",
+                "microscope lens",
+                "thermal imager",
+                "ultra wide lens"
+            ],
+            "price": 840.62,
+            "category": "smartphone"
+        },
+        {
+            "id": 15,
+            "brand": "Apple",
+            "model": "iPhone 13",
+            "series": "iPhone 13",
+            "color": "blue",
+            "screenRefreshRate": "120 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "sensor stabilization",
+                "night vision camera",
+                "optical stabilization",
+                "microscope lens",
+                "thermal imager",
+                "macro lens",
+                "ultra wide lens",
+                "telephoto lens"
+            ],
+            "price": 1212,
+            "category": "smartphone"
+        },
+        {
+            "id": 16,
+            "brand": "Apple",
+            "model": "iPhone 13",
+            "series": "iPhone 13",
+            "color": "yellow",
+            "screenRefreshRate": "90 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["sensor stabilization", "thermal imager", "telephoto lens", "microscope lens"],
+            "price": 1395.96,
+            "category": "smartphone"
+        },
+        {
+            "id": 17,
+            "brand": "Apple",
+            "model": "iPhone 13 mini",
+            "series": "iPhone 13",
+            "color": "yellow",
+            "screenRefreshRate": "144 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["thermal imager", "microscope lens", "sensor stabilization"],
+            "price": 601.09,
+            "category": "smartphone"
+        },
+        {
+            "id": 18,
+            "brand": "Apple",
+            "model": "iPhone 12 Pro",
+            "series": "iPhone 12",
+            "color": "blue",
+            "screenRefreshRate": "60 Hz",
+            "storage": "",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "sensor stabilization",
+                "ultra wide lens",
+                "macro lens",
+                "microscope lens",
+                "night vision camera",
+                "thermal imager",
+                "optical stabilization"
+            ],
+            "price": 669.67,
+            "category": "smartphone"
+        },
+        {
+            "id": 19,
+            "brand": "Apple",
+            "model": "iPhone 13",
+            "series": "iPhone 13",
+            "color": "yellow",
+            "screenRefreshRate": "60 Hz",
+            "storage": "",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": ["macro lens", "sensor stabilization", "telephoto lens", "thermal imager"],
+            "price": 910.22,
+            "category": "smartphone"
+        },
+        {
+            "id": 20,
+            "brand": "Apple",
+            "model": "iPhone SE",
+            "series": "iPhone SE",
+            "color": "yellow",
+            "screenRefreshRate": "144 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["ultra wide lens", "microscope lens", "sensor stabilization"],
+            "price": 1151.28,
+            "category": "smartphone"
+        },
+        {
+            "id": 21,
+            "brand": "Apple",
+            "model": "iPhone 11",
+            "series": "iPhone 11",
+            "color": "blue",
+            "screenRefreshRate": "90 Hz",
+            "storage": "",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "telephoto lens",
+                "ultra wide lens",
+                "thermal imager",
+                "microscope lens",
+                "macro lens",
+                "sensor stabilization",
+                "optical stabilization"
+            ],
+            "price": 1039.34,
+            "category": "smartphone"
+        },
+        {
+            "id": 22,
+            "brand": "Apple",
+            "model": "iPhone 11 Pro",
+            "series": "iPhone 11",
+            "color": "yellow",
+            "screenRefreshRate": "144 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["telephoto lens", "microscope lens", "night vision camera"],
+            "price": 656.75,
+            "category": "smartphone"
+        },
+        {
+            "id": 23,
+            "brand": "Apple",
+            "model": "iPhone 13 Pro",
+            "series": "iPhone 13",
+            "color": "red",
+            "screenRefreshRate": "120 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": ["optical stabilization", "ultra wide lens", "microscope lens"],
+            "price": 661.72,
+            "category": "smartphone"
+        },
+        {
+            "id": 24,
+            "brand": "Apple",
+            "model": "iPhone 11 Pro",
+            "series": "iPhone 11",
+            "color": "yellow",
+            "screenRefreshRate": "120 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "microscope lens",
+                "optical stabilization",
+                "thermal imager",
+                "macro lens",
+                "telephoto lens",
+                "sensor stabilization",
+                "night vision camera",
+                "ultra wide lens"
+            ],
+            "price": 1069.98,
+            "category": "smartphone"
+        },
+        {
+            "id": 25,
+            "brand": "Apple",
+            "model": "iPhone 14",
+            "series": "iPhone 14",
+            "color": "red",
+            "screenRefreshRate": "165 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "optical stabilization",
+                "ultra wide lens",
+                "thermal imager",
+                "night vision camera",
+                "macro lens"
+            ],
+            "price": 622.07,
+            "category": "smartphone"
+        },
+        {
+            "id": 26,
+            "brand": "Apple",
+            "model": "iPhone X",
+            "series": "iPhone X",
+            "color": "yellow",
+            "screenRefreshRate": "144 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "microscope lens",
+                "telephoto lens",
+                "night vision camera",
+                "sensor stabilization",
+                "optical stabilization",
+                "thermal imager",
+                "macro lens",
+                "ultra wide lens"
+            ],
+            "price": 681.2,
+            "category": "smartphone"
+        },
+        {
+            "id": 27,
+            "brand": "Apple",
+            "model": "iPhone 12 Pro",
+            "series": "iPhone 12",
+            "color": "red",
+            "screenRefreshRate": "60 Hz",
+            "storage": "",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "macro lens",
+                "optical stabilization",
+                "telephoto lens",
+                "sensor stabilization",
+                "thermal imager",
+                "night vision camera",
+                "microscope lens",
+                "ultra wide lens"
+            ],
+            "price": 807.37,
+            "category": "smartphone"
+        },
+        {
+            "id": 28,
+            "brand": "Apple",
+            "model": "iPhone 11 Pro",
+            "series": "iPhone 11",
+            "color": "yellow",
+            "screenRefreshRate": "60 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "ultra wide lens",
+                "microscope lens",
+                "night vision camera",
+                "telephoto lens",
+                "optical stabilization",
+                "macro lens"
+            ],
+            "price": 814.58,
+            "category": "smartphone"
+        },
+        {
+            "id": 29,
+            "brand": "Apple",
+            "model": "iPhone 14 Pro",
+            "series": "iPhone 14",
+            "color": "red",
+            "screenRefreshRate": "60 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "telephoto lens",
+                "microscope lens",
+                "optical stabilization",
+                "macro lens",
+                "sensor stabilization",
+                "ultra wide lens",
+                "night vision camera"
+            ],
+            "price": 1159.02,
+            "category": "smartphone"
+        },
+        {
+            "id": 30,
+            "brand": "Apple",
+            "model": "iPhone 11",
+            "series": "iPhone 11",
+            "color": "yellow",
+            "screenRefreshRate": "60 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "ultra wide lens",
+                "telephoto lens",
+                "microscope lens",
+                "night vision camera",
+                "optical stabilization"
+            ],
+            "price": 1398.11,
+            "category": "smartphone"
+        },
+        {
+            "id": 31,
+            "brand": "Apple",
+            "model": "iPhone 11 Pro",
+            "series": "iPhone 11",
+            "color": "blue",
+            "screenRefreshRate": "144 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "microscope lens",
+                "optical stabilization",
+                "telephoto lens",
+                "sensor stabilization"
+            ],
+            "price": 1444.58,
+            "category": "smartphone"
+        },
+        {
+            "id": 32,
+            "brand": "Apple",
+            "model": "iPhone 13 mini",
+            "series": "iPhone 13",
+            "color": "black",
+            "screenRefreshRate": "90 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["optical stabilization", "microscope lens", "macro lens", "thermal imager"],
+            "price": 614.33,
+            "category": "smartphone"
+        },
+        {
+            "id": 33,
+            "brand": "Apple",
+            "model": "iPhone X",
+            "series": "iPhone X",
+            "color": "red",
+            "screenRefreshRate": "120 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "sensor stabilization",
+                "optical stabilization",
+                "ultra wide lens",
+                "macro lens",
+                "thermal imager",
+                "night vision camera",
+                "microscope lens"
+            ],
+            "price": 851.84,
+            "category": "smartphone"
+        },
+        {
+            "id": 34,
+            "brand": "Apple",
+            "model": "iPhone 13",
+            "series": "iPhone 13",
+            "color": "black",
+            "screenRefreshRate": "60 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "ultra wide lens",
+                "sensor stabilization",
+                "microscope lens",
+                "telephoto lens",
+                "optical stabilization",
+                "thermal imager"
+            ],
+            "price": 1063.75,
+            "category": "smartphone"
+        },
+        {
+            "id": 35,
+            "brand": "Apple",
+            "model": "iPhone SE",
+            "series": "iPhone SE",
+            "color": "red",
+            "screenRefreshRate": "120 Hz",
+            "storage": "256 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": ["thermal imager", "ultra wide lens", "telephoto lens"],
+            "price": 728.22,
+            "category": "smartphone"
+        },
+        {
+            "id": 36,
+            "brand": "Apple",
+            "model": "iPhone 12",
+            "series": "iPhone 12",
+            "color": "blue",
+            "screenRefreshRate": "120 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "microscope lens",
+                "telephoto lens",
+                "optical stabilization",
+                "sensor stabilization",
+                "macro lens",
+                "thermal imager",
+                "ultra wide lens"
+            ],
+            "price": 1363.38,
+            "category": "smartphone"
+        },
+        {
+            "id": 37,
+            "brand": "Apple",
+            "model": "iPhone SE",
+            "series": "iPhone SE",
+            "color": "black",
+            "screenRefreshRate": "90 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "night vision camera",
+                "telephoto lens",
+                "sensor stabilization",
+                "microscope lens",
+                "ultra wide lens"
+            ],
+            "price": 1486.9,
+            "category": "smartphone"
+        },
+        {
+            "id": 38,
+            "brand": "Apple",
+            "model": "iPhone 14 Pro",
+            "series": "iPhone 14",
+            "color": "black",
+            "screenRefreshRate": "90 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "sensor stabilization",
+                "telephoto lens",
+                "night vision camera",
+                "microscope lens",
+                "thermal imager",
+                "macro lens",
+                "ultra wide lens",
+                "optical stabilization"
+            ],
+            "price": 1134.07,
+            "category": "smartphone"
+        },
+        {
+            "id": 39,
+            "brand": "Apple",
+            "model": "iPhone 14 Pro",
+            "series": "iPhone 14",
+            "color": "red",
+            "screenRefreshRate": "120 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "night vision camera",
+                "sensor stabilization",
+                "macro lens",
+                "optical stabilization",
+                "ultra wide lens",
+                "telephoto lens"
+            ],
+            "price": 1255.35,
+            "category": "smartphone"
+        },
+        {
+            "id": 40,
+            "brand": "Apple",
+            "model": "iPhone X",
+            "series": "iPhone X",
+            "color": "yellow",
+            "screenRefreshRate": "90 Hz",
+            "storage": "256 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "microscope lens",
+                "optical stabilization",
+                "sensor stabilization",
+                "telephoto lens",
+                "night vision camera",
+                "ultra wide lens",
+                "thermal imager"
+            ],
+            "price": 1362.71,
+            "category": "smartphone"
+        },
+        {
+            "id": 41,
+            "brand": "Apple",
+            "model": "iPhone 14 Pro",
+            "series": "iPhone 14",
+            "color": "blue",
+            "screenRefreshRate": "120 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "sensor stabilization",
+                "macro lens",
+                "thermal imager",
+                "ultra wide lens",
+                "microscope lens",
+                "telephoto lens",
+                "optical stabilization",
+                "night vision camera"
+            ],
+            "price": 960.88,
+            "category": "smartphone"
+        },
+        {
+            "id": 42,
+            "brand": "Apple",
+            "model": "iPhone 12 mini",
+            "series": "iPhone 12 mini",
+            "color": "yellow",
+            "screenRefreshRate": "144 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "microscope lens",
+                "thermal imager",
+                "night vision camera",
+                "ultra wide lens",
+                "optical stabilization",
+                "telephoto lens",
+                "macro lens",
+                "sensor stabilization"
+            ],
+            "price": 695.38,
+            "category": "smartphone"
+        },
+        {
+            "id": 43,
+            "brand": "Apple",
+            "model": "iPhone 12 mini",
+            "series": "iPhone 12 mini",
+            "color": "yellow",
+            "screenRefreshRate": "144 Hz",
+            "storage": "256 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "ultra wide lens",
+                "optical stabilization",
+                "telephoto lens",
+                "thermal imager",
+                "microscope lens",
+                "macro lens",
+                "sensor stabilization",
+                "night vision camera"
+            ],
+            "price": 770.72,
+            "category": "smartphone"
+        },
+        {
+            "id": 44,
+            "brand": "Apple",
+            "model": "iPhone 13 mini",
+            "series": "iPhone 13",
+            "color": "blue",
+            "screenRefreshRate": "60 Hz",
+            "storage": "256 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "night vision camera",
+                "thermal imager",
+                "optical stabilization",
+                "macro lens",
+                "sensor stabilization",
+                "microscope lens",
+                "telephoto lens",
+                "ultra wide lens"
+            ],
+            "price": 1065.39,
+            "category": "smartphone"
+        },
+        {
+            "id": 45,
+            "brand": "Apple",
+            "model": "iPhone 11 Pro",
+            "series": "iPhone 11",
+            "color": "yellow",
+            "screenRefreshRate": "120 Hz",
+            "storage": "256 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["macro lens", "ultra wide lens", "sensor stabilization", "optical stabilization"],
+            "price": 845.52,
+            "category": "smartphone"
+        },
+        {
+            "id": 46,
+            "brand": "Apple",
+            "model": "iPhone SE",
+            "series": "iPhone SE",
+            "color": "yellow",
+            "screenRefreshRate": "120 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "telephoto lens",
+                "microscope lens",
+                "night vision camera",
+                "optical stabilization",
+                "macro lens"
+            ],
+            "price": 702,
+            "category": "smartphone"
+        },
+        {
+            "id": 47,
+            "brand": "Apple",
+            "model": "iPhone 14",
+            "series": "iPhone 14",
+            "color": "red",
+            "screenRefreshRate": "120 Hz",
+            "storage": "256 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "sensor stabilization",
+                "microscope lens",
+                "optical stabilization",
+                "ultra wide lens",
+                "night vision camera",
+                "macro lens",
+                "telephoto lens"
+            ],
+            "price": 927.08,
+            "category": "smartphone"
+        },
+        {
+            "id": 48,
+            "brand": "Apple",
+            "model": "iPhone 14 Pro",
+            "series": "iPhone 14",
+            "color": "red",
+            "screenRefreshRate": "120 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": ["microscope lens", "night vision camera", "sensor stabilization", "thermal imager"],
+            "price": 646.69,
+            "category": "smartphone"
+        },
+        {
+            "id": 49,
+            "brand": "Apple",
+            "model": "iPhone 12 Pro",
+            "series": "iPhone 12",
+            "color": "blue",
+            "screenRefreshRate": "165 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "optical stabilization",
+                "sensor stabilization",
+                "macro lens",
+                "microscope lens",
+                "ultra wide lens",
+                "telephoto lens"
+            ],
+            "price": 614.68,
+            "category": "smartphone"
+        },
+        {
+            "id": 50,
+            "brand": "Apple",
+            "model": "iPhone X",
+            "series": "iPhone X",
+            "color": "red",
+            "screenRefreshRate": "144 Hz",
+            "storage": "",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "night vision camera",
+                "sensor stabilization",
+                "macro lens",
+                "optical stabilization",
+                "ultra wide lens",
+                "telephoto lens",
+                "thermal imager",
+                "microscope lens"
+            ],
+            "price": 1473.97,
+            "category": "smartphone"
+        },
+        {
+            "id": 51,
+            "brand": "Apple",
+            "model": "iPhone 11",
+            "series": "iPhone 11",
+            "color": "blue",
+            "screenRefreshRate": "165 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": ["night vision camera", "microscope lens", "optical stabilization"],
+            "price": 774.86,
+            "category": "smartphone"
+        },
+        {
+            "id": 52,
+            "brand": "Apple",
+            "model": "iPhone 14",
+            "series": "iPhone 14",
+            "color": "red",
+            "screenRefreshRate": "60 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["telephoto lens", "thermal imager"],
+            "price": 767.19,
+            "category": "smartphone"
+        },
+        {
+            "id": 53,
+            "brand": "Apple",
+            "model": "iPhone 13",
+            "series": "iPhone 13",
+            "color": "black",
+            "screenRefreshRate": "120 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["thermal imager", "optical stabilization"],
+            "price": 793.8,
+            "category": "smartphone"
+        },
+        {
+            "id": 54,
+            "brand": "Apple",
+            "model": "iPhone 14",
+            "series": "iPhone 14",
+            "color": "red",
+            "screenRefreshRate": "60 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "telephoto lens",
+                "thermal imager",
+                "optical stabilization",
+                "microscope lens",
+                "ultra wide lens",
+                "macro lens",
+                "night vision camera",
+                "sensor stabilization"
+            ],
+            "price": 1111.63,
+            "category": "smartphone"
+        },
+        {
+            "id": 55,
+            "brand": "Apple",
+            "model": "iPhone 12 mini",
+            "series": "iPhone 12 mini",
+            "color": "black",
+            "screenRefreshRate": "165 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "sensor stabilization",
+                "microscope lens",
+                "ultra wide lens",
+                "night vision camera"
+            ],
+            "price": 1480.51,
+            "category": "smartphone"
+        },
+        {
+            "id": 56,
+            "brand": "Apple",
+            "model": "iPhone 11 Pro",
+            "series": "iPhone 11",
+            "color": "black",
+            "screenRefreshRate": "165 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "optical stabilization",
+                "sensor stabilization",
+                "thermal imager",
+                "microscope lens",
+                "ultra wide lens",
+                "telephoto lens",
+                "night vision camera"
+            ],
+            "price": 1092.56,
+            "category": "smartphone"
+        },
+        {
+            "id": 57,
+            "brand": "Apple",
+            "model": "iPhone 13",
+            "series": "iPhone 13",
+            "color": "black",
+            "screenRefreshRate": "165 Hz",
+            "storage": "",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "night vision camera",
+                "thermal imager",
+                "ultra wide lens",
+                "optical stabilization",
+                "sensor stabilization",
+                "microscope lens",
+                "macro lens",
+                "telephoto lens"
+            ],
+            "price": 1415.74,
+            "category": "smartphone"
+        },
+        {
+            "id": 58,
+            "brand": "Apple",
+            "model": "iPhone 13 mini",
+            "color": "yellow",
+            "screenRefreshRate": "165 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "sensor stabilization",
+                "optical stabilization",
+                "night vision camera",
+                "thermal imager"
+            ],
+            "price": 665.02,
+            "category": "smartphone"
+        },
+        {
+            "id": 59,
+            "brand": "Apple",
+            "model": "iPhone 13",
+            "series": "iPhone 13",
+            "color": "yellow",
+            "screenRefreshRate": "90 Hz",
+            "storage": "256 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": [
+                "macro lens",
+                "microscope lens",
+                "telephoto lens",
+                "night vision camera",
+                "thermal imager",
+                "ultra wide lens"
+            ],
+            "price": 1415.26,
+            "category": "smartphone"
+        },
+        {
+            "id": 60,
+            "brand": "Apple",
+            "model": "iPhone 12 Pro",
+            "series": "iPhone 12",
+            "color": "blue",
+            "screenRefreshRate": "60 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "48MP",
+            "mainCamera_Features": ["microscope lens", "telephoto lens", "sensor stabilization", "night vision camera"],
+            "price": 663.71,
+            "category": "smartphone"
+        },
+        {
+            "id": 61,
+            "brand": "Samsung",
+            "series": "Galaxy Flip",
+            "model": "Samsung Galaxy M21",
+            "color": "white",
+            "screenRefreshRate": "60 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "ultra wide lens",
+                "sensor stabilization",
+                "macro lens",
+                "night vision camera",
+                "telephoto lens",
+                "optical stabilization",
+                "microscope lens"
+            ],
+            "price": 586.77,
+            "category": "smartphone"
+        },
+        {
+            "id": 62,
+            "brand": "Samsung",
+            "series": "Galaxy Note",
+            "model": "Samsung Galaxy A80",
+            "color": "white",
+            "screenRefreshRate": "90 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "night vision camera",
+                "ultra wide lens",
+                "microscope lens",
+                "macro lens",
+                "optical stabilization",
+                "telephoto lens",
+                "sensor stabilization",
+                "thermal imager"
+            ],
+            "price": 1479.39,
+            "category": "smartphone"
+        },
+        {
+            "id": 63,
+            "brand": "Samsung",
+            "series": "Galaxy F",
+            "model": "Samsung Galaxy S10",
+            "color": "gray",
+            "screenRefreshRate": "120 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "macro lens",
+                "optical stabilization",
+                "ultra wide lens",
+                "sensor stabilization",
+                "night vision camera",
+                "thermal imager"
+            ],
+            "price": 928.12,
+            "category": "smartphone"
+        },
+        {
+            "id": 64,
+            "brand": "Samsung",
+            "series": "Galaxy Flip",
+            "model": "Samsung Galaxy Note 10",
+            "color": "white",
+            "screenRefreshRate": "90 Hz",
+            "storage": "256 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["microscope lens", "night vision camera"],
+            "price": 731.89,
+            "category": "smartphone"
+        },
+        {
+            "id": 65,
+            "brand": "Samsung",
+            "series": "Galaxy A",
+            "model": "Samsung Galaxy Z Fold 2",
+            "color": "gray",
+            "screenRefreshRate": "144 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": ["sensor stabilization", "macro lens", "optical stabilization", "ultra wide lens"],
+            "price": 557.95,
+            "category": "smartphone"
+        },
+        {
+            "id": 66,
+            "brand": "Samsung",
+            "series": "Galaxy Xcover",
+            "model": "Samsung Galaxy A70",
+            "color": "gray",
+            "screenRefreshRate": "",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["thermal imager", "ultra wide lens"],
+            "price": 762.72,
+            "category": "smartphone"
+        },
+        {
+            "id": 67,
+            "brand": "Samsung",
+            "series": "Galaxy S",
+            "model": "Samsung Galaxy A72",
+            "color": "gray",
+            "screenRefreshRate": "144 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": [
+                "optical stabilization",
+                "ultra wide lens",
+                "night vision camera",
+                "sensor stabilization",
+                "telephoto lens",
+                "microscope lens",
+                "macro lens",
+                "thermal imager"
+            ],
+            "price": 339.45,
+            "category": "smartphone"
+        },
+        {
+            "id": 68,
+            "brand": "Samsung",
+            "series": "Galaxy M",
+            "model": "Samsung Galaxy A20",
+            "color": "gray",
+            "screenRefreshRate": "144 Hz",
+            "storage": "",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": [
+                "optical stabilization",
+                "night vision camera",
+                "microscope lens",
+                "ultra wide lens",
+                "thermal imager"
+            ],
+            "price": 1269.66,
+            "category": "smartphone"
+        },
+        {
+            "id": 69,
+            "brand": "Samsung",
+            "series": "Galaxy A",
+            "model": "Samsung Galaxy A90Samsung Galaxy S21",
+            "color": "green",
+            "screenRefreshRate": "",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "night vision camera",
+                "thermal imager",
+                "microscope lens",
+                "macro lens",
+                "optical stabilization",
+                "ultra wide lens",
+                "sensor stabilization"
+            ],
+            "price": 1332.75,
+            "category": "smartphone"
+        },
+        {
+            "id": 70,
+            "brand": "Samsung",
+            "series": "Galaxy Xcover",
+            "model": "Samsung Galaxy M31",
+            "color": "black",
+            "screenRefreshRate": "120 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["telephoto lens", "thermal imager", "microscope lens", "optical stabilization"],
+            "price": 1334.34,
+            "category": "smartphone"
+        },
+        {
+            "id": 71,
+            "brand": "Samsung",
+            "series": "Galaxy Flip",
+            "model": "Samsung Galaxy A10",
+            "color": "green",
+            "screenRefreshRate": "",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "thermal imager",
+                "night vision camera",
+                "optical stabilization",
+                "telephoto lens",
+                "microscope lens"
+            ],
+            "price": 1165.36,
+            "category": "smartphone"
+        },
+        {
+            "id": 72,
+            "brand": "Samsung",
+            "series": "Galaxy Xcover",
+            "model": "Samsung Galaxy A51",
+            "color": "white",
+            "screenRefreshRate": "90 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "night vision camera",
+                "sensor stabilization",
+                "optical stabilization",
+                "microscope lens",
+                "telephoto lens"
+            ],
+            "price": 1218.08,
+            "category": "smartphone"
+        },
+        {
+            "id": 73,
+            "brand": "Samsung",
+            "series": "Galaxy Flip",
+            "model": "Samsung Galaxy A80",
+            "color": "white",
+            "screenRefreshRate": "60 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "macro lens",
+                "night vision camera",
+                "optical stabilization",
+                "microscope lens",
+                "ultra wide lens",
+                "sensor stabilization",
+                "thermal imager",
+                "telephoto lens"
+            ],
+            "price": 1029.48,
+            "category": "smartphone"
+        },
+        {
+            "id": 74,
+            "brand": "Samsung",
+            "series": "Galaxy Note",
+            "model": "Samsung Galaxy Z Fold 2",
+            "color": "white",
+            "screenRefreshRate": "",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": [
+                "telephoto lens",
+                "night vision camera",
+                "macro lens",
+                "thermal imager",
+                "sensor stabilization",
+                "ultra wide lens",
+                "optical stabilization"
+            ],
+            "price": 395.3,
+            "category": "smartphone"
+        },
+        {
+            "id": 75,
+            "brand": "Samsung",
+            "series": "Galaxy Xcover",
+            "model": "Samsung Galaxy A90Samsung Galaxy S21",
+            "color": "gray",
+            "screenRefreshRate": "60 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": ["macro lens", "ultra wide lens", "sensor stabilization"],
+            "price": 971.33,
+            "category": "smartphone"
+        },
+        {
+            "id": 76,
+            "brand": "Samsung",
+            "series": "Galaxy S",
+            "model": "Samsung Galaxy A42",
+            "color": "gray",
+            "screenRefreshRate": "",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": ["optical stabilization", "ultra wide lens"],
+            "price": 440.92,
+            "category": "smartphone"
+        },
+        {
+            "id": 77,
+            "brand": "Samsung",
+            "series": "Galaxy S",
+            "model": "Samsung Galaxy J7",
+            "color": "white",
+            "screenRefreshRate": "144 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": ["ultra wide lens", "sensor stabilization", "thermal imager", "microscope lens"],
+            "price": 1013.39,
+            "category": "smartphone"
+        },
+        {
+            "id": 78,
+            "brand": "Samsung",
+            "series": "Galaxy Fold",
+            "model": "Samsung Galaxy J7",
+            "color": "black",
+            "screenRefreshRate": "",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "optical stabilization",
+                "thermal imager",
+                "ultra wide lens",
+                "telephoto lens",
+                "night vision camera",
+                "sensor stabilization",
+                "macro lens"
+            ],
+            "price": 477.21,
+            "category": "smartphone"
+        },
+        {
+            "id": 79,
+            "brand": "Samsung",
+            "series": "Galaxy Fold",
+            "model": "Samsung Galaxy A10",
+            "color": "white",
+            "screenRefreshRate": "90 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "sensor stabilization",
+                "microscope lens",
+                "night vision camera",
+                "telephoto lens",
+                "ultra wide lens",
+                "macro lens",
+                "optical stabilization"
+            ],
+            "price": 859.26,
+            "category": "smartphone"
+        },
+        {
+            "id": 80,
+            "brand": "Samsung",
+            "series": "Galaxy Flip",
+            "model": "Samsung Galaxy A30",
+            "color": "gray",
+            "screenRefreshRate": "144 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "ultra wide lens",
+                "telephoto lens",
+                "optical stabilization",
+                "microscope lens",
+                "thermal imager",
+                "night vision camera",
+                "sensor stabilization"
+            ],
+            "price": 719.52,
+            "category": "smartphone"
+        },
+        {
+            "id": 81,
+            "brand": "Samsung",
+            "series": "Galaxy Note",
+            "model": "Samsung Galaxy A71",
+            "color": "gray",
+            "screenRefreshRate": "120 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": ["ultra wide lens", "thermal imager", "macro lens", "night vision camera"],
+            "price": 1016.17,
+            "category": "smartphone"
+        },
+        {
+            "id": 82,
+            "brand": "Samsung",
+            "series": "Galaxy F",
+            "model": "Samsung Galaxy A30",
+            "color": "black",
+            "screenRefreshRate": "90 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "thermal imager",
+                "optical stabilization",
+                "ultra wide lens",
+                "macro lens",
+                "sensor stabilization",
+                "telephoto lens"
+            ],
+            "price": 1331.56,
+            "category": "smartphone"
+        },
+        {
+            "id": 83,
+            "brand": "Samsung",
+            "series": "Galaxy Flip",
+            "model": "Samsung Galaxy J7",
+            "color": "green",
+            "screenRefreshRate": "60 Hz",
+            "storage": "",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["microscope lens", "thermal imager"],
+            "price": 979.06,
+            "category": "smartphone"
+        },
+        {
+            "id": 84,
+            "brand": "Samsung",
+            "series": "Galaxy Flip",
+            "model": "Samsung Galaxy A20",
+            "color": "white",
+            "screenRefreshRate": "60 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["thermal imager", "night vision camera", "telephoto lens", "sensor stabilization"],
+            "price": 307.77,
+            "category": "smartphone"
+        },
+        {
+            "id": 85,
+            "brand": "Samsung",
+            "series": "Galaxy Note",
+            "model": "Samsung Galaxy Note 9",
+            "color": "white",
+            "screenRefreshRate": "144 Hz",
+            "storage": "",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "macro lens",
+                "telephoto lens",
+                "microscope lens",
+                "night vision camera",
+                "optical stabilization"
+            ],
+            "price": 1457.86,
+            "category": "smartphone"
+        },
+        {
+            "id": 86,
+            "brand": "Samsung",
+            "series": "Galaxy S",
+            "model": "Samsung Galaxy A50",
+            "color": "black",
+            "screenRefreshRate": "90 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": [
+                "night vision camera",
+                "ultra wide lens",
+                "sensor stabilization",
+                "telephoto lens",
+                "thermal imager",
+                "macro lens",
+                "microscope lens"
+            ],
+            "price": 323.57,
+            "category": "smartphone"
+        },
+        {
+            "id": 87,
+            "brand": "Samsung",
+            "series": "Galaxy A",
+            "model": "Samsung Galaxy Z Fold 2",
+            "color": "gray",
+            "screenRefreshRate": "60 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "thermal imager",
+                "telephoto lens",
+                "ultra wide lens",
+                "optical stabilization",
+                "microscope lens",
+                "sensor stabilization",
+                "night vision camera"
+            ],
+            "price": 1392.68,
+            "category": "smartphone"
+        },
+        {
+            "id": 88,
+            "brand": "Samsung",
+            "series": "Galaxy A0",
+            "model": "Samsung Galaxy A02s",
+            "color": "gray",
+            "screenRefreshRate": "60 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "macro lens",
+                "telephoto lens",
+                "thermal imager",
+                "optical stabilization",
+                "microscope lens",
+                "sensor stabilization",
+                "ultra wide lens"
+            ],
+            "price": 880.37,
+            "category": "smartphone"
+        },
+        {
+            "id": 89,
+            "brand": "Samsung",
+            "series": "Galaxy Xcover",
+            "model": "Samsung Galaxy A10",
+            "color": "black",
+            "screenRefreshRate": "",
+            "storage": "",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": ["microscope lens", "optical stabilization"],
+            "price": 463.2,
+            "category": "smartphone"
+        },
+        {
+            "id": 90,
+            "brand": "Samsung",
+            "series": "Galaxy Flip",
+            "model": "Samsung Galaxy A32",
+            "color": "black",
+            "screenRefreshRate": "60 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "thermal imager",
+                "night vision camera",
+                "telephoto lens",
+                "ultra wide lens",
+                "sensor stabilization",
+                "microscope lens",
+                "optical stabilization",
+                "macro lens"
+            ],
+            "price": 623.54,
+            "category": "smartphone"
+        },
+        {
+            "id": 91,
+            "brand": "Samsung",
+            "series": "Galaxy A0",
+            "model": "Samsung Galaxy A20",
+            "color": "white",
+            "screenRefreshRate": "144 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": ["microscope lens", "sensor stabilization", "night vision camera", "thermal imager"],
+            "price": 996.12,
+            "category": "smartphone"
+        },
+        {
+            "id": 92,
+            "brand": "Samsung",
+            "series": "Galaxy Fold",
+            "model": "Samsung Galaxy Z Fold 2",
+            "color": "green",
+            "screenRefreshRate": "120 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "ultra wide lens",
+                "microscope lens",
+                "optical stabilization",
+                "night vision camera",
+                "sensor stabilization",
+                "telephoto lens",
+                "macro lens"
+            ],
+            "price": 1353.44,
+            "category": "smartphone"
+        },
+        {
+            "id": 93,
+            "brand": "Samsung",
+            "series": "Galaxy S",
+            "model": "Samsung Galaxy Z Fold 2",
+            "color": "white",
+            "screenRefreshRate": "120 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": ["telephoto lens", "microscope lens", "sensor stabilization"],
+            "price": 862.55,
+            "category": "smartphone"
+        },
+        {
+            "id": 94,
+            "brand": "Samsung",
+            "series": "Galaxy F",
+            "model": "Samsung Galaxy S10",
+            "color": "green",
+            "screenRefreshRate": "60 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": [
+                "macro lens",
+                "thermal imager",
+                "ultra wide lens",
+                "optical stabilization",
+                "sensor stabilization",
+                "telephoto lens",
+                "night vision camera",
+                "microscope lens"
+            ],
+            "price": 985.58,
+            "category": "smartphone"
+        },
+        {
+            "id": 95,
+            "brand": "Samsung",
+            "series": "Galaxy Fold",
+            "model": "Samsung Galaxy A20",
+            "color": "white",
+            "screenRefreshRate": "60 Hz",
+            "storage": "",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "sensor stabilization",
+                "microscope lens",
+                "ultra wide lens",
+                "optical stabilization",
+                "night vision camera"
+            ],
+            "price": 1173.91,
+            "category": "smartphone"
+        },
+        {
+            "id": 96,
+            "brand": "Samsung",
+            "series": "Galaxy Fold",
+            "model": "Samsung Galaxy A20",
+            "color": "white",
+            "screenRefreshRate": "",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["sensor stabilization", "ultra wide lens"],
+            "price": 1376.13,
+            "category": "smartphone"
+        },
+        {
+            "id": 97,
+            "brand": "Samsung",
+            "series": "Galaxy F",
+            "model": "Samsung Galaxy M31",
+            "color": "black",
+            "screenRefreshRate": "120 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["telephoto lens", "thermal imager", "sensor stabilization"],
+            "price": 512.38,
+            "category": "smartphone"
+        },
+        {
+            "id": 98,
+            "brand": "Samsung",
+            "series": "Galaxy A",
+            "model": "Samsung Galaxy A50",
+            "color": "green",
+            "screenRefreshRate": "144 Hz",
+            "storage": "256 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "thermal imager",
+                "sensor stabilization",
+                "ultra wide lens",
+                "optical stabilization",
+                "microscope lens",
+                "macro lens"
+            ],
+            "price": 971.59,
+            "category": "smartphone"
+        },
+        {
+            "id": 99,
+            "brand": "Samsung",
+            "series": "Galaxy M",
+            "model": "Samsung Galaxy Note 10",
+            "color": "gray",
+            "screenRefreshRate": "60 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "ultra wide lens",
+                "sensor stabilization",
+                "microscope lens",
+                "optical stabilization",
+                "telephoto lens",
+                "thermal imager",
+                "night vision camera",
+                "macro lens"
+            ],
+            "price": 852.1,
+            "category": "smartphone"
+        },
+        {
+            "id": 100,
+            "brand": "Samsung",
+            "series": "Galaxy S",
+            "model": "Samsung Galaxy M21",
+            "color": "green",
+            "screenRefreshRate": "",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "telephoto lens",
+                "optical stabilization",
+                "sensor stabilization",
+                "night vision camera",
+                "macro lens",
+                "ultra wide lens"
+            ],
+            "price": 1148.66,
+            "category": "smartphone"
+        },
+        {
+            "id": 101,
+            "brand": "Samsung",
+            "series": "Galaxy Note",
+            "model": "Samsung Galaxy Note 9",
+            "color": "gray",
+            "screenRefreshRate": "90 Hz",
+            "storage": "",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["thermal imager", "sensor stabilization", "ultra wide lens"],
+            "price": 1250.65,
+            "category": "smartphone"
+        },
+        {
+            "id": 102,
+            "brand": "Samsung",
+            "series": "Galaxy Xcover",
+            "model": "Samsung Galaxy Note 9",
+            "color": "gray",
+            "screenRefreshRate": "144 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": [
+                "macro lens",
+                "optical stabilization",
+                "telephoto lens",
+                "ultra wide lens",
+                "thermal imager",
+                "night vision camera",
+                "microscope lens",
+                "sensor stabilization"
+            ],
+            "price": 1350.47,
+            "category": "smartphone"
+        },
+        {
+            "id": 103,
+            "brand": "Samsung",
+            "series": "Galaxy A0",
+            "model": "Samsung Galaxy A32",
+            "color": "green",
+            "screenRefreshRate": "120 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["night vision camera", "thermal imager"],
+            "price": 1184.24,
+            "category": "smartphone"
+        },
+        {
+            "id": 104,
+            "brand": "Samsung",
+            "series": "Galaxy Fold",
+            "model": "Samsung Galaxy Z Fold 2",
+            "color": "gray",
+            "screenRefreshRate": "60 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": ["sensor stabilization", "night vision camera", "thermal imager", "macro lens"],
+            "price": 1330.22,
+            "category": "smartphone"
+        },
+        {
+            "id": 105,
+            "brand": "Samsung",
+            "series": "Galaxy M",
+            "model": "Samsung Galaxy Note 20",
+            "color": "gray",
+            "screenRefreshRate": "",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": ["night vision camera", "optical stabilization", "macro lens", "microscope lens"],
+            "price": 471.64,
+            "category": "smartphone"
+        },
+        {
+            "id": 106,
+            "brand": "Samsung",
+            "series": "Galaxy Note",
+            "model": "Samsung Galaxy Z Flip",
+            "color": "black",
+            "screenRefreshRate": "",
+            "storage": "",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": [
+                "telephoto lens",
+                "macro lens",
+                "ultra wide lens",
+                "optical stabilization",
+                "sensor stabilization",
+                "night vision camera",
+                "thermal imager"
+            ],
+            "price": 1345.26,
+            "category": "smartphone"
+        },
+        {
+            "id": 107,
+            "brand": "Samsung",
+            "series": "Galaxy A",
+            "model": "Samsung Galaxy A30",
+            "color": "green",
+            "screenRefreshRate": "120 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": [
+                "ultra wide lens",
+                "microscope lens",
+                "optical stabilization",
+                "thermal imager",
+                "sensor stabilization",
+                "telephoto lens",
+                "night vision camera",
+                "macro lens"
+            ],
+            "price": 1289.64,
+            "category": "smartphone"
+        },
+        {
+            "id": 108,
+            "brand": "Samsung",
+            "series": "Galaxy Fold",
+            "model": "Samsung Galaxy A72",
+            "color": "white",
+            "screenRefreshRate": "90 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["microscope lens", "ultra wide lens", "telephoto lens"],
+            "price": 958.7,
+            "category": "smartphone"
+        },
+        {
+            "id": 109,
+            "brand": "Samsung",
+            "series": "Galaxy M",
+            "model": "Samsung Galaxy A40",
+            "color": "green",
+            "screenRefreshRate": "90 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": ["night vision camera", "ultra wide lens"],
+            "price": 516.2,
+            "category": "smartphone"
+        },
+        {
+            "id": 110,
+            "brand": "Samsung",
+            "series": "Galaxy Note",
+            "model": "Samsung Galaxy A20",
+            "color": "gray",
+            "screenRefreshRate": "120 Hz",
+            "storage": "256 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": [
+                "ultra wide lens",
+                "microscope lens",
+                "night vision camera",
+                "optical stabilization"
+            ],
+            "price": 459.74,
+            "category": "smartphone"
+        },
+        {
+            "id": 111,
+            "brand": "Samsung",
+            "series": "Galaxy F",
+            "model": "Samsung Galaxy Z Flip",
+            "color": "white",
+            "screenRefreshRate": "",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": [
+                "ultra wide lens",
+                "sensor stabilization",
+                "macro lens",
+                "thermal imager",
+                "microscope lens",
+                "telephoto lens",
+                "night vision camera"
+            ],
+            "price": 1447.53,
+            "category": "smartphone"
+        },
+        {
+            "id": 112,
+            "brand": "Samsung",
+            "series": "Galaxy Note",
+            "model": "Samsung Galaxy A10",
+            "color": "gray",
+            "screenRefreshRate": "144 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "50 MP",
+            "mainCamera_Features": ["ultra wide lens", "sensor stabilization", "macro lens"],
+            "price": 341.1,
+            "category": "smartphone"
+        },
+        {
+            "id": 113,
+            "brand": "Samsung",
+            "series": "Galaxy A",
+            "model": "Samsung Galaxy Note 20",
+            "color": "white",
+            "screenRefreshRate": "144 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "microscope lens",
+                "thermal imager",
+                "telephoto lens",
+                "optical stabilization",
+                "sensor stabilization"
+            ],
+            "price": 1188.36,
+            "category": "smartphone"
+        },
+        {
+            "id": 114,
+            "brand": "Samsung",
+            "series": "Galaxy Flip",
+            "model": "Samsung Galaxy A02s",
+            "color": "white",
+            "screenRefreshRate": "144 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "microscope lens",
+                "optical stabilization",
+                "night vision camera",
+                "macro lens",
+                "telephoto lens",
+                "sensor stabilization"
+            ],
+            "price": 1053.35,
+            "category": "smartphone"
+        },
+        {
+            "id": 115,
+            "brand": "Samsung",
+            "series": "Galaxy Flip",
+            "model": "Samsung Galaxy A10",
+            "color": "green",
+            "screenRefreshRate": "120 Hz",
+            "storage": "64 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["optical stabilization", "microscope lens", "night vision camera"],
+            "price": 1377.44,
+            "category": "smartphone"
+        },
+        {
+            "id": 116,
+            "brand": "Samsung",
+            "series": "Galaxy M",
+            "model": "Samsung Galaxy A80",
+            "color": "black",
+            "screenRefreshRate": "120 Hz",
+            "storage": "128 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "optical stabilization",
+                "ultra wide lens",
+                "thermal imager",
+                "night vision camera"
+            ],
+            "price": 562.47,
+            "category": "smartphone"
+        },
+        {
+            "id": 117,
+            "brand": "Samsung",
+            "series": "Galaxy Xcover",
+            "model": "Samsung Galaxy A70",
+            "color": "white",
+            "screenRefreshRate": "120 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": ["macro lens", "microscope lens", "telephoto lens", "night vision camera"],
+            "price": 833.35,
+            "category": "smartphone"
+        },
+        {
+            "id": 118,
+            "brand": "Samsung",
+            "series": "Galaxy Fold",
+            "model": "Samsung Galaxy S10",
+            "color": "green",
+            "screenRefreshRate": "144 Hz",
+            "storage": "≥ 512 GB",
+            "mainCamera_Pixels": "12 MP",
+            "mainCamera_Features": [
+                "optical stabilization",
+                "microscope lens",
+                "telephoto lens",
+                "ultra wide lens",
+                "sensor stabilization"
+            ],
+            "price": 619.38,
+            "category": "smartphone"
+        },
+        {
+            "id": 119,
+            "brand": "Samsung",
+            "series": "Galaxy F",
+            "model": "Samsung Galaxy A71",
+            "color": "white",
+            "screenRefreshRate": "60 Hz",
+            "storage": "32 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": ["macro lens", "sensor stabilization", "optical stabilization"],
+            "price": 331.93,
+            "category": "smartphone"
+        },
+        {
+            "id": 120,
+            "brand": "Samsung",
+            "series": "Galaxy Fold",
+            "model": "Samsung Galaxy J7",
+            "color": "black",
+            "screenRefreshRate": "144 Hz",
+            "storage": "16 GB",
+            "mainCamera_Pixels": "16 MP",
+            "mainCamera_Features": [
+                "optical stabilization",
+                "microscope lens",
+                "night vision camera",
+                "telephoto lens",
+                "sensor stabilization",
+                "thermal imager"
+            ],
+            "price": 1139.3,
+            "category": "smartphone"
+        }
+    ],
+    "commodities": [
+        {
+            "category": "Smartphones",
+            "products": [
+                {
+                    "id": 1,
+                    "brand": "Apple",
+                    "model": "iPhone 12",
+                    "series": "iPhone 12",
+                    "color": "red",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "optical stabilization",
+                        "ultra wide lens",
+                        "macro lens",
+                        "thermal imager"
+                    ],
+                    "price": 1207.37
+                },
+                {
+                    "id": 2,
+                    "brand": "Apple",
+                    "model": "iPhone 11",
+                    "series": "iPhone 11",
+                    "color": "black",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["telephoto lens", "microscope lens", "macro lens", "night vision camera"],
+                    "price": 928.51
+                },
+                {
+                    "id": 3,
+                    "brand": "Apple",
+                    "model": "iPhone 13",
+                    "series": "iPhone 13",
+                    "color": "blue",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "256 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "telephoto lens",
+                        "microscope lens",
+                        "optical stabilization",
+                        "sensor stabilization",
+                        "thermal imager"
+                    ],
+                    "price": 1119.76
+                },
+                {
+                    "id": 4,
+                    "brand": "Apple",
+                    "model": "iPhone 12",
+                    "series": "iPhone 12",
+                    "color": "yellow",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "microscope lens",
+                        "thermal imager",
+                        "macro lens",
+                        "optical stabilization"
+                    ],
+                    "price": 647.28
+                },
+                {
+                    "id": 5,
+                    "brand": "Apple",
+                    "model": "iPhone 14",
+                    "series": "iPhone 14",
+                    "color": "yellow",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["telephoto lens", "thermal imager"],
+                    "price": 1395.04
+                },
+                {
+                    "id": 6,
+                    "brand": "Apple",
+                    "model": "iPhone SE",
+                    "series": "iPhone SE",
+                    "color": "yellow",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "macro lens",
+                        "telephoto lens",
+                        "optical stabilization",
+                        "night vision camera",
+                        "microscope lens"
+                    ],
+                    "price": 1192.35
+                },
+                {
+                    "id": 7,
+                    "brand": "Apple",
+                    "model": "iPhone 12 Pro",
+                    "series": "iPhone 12",
+                    "color": "blue",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "macro lens",
+                        "night vision camera",
+                        "sensor stabilization",
+                        "optical stabilization"
+                    ],
+                    "price": 994.08
+                },
+                {
+                    "id": 8,
+                    "brand": "Apple",
+                    "model": "iPhone X",
+                    "series": "iPhone X",
+                    "color": "yellow",
+                    "screenRefreshRate": "165 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": ["telephoto lens", "macro lens"],
+                    "price": 908.86
+                },
+                {
+                    "id": 9,
+                    "brand": "Apple",
+                    "model": "iPhone 12",
+                    "series": "iPhone 12",
+                    "color": "black",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": ["macro lens", "telephoto lens"],
+                    "price": 943.0
+                },
+                {
+                    "id": 10,
+                    "brand": "Apple",
+                    "model": "iPhone SE",
+                    "series": "iPhone SE",
+                    "color": "yellow",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["microscope lens", "night vision camera"],
+                    "price": 1314.49
+                },
+                {
+                    "id": 11,
+                    "brand": "Apple",
+                    "model": "iPhone X",
+                    "series": "iPhone X",
+                    "color": "blue",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "telephoto lens",
+                        "ultra wide lens",
+                        "macro lens",
+                        "night vision camera",
+                        "thermal imager",
+                        "sensor stabilization"
+                    ],
+                    "price": 855.46
+                },
+                {
+                    "id": 12,
+                    "brand": "Apple",
+                    "model": "iPhone 12",
+                    "series": "iPhone 12",
+                    "color": "black",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "optical stabilization",
+                        "sensor stabilization",
+                        "ultra wide lens",
+                        "macro lens"
+                    ],
+                    "price": 1185.67
+                },
+                {
+                    "id": 13,
+                    "brand": "Apple",
+                    "model": "iPhone 12 Pro",
+                    "series": "iPhone 12",
+                    "color": "blue",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "256 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["thermal imager", "sensor stabilization"],
+                    "price": 988.09
+                },
+                {
+                    "id": 14,
+                    "brand": "Apple",
+                    "model": "iPhone 12",
+                    "series": "iPhone 12",
+                    "color": "blue",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "telephoto lens",
+                        "optical stabilization",
+                        "macro lens",
+                        "sensor stabilization",
+                        "night vision camera",
+                        "microscope lens",
+                        "thermal imager",
+                        "ultra wide lens"
+                    ],
+                    "price": 840.62
+                },
+                {
+                    "id": 15,
+                    "brand": "Apple",
+                    "model": "iPhone 13",
+                    "series": "iPhone 13",
+                    "color": "blue",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "night vision camera",
+                        "optical stabilization",
+                        "microscope lens",
+                        "thermal imager",
+                        "macro lens",
+                        "ultra wide lens",
+                        "telephoto lens"
+                    ],
+                    "price": 1212.0
+                },
+                {
+                    "id": 16,
+                    "brand": "Apple",
+                    "model": "iPhone 13",
+                    "series": "iPhone 13",
+                    "color": "yellow",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "thermal imager",
+                        "telephoto lens",
+                        "microscope lens"
+                    ],
+                    "price": 1395.96
+                },
+                {
+                    "id": 17,
+                    "brand": "Apple",
+                    "model": "iPhone 13 mini",
+                    "series": "iPhone 13",
+                    "color": "yellow",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["thermal imager", "microscope lens", "sensor stabilization"],
+                    "price": 601.09
+                },
+                {
+                    "id": 18,
+                    "brand": "Apple",
+                    "model": "iPhone 12 Pro",
+                    "series": "iPhone 12",
+                    "color": "blue",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "ultra wide lens",
+                        "macro lens",
+                        "microscope lens",
+                        "night vision camera",
+                        "thermal imager",
+                        "optical stabilization"
+                    ],
+                    "price": 669.67
+                },
+                {
+                    "id": 19,
+                    "brand": "Apple",
+                    "model": "iPhone 13",
+                    "series": "iPhone 13",
+                    "color": "yellow",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": ["macro lens", "sensor stabilization", "telephoto lens", "thermal imager"],
+                    "price": 910.22
+                },
+                {
+                    "id": 20,
+                    "brand": "Apple",
+                    "model": "iPhone SE",
+                    "series": "iPhone SE",
+                    "color": "yellow",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["ultra wide lens", "microscope lens", "sensor stabilization"],
+                    "price": 1151.28
+                },
+                {
+                    "id": 21,
+                    "brand": "Apple",
+                    "model": "iPhone 11",
+                    "series": "iPhone 11",
+                    "color": "blue",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "telephoto lens",
+                        "ultra wide lens",
+                        "thermal imager",
+                        "microscope lens",
+                        "macro lens",
+                        "sensor stabilization",
+                        "optical stabilization"
+                    ],
+                    "price": 1039.34
+                },
+                {
+                    "id": 22,
+                    "brand": "Apple",
+                    "model": "iPhone 11 Pro",
+                    "series": "iPhone 11",
+                    "color": "yellow",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["telephoto lens", "microscope lens", "night vision camera"],
+                    "price": 656.75
+                },
+                {
+                    "id": 23,
+                    "brand": "Apple",
+                    "model": "iPhone 13 Pro",
+                    "series": "iPhone 13",
+                    "color": "red",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": ["optical stabilization", "ultra wide lens", "microscope lens"],
+                    "price": 661.72
+                },
+                {
+                    "id": 24,
+                    "brand": "Apple",
+                    "model": "iPhone 11 Pro",
+                    "series": "iPhone 11",
+                    "color": "yellow",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "optical stabilization",
+                        "thermal imager",
+                        "macro lens",
+                        "telephoto lens",
+                        "sensor stabilization",
+                        "night vision camera",
+                        "ultra wide lens"
+                    ],
+                    "price": 1069.98
+                },
+                {
+                    "id": 25,
+                    "brand": "Apple",
+                    "model": "iPhone 14",
+                    "series": "iPhone 14",
+                    "color": "red",
+                    "screenRefreshRate": "165 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "optical stabilization",
+                        "ultra wide lens",
+                        "thermal imager",
+                        "night vision camera",
+                        "macro lens"
+                    ],
+                    "price": 622.07
+                },
+                {
+                    "id": 26,
+                    "brand": "Apple",
+                    "model": "iPhone X",
+                    "series": "iPhone X",
+                    "color": "yellow",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "telephoto lens",
+                        "night vision camera",
+                        "sensor stabilization",
+                        "optical stabilization",
+                        "thermal imager",
+                        "macro lens",
+                        "ultra wide lens"
+                    ],
+                    "price": 681.2
+                },
+                {
+                    "id": 27,
+                    "brand": "Apple",
+                    "model": "iPhone 12 Pro",
+                    "series": "iPhone 12",
+                    "color": "red",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "macro lens",
+                        "optical stabilization",
+                        "telephoto lens",
+                        "sensor stabilization",
+                        "thermal imager",
+                        "night vision camera",
+                        "microscope lens",
+                        "ultra wide lens"
+                    ],
+                    "price": 807.37
+                },
+                {
+                    "id": 28,
+                    "brand": "Apple",
+                    "model": "iPhone 11 Pro",
+                    "series": "iPhone 11",
+                    "color": "yellow",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "microscope lens",
+                        "night vision camera",
+                        "telephoto lens",
+                        "optical stabilization",
+                        "macro lens"
+                    ],
+                    "price": 814.58
+                },
+                {
+                    "id": 29,
+                    "brand": "Apple",
+                    "model": "iPhone 14 Pro",
+                    "series": "iPhone 14",
+                    "color": "red",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "telephoto lens",
+                        "microscope lens",
+                        "optical stabilization",
+                        "macro lens",
+                        "sensor stabilization",
+                        "ultra wide lens",
+                        "night vision camera"
+                    ],
+                    "price": 1159.02
+                },
+                {
+                    "id": 30,
+                    "brand": "Apple",
+                    "model": "iPhone 11",
+                    "series": "iPhone 11",
+                    "color": "yellow",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "telephoto lens",
+                        "microscope lens",
+                        "night vision camera",
+                        "optical stabilization"
+                    ],
+                    "price": 1398.11
+                },
+                {
+                    "id": 31,
+                    "brand": "Apple",
+                    "model": "iPhone 11 Pro",
+                    "series": "iPhone 11",
+                    "color": "blue",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "optical stabilization",
+                        "telephoto lens",
+                        "sensor stabilization"
+                    ],
+                    "price": 1444.58
+                },
+                {
+                    "id": 32,
+                    "brand": "Apple",
+                    "model": "iPhone 13 mini",
+                    "series": "iPhone 13",
+                    "color": "black",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["optical stabilization", "microscope lens", "macro lens", "thermal imager"],
+                    "price": 614.33
+                },
+                {
+                    "id": 33,
+                    "brand": "Apple",
+                    "model": "iPhone X",
+                    "series": "iPhone X",
+                    "color": "red",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "optical stabilization",
+                        "ultra wide lens",
+                        "macro lens",
+                        "thermal imager",
+                        "night vision camera",
+                        "microscope lens"
+                    ],
+                    "price": 851.84
+                },
+                {
+                    "id": 34,
+                    "brand": "Apple",
+                    "model": "iPhone 13",
+                    "series": "iPhone 13",
+                    "color": "black",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "sensor stabilization",
+                        "microscope lens",
+                        "telephoto lens",
+                        "optical stabilization",
+                        "thermal imager"
+                    ],
+                    "price": 1063.75
+                },
+                {
+                    "id": 35,
+                    "brand": "Apple",
+                    "model": "iPhone SE",
+                    "series": "iPhone SE",
+                    "color": "red",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "256 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": ["thermal imager", "ultra wide lens", "telephoto lens"],
+                    "price": 728.22
+                },
+                {
+                    "id": 36,
+                    "brand": "Apple",
+                    "model": "iPhone 12",
+                    "series": "iPhone 12",
+                    "color": "blue",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "telephoto lens",
+                        "optical stabilization",
+                        "sensor stabilization",
+                        "macro lens",
+                        "thermal imager",
+                        "ultra wide lens"
+                    ],
+                    "price": 1363.38
+                },
+                {
+                    "id": 37,
+                    "brand": "Apple",
+                    "model": "iPhone SE",
+                    "series": "iPhone SE",
+                    "color": "black",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "night vision camera",
+                        "telephoto lens",
+                        "sensor stabilization",
+                        "microscope lens",
+                        "ultra wide lens"
+                    ],
+                    "price": 1486.9
+                },
+                {
+                    "id": 38,
+                    "brand": "Apple",
+                    "model": "iPhone 14 Pro",
+                    "series": "iPhone 14",
+                    "color": "black",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "telephoto lens",
+                        "night vision camera",
+                        "microscope lens",
+                        "thermal imager",
+                        "macro lens",
+                        "ultra wide lens",
+                        "optical stabilization"
+                    ],
+                    "price": 1134.07
+                },
+                {
+                    "id": 39,
+                    "brand": "Apple",
+                    "model": "iPhone 14 Pro",
+                    "series": "iPhone 14",
+                    "color": "red",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "night vision camera",
+                        "sensor stabilization",
+                        "macro lens",
+                        "optical stabilization",
+                        "ultra wide lens",
+                        "telephoto lens"
+                    ],
+                    "price": 1255.35
+                },
+                {
+                    "id": 40,
+                    "brand": "Apple",
+                    "model": "iPhone X",
+                    "series": "iPhone X",
+                    "color": "yellow",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "256 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "optical stabilization",
+                        "sensor stabilization",
+                        "telephoto lens",
+                        "night vision camera",
+                        "ultra wide lens",
+                        "thermal imager"
+                    ],
+                    "price": 1362.71
+                },
+                {
+                    "id": 41,
+                    "brand": "Apple",
+                    "model": "iPhone 14 Pro",
+                    "series": "iPhone 14",
+                    "color": "blue",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "macro lens",
+                        "thermal imager",
+                        "ultra wide lens",
+                        "microscope lens",
+                        "telephoto lens",
+                        "optical stabilization",
+                        "night vision camera"
+                    ],
+                    "price": 960.88
+                },
+                {
+                    "id": 42,
+                    "brand": "Apple",
+                    "model": "iPhone 12 mini",
+                    "series": "iPhone 12 mini",
+                    "color": "yellow",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "thermal imager",
+                        "night vision camera",
+                        "ultra wide lens",
+                        "optical stabilization",
+                        "telephoto lens",
+                        "macro lens",
+                        "sensor stabilization"
+                    ],
+                    "price": 695.38
+                },
+                {
+                    "id": 43,
+                    "brand": "Apple",
+                    "model": "iPhone 12 mini",
+                    "series": "iPhone 12 mini",
+                    "color": "yellow",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "256 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "optical stabilization",
+                        "telephoto lens",
+                        "thermal imager",
+                        "microscope lens",
+                        "macro lens",
+                        "sensor stabilization",
+                        "night vision camera"
+                    ],
+                    "price": 770.72
+                },
+                {
+                    "id": 44,
+                    "brand": "Apple",
+                    "model": "iPhone 13 mini",
+                    "series": "iPhone 13",
+                    "color": "blue",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "256 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "night vision camera",
+                        "thermal imager",
+                        "optical stabilization",
+                        "macro lens",
+                        "sensor stabilization",
+                        "microscope lens",
+                        "telephoto lens",
+                        "ultra wide lens"
+                    ],
+                    "price": 1065.39
+                },
+                {
+                    "id": 45,
+                    "brand": "Apple",
+                    "model": "iPhone 11 Pro",
+                    "series": "iPhone 11",
+                    "color": "yellow",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "256 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "macro lens",
+                        "ultra wide lens",
+                        "sensor stabilization",
+                        "optical stabilization"
+                    ],
+                    "price": 845.52
+                },
+                {
+                    "id": 46,
+                    "brand": "Apple",
+                    "model": "iPhone SE",
+                    "series": "iPhone SE",
+                    "color": "yellow",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "telephoto lens",
+                        "microscope lens",
+                        "night vision camera",
+                        "optical stabilization",
+                        "macro lens"
+                    ],
+                    "price": 702.0
+                },
+                {
+                    "id": 47,
+                    "brand": "Apple",
+                    "model": "iPhone 14",
+                    "series": "iPhone 14",
+                    "color": "red",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "256 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "microscope lens",
+                        "optical stabilization",
+                        "ultra wide lens",
+                        "night vision camera",
+                        "macro lens",
+                        "telephoto lens"
+                    ],
+                    "price": 927.08
+                },
+                {
+                    "id": 48,
+                    "brand": "Apple",
+                    "model": "iPhone 14 Pro",
+                    "series": "iPhone 14",
+                    "color": "red",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "night vision camera",
+                        "sensor stabilization",
+                        "thermal imager"
+                    ],
+                    "price": 646.69
+                },
+                {
+                    "id": 49,
+                    "brand": "Apple",
+                    "model": "iPhone 12 Pro",
+                    "series": "iPhone 12",
+                    "color": "blue",
+                    "screenRefreshRate": "165 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "optical stabilization",
+                        "sensor stabilization",
+                        "macro lens",
+                        "microscope lens",
+                        "ultra wide lens",
+                        "telephoto lens"
+                    ],
+                    "price": 614.68
+                },
+                {
+                    "id": 50,
+                    "brand": "Apple",
+                    "model": "iPhone X",
+                    "series": "iPhone X",
+                    "color": "red",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "night vision camera",
+                        "sensor stabilization",
+                        "macro lens",
+                        "optical stabilization",
+                        "ultra wide lens",
+                        "telephoto lens",
+                        "thermal imager",
+                        "microscope lens"
+                    ],
+                    "price": 1473.97
+                },
+                {
+                    "id": 51,
+                    "brand": "Apple",
+                    "model": "iPhone 11",
+                    "series": "iPhone 11",
+                    "color": "blue",
+                    "screenRefreshRate": "165 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": ["night vision camera", "microscope lens", "optical stabilization"],
+                    "price": 774.86
+                },
+                {
+                    "id": 52,
+                    "brand": "Apple",
+                    "model": "iPhone 14",
+                    "series": "iPhone 14",
+                    "color": "red",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["telephoto lens", "thermal imager"],
+                    "price": 767.19
+                },
+                {
+                    "id": 53,
+                    "brand": "Apple",
+                    "model": "iPhone 13",
+                    "series": "iPhone 13",
+                    "color": "black",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["thermal imager", "optical stabilization"],
+                    "price": 793.8
+                },
+                {
+                    "id": 54,
+                    "brand": "Apple",
+                    "model": "iPhone 14",
+                    "series": "iPhone 14",
+                    "color": "red",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "telephoto lens",
+                        "thermal imager",
+                        "optical stabilization",
+                        "microscope lens",
+                        "ultra wide lens",
+                        "macro lens",
+                        "night vision camera",
+                        "sensor stabilization"
+                    ],
+                    "price": 1111.63
+                },
+                {
+                    "id": 55,
+                    "brand": "Apple",
+                    "model": "iPhone 12 mini",
+                    "series": "iPhone 12 mini",
+                    "color": "black",
+                    "screenRefreshRate": "165 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "microscope lens",
+                        "ultra wide lens",
+                        "night vision camera"
+                    ],
+                    "price": 1480.51
+                },
+                {
+                    "id": 56,
+                    "brand": "Apple",
+                    "model": "iPhone 11 Pro",
+                    "series": "iPhone 11",
+                    "color": "black",
+                    "screenRefreshRate": "165 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "optical stabilization",
+                        "sensor stabilization",
+                        "thermal imager",
+                        "microscope lens",
+                        "ultra wide lens",
+                        "telephoto lens",
+                        "night vision camera"
+                    ],
+                    "price": 1092.56
+                },
+                {
+                    "id": 57,
+                    "brand": "Apple",
+                    "model": "iPhone 13",
+                    "series": "iPhone 13",
+                    "color": "black",
+                    "screenRefreshRate": "165 Hz",
+                    "storage": "",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "night vision camera",
+                        "thermal imager",
+                        "ultra wide lens",
+                        "optical stabilization",
+                        "sensor stabilization",
+                        "microscope lens",
+                        "macro lens",
+                        "telephoto lens"
+                    ],
+                    "price": 1415.74
+                },
+                {
+                    "id": 58,
+                    "brand": "Apple",
+                    "model": "iPhone 13 mini",
+                    "model": "iPhone 13 mini",
+                    "color": "yellow",
+                    "screenRefreshRate": "165 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "optical stabilization",
+                        "night vision camera",
+                        "thermal imager"
+                    ],
+                    "price": 665.02
+                },
+                {
+                    "id": 59,
+                    "brand": "Apple",
+                    "model": "iPhone 13",
+                    "series": "iPhone 13",
+                    "color": "yellow",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "256 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "macro lens",
+                        "microscope lens",
+                        "telephoto lens",
+                        "night vision camera",
+                        "thermal imager",
+                        "ultra wide lens"
+                    ],
+                    "price": 1415.26
+                },
+                {
+                    "id": 60,
+                    "brand": "Apple",
+                    "model": "iPhone 12 Pro",
+                    "series": "iPhone 12",
+                    "color": "blue",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "48MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "telephoto lens",
+                        "sensor stabilization",
+                        "night vision camera"
+                    ],
+                    "price": 663.71
+                },
+                {
+                    "id": 61,
+                    "brand": "Samsung",
+                    "series": "Galaxy Flip",
+                    "model": "Samsung Galaxy M21",
+                    "color": "white",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "sensor stabilization",
+                        "macro lens",
+                        "night vision camera",
+                        "telephoto lens",
+                        "optical stabilization",
+                        "microscope lens"
+                    ],
+                    "price": 586.77
+                },
+                {
+                    "id": 62,
+                    "brand": "Samsung",
+                    "series": "Galaxy Note",
+                    "model": "Samsung Galaxy A80",
+                    "color": "white",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "night vision camera",
+                        "ultra wide lens",
+                        "microscope lens",
+                        "macro lens",
+                        "optical stabilization",
+                        "telephoto lens",
+                        "sensor stabilization",
+                        "thermal imager"
+                    ],
+                    "price": 1479.39
+                },
+                {
+                    "id": 63,
+                    "brand": "Samsung",
+                    "series": "Galaxy F",
+                    "model": "Samsung Galaxy S10",
+                    "color": "gray",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "macro lens",
+                        "optical stabilization",
+                        "ultra wide lens",
+                        "sensor stabilization",
+                        "night vision camera",
+                        "thermal imager"
+                    ],
+                    "price": 928.12
+                },
+                {
+                    "id": 64,
+                    "brand": "Samsung",
+                    "series": "Galaxy Flip",
+                    "model": "Samsung Galaxy Note 10",
+                    "color": "white",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "256 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["microscope lens", "night vision camera"],
+                    "price": 731.89
+                },
+                {
+                    "id": 65,
+                    "brand": "Samsung",
+                    "series": "Galaxy A",
+                    "model": "Samsung Galaxy Z Fold 2",
+                    "color": "gray",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "macro lens",
+                        "optical stabilization",
+                        "ultra wide lens"
+                    ],
+                    "price": 557.95
+                },
+                {
+                    "id": 66,
+                    "brand": "Samsung",
+                    "series": "Galaxy Xcover",
+                    "model": "Samsung Galaxy A70",
+                    "color": "gray",
+                    "screenRefreshRate": "",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["thermal imager", "ultra wide lens"],
+                    "price": 762.72
+                },
+                {
+                    "id": 67,
+                    "brand": "Samsung",
+                    "series": "Galaxy S",
+                    "model": "Samsung Galaxy A72",
+                    "color": "gray",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "optical stabilization",
+                        "ultra wide lens",
+                        "night vision camera",
+                        "sensor stabilization",
+                        "telephoto lens",
+                        "microscope lens",
+                        "macro lens",
+                        "thermal imager"
+                    ],
+                    "price": 339.45
+                },
+                {
+                    "id": 68,
+                    "brand": "Samsung",
+                    "series": "Galaxy M",
+                    "model": "Samsung Galaxy A20",
+                    "color": "gray",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "optical stabilization",
+                        "night vision camera",
+                        "microscope lens",
+                        "ultra wide lens",
+                        "thermal imager"
+                    ],
+                    "price": 1269.66
+                },
+                {
+                    "id": 69,
+                    "brand": "Samsung",
+                    "series": "Galaxy A",
+                    "model": "Samsung Galaxy A90Samsung Galaxy S21",
+                    "color": "green",
+                    "screenRefreshRate": "",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "night vision camera",
+                        "thermal imager",
+                        "microscope lens",
+                        "macro lens",
+                        "optical stabilization",
+                        "ultra wide lens",
+                        "sensor stabilization"
+                    ],
+                    "price": 1332.75
+                },
+                {
+                    "id": 70,
+                    "brand": "Samsung",
+                    "series": "Galaxy Xcover",
+                    "model": "Samsung Galaxy M31",
+                    "color": "black",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "telephoto lens",
+                        "thermal imager",
+                        "microscope lens",
+                        "optical stabilization"
+                    ],
+                    "price": 1334.34
+                },
+                {
+                    "id": 71,
+                    "brand": "Samsung",
+                    "series": "Galaxy Flip",
+                    "model": "Samsung Galaxy A10",
+                    "color": "green",
+                    "screenRefreshRate": "",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "thermal imager",
+                        "night vision camera",
+                        "optical stabilization",
+                        "telephoto lens",
+                        "microscope lens"
+                    ],
+                    "price": 1165.36
+                },
+                {
+                    "id": 72,
+                    "brand": "Samsung",
+                    "series": "Galaxy Xcover",
+                    "model": "Samsung Galaxy A51",
+                    "color": "white",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "night vision camera",
+                        "sensor stabilization",
+                        "optical stabilization",
+                        "microscope lens",
+                        "telephoto lens"
+                    ],
+                    "price": 1218.08
+                },
+                {
+                    "id": 73,
+                    "brand": "Samsung",
+                    "series": "Galaxy Flip",
+                    "model": "Samsung Galaxy A80",
+                    "color": "white",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "macro lens",
+                        "night vision camera",
+                        "optical stabilization",
+                        "microscope lens",
+                        "ultra wide lens",
+                        "sensor stabilization",
+                        "thermal imager",
+                        "telephoto lens"
+                    ],
+                    "price": 1029.48
+                },
+                {
+                    "id": 74,
+                    "brand": "Samsung",
+                    "series": "Galaxy Note",
+                    "model": "Samsung Galaxy Z Fold 2",
+                    "color": "white",
+                    "screenRefreshRate": "",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "telephoto lens",
+                        "night vision camera",
+                        "macro lens",
+                        "thermal imager",
+                        "sensor stabilization",
+                        "ultra wide lens",
+                        "optical stabilization"
+                    ],
+                    "price": 395.3
+                },
+                {
+                    "id": 75,
+                    "brand": "Samsung",
+                    "series": "Galaxy Xcover",
+                    "model": "Samsung Galaxy A90Samsung Galaxy S21",
+                    "color": "gray",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": ["macro lens", "ultra wide lens", "sensor stabilization"],
+                    "price": 971.33
+                },
+                {
+                    "id": 76,
+                    "brand": "Samsung",
+                    "series": "Galaxy S",
+                    "model": "Samsung Galaxy A42",
+                    "color": "gray",
+                    "screenRefreshRate": "",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": ["optical stabilization", "ultra wide lens"],
+                    "price": 440.92
+                },
+                {
+                    "id": 77,
+                    "brand": "Samsung",
+                    "series": "Galaxy S",
+                    "model": "Samsung Galaxy J7",
+                    "color": "white",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "sensor stabilization",
+                        "thermal imager",
+                        "microscope lens"
+                    ],
+                    "price": 1013.39
+                },
+                {
+                    "id": 78,
+                    "brand": "Samsung",
+                    "series": "Galaxy Fold",
+                    "model": "Samsung Galaxy J7",
+                    "color": "black",
+                    "screenRefreshRate": "",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "optical stabilization",
+                        "thermal imager",
+                        "ultra wide lens",
+                        "telephoto lens",
+                        "night vision camera",
+                        "sensor stabilization",
+                        "macro lens"
+                    ],
+                    "price": 477.21
+                },
+                {
+                    "id": 79,
+                    "brand": "Samsung",
+                    "series": "Galaxy Fold",
+                    "model": "Samsung Galaxy A10",
+                    "color": "white",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "microscope lens",
+                        "night vision camera",
+                        "telephoto lens",
+                        "ultra wide lens",
+                        "macro lens",
+                        "optical stabilization"
+                    ],
+                    "price": 859.26
+                },
+                {
+                    "id": 80,
+                    "brand": "Samsung",
+                    "series": "Galaxy Flip",
+                    "model": "Samsung Galaxy A30",
+                    "color": "gray",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "telephoto lens",
+                        "optical stabilization",
+                        "microscope lens",
+                        "thermal imager",
+                        "night vision camera",
+                        "sensor stabilization"
+                    ],
+                    "price": 719.52
+                },
+                {
+                    "id": 81,
+                    "brand": "Samsung",
+                    "series": "Galaxy Note",
+                    "model": "Samsung Galaxy A71",
+                    "color": "gray",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": ["ultra wide lens", "thermal imager", "macro lens", "night vision camera"],
+                    "price": 1016.17
+                },
+                {
+                    "id": 82,
+                    "brand": "Samsung",
+                    "series": "Galaxy F",
+                    "model": "Samsung Galaxy A30",
+                    "color": "black",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "thermal imager",
+                        "optical stabilization",
+                        "ultra wide lens",
+                        "macro lens",
+                        "sensor stabilization",
+                        "telephoto lens"
+                    ],
+                    "price": 1331.56
+                },
+                {
+                    "id": 83,
+                    "brand": "Samsung",
+                    "series": "Galaxy Flip",
+                    "model": "Samsung Galaxy J7",
+                    "color": "green",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["microscope lens", "thermal imager"],
+                    "price": 979.06
+                },
+                {
+                    "id": 84,
+                    "brand": "Samsung",
+                    "series": "Galaxy Flip",
+                    "model": "Samsung Galaxy A20",
+                    "color": "white",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "thermal imager",
+                        "night vision camera",
+                        "telephoto lens",
+                        "sensor stabilization"
+                    ],
+                    "price": 307.77
+                },
+                {
+                    "id": 85,
+                    "brand": "Samsung",
+                    "series": "Galaxy Note",
+                    "model": "Samsung Galaxy Note 9",
+                    "color": "white",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "macro lens",
+                        "telephoto lens",
+                        "microscope lens",
+                        "night vision camera",
+                        "optical stabilization"
+                    ],
+                    "price": 1457.86
+                },
+                {
+                    "id": 86,
+                    "brand": "Samsung",
+                    "series": "Galaxy S",
+                    "model": "Samsung Galaxy A50",
+                    "color": "black",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "night vision camera",
+                        "ultra wide lens",
+                        "sensor stabilization",
+                        "telephoto lens",
+                        "thermal imager",
+                        "macro lens",
+                        "microscope lens"
+                    ],
+                    "price": 323.57
+                },
+                {
+                    "id": 87,
+                    "brand": "Samsung",
+                    "series": "Galaxy A",
+                    "model": "Samsung Galaxy Z Fold 2",
+                    "color": "gray",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "thermal imager",
+                        "telephoto lens",
+                        "ultra wide lens",
+                        "optical stabilization",
+                        "microscope lens",
+                        "sensor stabilization",
+                        "night vision camera"
+                    ],
+                    "price": 1392.68
+                },
+                {
+                    "id": 88,
+                    "brand": "Samsung",
+                    "series": "Galaxy A0",
+                    "model": "Samsung Galaxy A02s",
+                    "color": "gray",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "macro lens",
+                        "telephoto lens",
+                        "thermal imager",
+                        "optical stabilization",
+                        "microscope lens",
+                        "sensor stabilization",
+                        "ultra wide lens"
+                    ],
+                    "price": 880.37
+                },
+                {
+                    "id": 89,
+                    "brand": "Samsung",
+                    "series": "Galaxy Xcover",
+                    "model": "Samsung Galaxy A10",
+                    "color": "black",
+                    "screenRefreshRate": "",
+                    "storage": "",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": ["microscope lens", "optical stabilization"],
+                    "price": 463.2
+                },
+                {
+                    "id": 90,
+                    "brand": "Samsung",
+                    "series": "Galaxy Flip",
+                    "model": "Samsung Galaxy A32",
+                    "color": "black",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "thermal imager",
+                        "night vision camera",
+                        "telephoto lens",
+                        "ultra wide lens",
+                        "sensor stabilization",
+                        "microscope lens",
+                        "optical stabilization",
+                        "macro lens"
+                    ],
+                    "price": 623.54
+                },
+                {
+                    "id": 91,
+                    "brand": "Samsung",
+                    "series": "Galaxy A0",
+                    "model": "Samsung Galaxy A20",
+                    "color": "white",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "sensor stabilization",
+                        "night vision camera",
+                        "thermal imager"
+                    ],
+                    "price": 996.12
+                },
+                {
+                    "id": 92,
+                    "brand": "Samsung",
+                    "series": "Galaxy Fold",
+                    "model": "Samsung Galaxy Z Fold 2",
+                    "color": "green",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "microscope lens",
+                        "optical stabilization",
+                        "night vision camera",
+                        "sensor stabilization",
+                        "telephoto lens",
+                        "macro lens"
+                    ],
+                    "price": 1353.44
+                },
+                {
+                    "id": 93,
+                    "brand": "Samsung",
+                    "series": "Galaxy S",
+                    "model": "Samsung Galaxy Z Fold 2",
+                    "color": "white",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": ["telephoto lens", "microscope lens", "sensor stabilization"],
+                    "price": 862.55
+                },
+                {
+                    "id": 94,
+                    "brand": "Samsung",
+                    "series": "Galaxy F",
+                    "model": "Samsung Galaxy S10",
+                    "color": "green",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "macro lens",
+                        "thermal imager",
+                        "ultra wide lens",
+                        "optical stabilization",
+                        "sensor stabilization",
+                        "telephoto lens",
+                        "night vision camera",
+                        "microscope lens"
+                    ],
+                    "price": 985.58
+                },
+                {
+                    "id": 95,
+                    "brand": "Samsung",
+                    "series": "Galaxy Fold",
+                    "model": "Samsung Galaxy A20",
+                    "color": "white",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "microscope lens",
+                        "ultra wide lens",
+                        "optical stabilization",
+                        "night vision camera"
+                    ],
+                    "price": 1173.91
+                },
+                {
+                    "id": 96,
+                    "brand": "Samsung",
+                    "series": "Galaxy Fold",
+                    "model": "Samsung Galaxy A20",
+                    "color": "white",
+                    "screenRefreshRate": "",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["sensor stabilization", "ultra wide lens"],
+                    "price": 1376.13
+                },
+                {
+                    "id": 97,
+                    "brand": "Samsung",
+                    "series": "Galaxy F",
+                    "model": "Samsung Galaxy M31",
+                    "color": "black",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["telephoto lens", "thermal imager", "sensor stabilization"],
+                    "price": 512.38
+                },
+                {
+                    "id": 98,
+                    "brand": "Samsung",
+                    "series": "Galaxy A",
+                    "model": "Samsung Galaxy A50",
+                    "color": "green",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "256 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "thermal imager",
+                        "sensor stabilization",
+                        "ultra wide lens",
+                        "optical stabilization",
+                        "microscope lens",
+                        "macro lens"
+                    ],
+                    "price": 971.59
+                },
+                {
+                    "id": 99,
+                    "brand": "Samsung",
+                    "series": "Galaxy M",
+                    "model": "Samsung Galaxy Note 10",
+                    "color": "gray",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "sensor stabilization",
+                        "microscope lens",
+                        "optical stabilization",
+                        "telephoto lens",
+                        "thermal imager",
+                        "night vision camera",
+                        "macro lens"
+                    ],
+                    "price": 852.1
+                },
+                {
+                    "id": 100,
+                    "brand": "Samsung",
+                    "series": "Galaxy S",
+                    "model": "Samsung Galaxy M21",
+                    "color": "green",
+                    "screenRefreshRate": "",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "telephoto lens",
+                        "optical stabilization",
+                        "sensor stabilization",
+                        "night vision camera",
+                        "macro lens",
+                        "ultra wide lens"
+                    ],
+                    "price": 1148.66
+                },
+                {
+                    "id": 101,
+                    "brand": "Samsung",
+                    "series": "Galaxy Note",
+                    "model": "Samsung Galaxy Note 9",
+                    "color": "gray",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["thermal imager", "sensor stabilization", "ultra wide lens"],
+                    "price": 1250.65
+                },
+                {
+                    "id": 102,
+                    "brand": "Samsung",
+                    "series": "Galaxy Xcover",
+                    "model": "Samsung Galaxy Note 9",
+                    "color": "gray",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "macro lens",
+                        "optical stabilization",
+                        "telephoto lens",
+                        "ultra wide lens",
+                        "thermal imager",
+                        "night vision camera",
+                        "microscope lens",
+                        "sensor stabilization"
+                    ],
+                    "price": 1350.47
+                },
+                {
+                    "id": 103,
+                    "brand": "Samsung",
+                    "series": "Galaxy A0",
+                    "model": "Samsung Galaxy A32",
+                    "color": "green",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["night vision camera", "thermal imager"],
+                    "price": 1184.24
+                },
+                {
+                    "id": 104,
+                    "brand": "Samsung",
+                    "series": "Galaxy Fold",
+                    "model": "Samsung Galaxy Z Fold 2",
+                    "color": "gray",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "sensor stabilization",
+                        "night vision camera",
+                        "thermal imager",
+                        "macro lens"
+                    ],
+                    "price": 1330.22
+                },
+                {
+                    "id": 105,
+                    "brand": "Samsung",
+                    "series": "Galaxy M",
+                    "model": "Samsung Galaxy Note 20",
+                    "color": "gray",
+                    "screenRefreshRate": "",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "night vision camera",
+                        "optical stabilization",
+                        "macro lens",
+                        "microscope lens"
+                    ],
+                    "price": 471.64
+                },
+                {
+                    "id": 106,
+                    "brand": "Samsung",
+                    "series": "Galaxy Note",
+                    "model": "Samsung Galaxy Z Flip",
+                    "color": "black",
+                    "screenRefreshRate": "",
+                    "storage": "",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "telephoto lens",
+                        "macro lens",
+                        "ultra wide lens",
+                        "optical stabilization",
+                        "sensor stabilization",
+                        "night vision camera",
+                        "thermal imager"
+                    ],
+                    "price": 1345.26
+                },
+                {
+                    "id": 107,
+                    "brand": "Samsung",
+                    "series": "Galaxy A",
+                    "model": "Samsung Galaxy A30",
+                    "color": "green",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "microscope lens",
+                        "optical stabilization",
+                        "thermal imager",
+                        "sensor stabilization",
+                        "telephoto lens",
+                        "night vision camera",
+                        "macro lens"
+                    ],
+                    "price": 1289.64
+                },
+                {
+                    "id": 108,
+                    "brand": "Samsung",
+                    "series": "Galaxy Fold",
+                    "model": "Samsung Galaxy A72",
+                    "color": "white",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["microscope lens", "ultra wide lens", "telephoto lens"],
+                    "price": 958.7
+                },
+                {
+                    "id": 109,
+                    "brand": "Samsung",
+                    "series": "Galaxy M",
+                    "model": "Samsung Galaxy A40",
+                    "color": "green",
+                    "screenRefreshRate": "90 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": ["night vision camera", "ultra wide lens"],
+                    "price": 516.2
+                },
+                {
+                    "id": 110,
+                    "brand": "Samsung",
+                    "series": "Galaxy Note",
+                    "model": "Samsung Galaxy A20",
+                    "color": "gray",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "256 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "microscope lens",
+                        "night vision camera",
+                        "optical stabilization"
+                    ],
+                    "price": 459.74
+                },
+                {
+                    "id": 111,
+                    "brand": "Samsung",
+                    "series": "Galaxy F",
+                    "model": "Samsung Galaxy Z Flip",
+                    "color": "white",
+                    "screenRefreshRate": "",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": [
+                        "ultra wide lens",
+                        "sensor stabilization",
+                        "macro lens",
+                        "thermal imager",
+                        "microscope lens",
+                        "telephoto lens",
+                        "night vision camera"
+                    ],
+                    "price": 1447.53
+                },
+                {
+                    "id": 112,
+                    "brand": "Samsung",
+                    "series": "Galaxy Note",
+                    "model": "Samsung Galaxy A10",
+                    "color": "gray",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "50 MP",
+                    "mainCamera_Features": ["ultra wide lens", "sensor stabilization", "macro lens"],
+                    "price": 341.1
+                },
+                {
+                    "id": 113,
+                    "brand": "Samsung",
+                    "series": "Galaxy A",
+                    "model": "Samsung Galaxy Note 20",
+                    "color": "white",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "thermal imager",
+                        "telephoto lens",
+                        "optical stabilization",
+                        "sensor stabilization"
+                    ],
+                    "price": 1188.36
+                },
+                {
+                    "id": 114,
+                    "brand": "Samsung",
+                    "series": "Galaxy Flip",
+                    "model": "Samsung Galaxy A02s",
+                    "color": "white",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "microscope lens",
+                        "optical stabilization",
+                        "night vision camera",
+                        "macro lens",
+                        "telephoto lens",
+                        "sensor stabilization"
+                    ],
+                    "price": 1053.35
+                },
+                {
+                    "id": 115,
+                    "brand": "Samsung",
+                    "series": "Galaxy Flip",
+                    "model": "Samsung Galaxy A10",
+                    "color": "green",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "64 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["optical stabilization", "microscope lens", "night vision camera"],
+                    "price": 1377.44
+                },
+                {
+                    "id": 116,
+                    "brand": "Samsung",
+                    "series": "Galaxy M",
+                    "model": "Samsung Galaxy A80",
+                    "color": "black",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "128 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "optical stabilization",
+                        "ultra wide lens",
+                        "thermal imager",
+                        "night vision camera"
+                    ],
+                    "price": 562.47
+                },
+                {
+                    "id": 117,
+                    "brand": "Samsung",
+                    "series": "Galaxy Xcover",
+                    "model": "Samsung Galaxy A70",
+                    "color": "white",
+                    "screenRefreshRate": "120 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": ["macro lens", "microscope lens", "telephoto lens", "night vision camera"],
+                    "price": 833.35
+                },
+                {
+                    "id": 118,
+                    "brand": "Samsung",
+                    "series": "Galaxy Fold",
+                    "model": "Samsung Galaxy S10",
+                    "color": "green",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "≥ 512 GB",
+                    "mainCamera_Pixels": "12 MP",
+                    "mainCamera_Features": [
+                        "optical stabilization",
+                        "microscope lens",
+                        "telephoto lens",
+                        "ultra wide lens",
+                        "sensor stabilization"
+                    ],
+                    "price": 619.38
+                },
+                {
+                    "id": 119,
+                    "brand": "Samsung",
+                    "series": "Galaxy F",
+                    "model": "Samsung Galaxy A71",
+                    "color": "white",
+                    "screenRefreshRate": "60 Hz",
+                    "storage": "32 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": ["macro lens", "sensor stabilization", "optical stabilization"],
+                    "price": 331.93
+                },
+                {
+                    "id": 120,
+                    "brand": "Samsung",
+                    "series": "Galaxy Fold",
+                    "model": "Samsung Galaxy J7",
+                    "color": "black",
+                    "screenRefreshRate": "144 Hz",
+                    "storage": "16 GB",
+                    "mainCamera_Pixels": "16 MP",
+                    "mainCamera_Features": [
+                        "optical stabilization",
+                        "microscope lens",
+                        "night vision camera",
+                        "telephoto lens",
+                        "sensor stabilization",
+                        "thermal imager"
+                    ],
+                    "price": 1139.3
+                }
+            ]
+        },
+        {
+            "category": "TVs",
+            "products": [
+                {
+                    "id": 1,
+                    "brand": "Samsung",
+                    "model": "QLED Q90R",
+                    "price": 1499.99
+                },
+                {
+                    "id": 2,
+                    "brand": "LG",
+                    "model": "OLED CX",
+                    "price": 1799.0
+                },
+                {
+                    "id": 3,
+                    "brand": "Sony",
+                    "model": "Bravia X900H",
+                    "price": 1299.5
+                },
+                {
+                    "id": 4,
+                    "brand": "TCL",
+                    "model": "6-Series",
+                    "price": 699.99
+                },
+                {
+                    "id": 5,
+                    "brand": "Vizio",
+                    "model": "P-Series Quantum",
+                    "price": 1199.95
+                },
+                {
+                    "id": 6,
+                    "brand": "Panasonic",
+                    "model": "FX800",
+                    "price": 999.0
+                },
+                {
+                    "id": 7,
+                    "brand": "Hisense",
+                    "model": "H9G",
+                    "price": 799.99
+                },
+                {
+                    "id": 8,
+                    "brand": "Samsung",
+                    "model": "Neo QLED QN90A",
+                    "price": 1699.0
+                },
+                {
+                    "id": 9,
+                    "brand": "Sony",
+                    "model": "A8H OLED",
+                    "price": 1499.99
+                },
+                {
+                    "id": 10,
+                    "brand": "LG",
+                    "model": "NanoCell NANO90",
+                    "price": 1299.95
+                },
+                {
+                    "id": 11,
+                    "brand": "Vizio",
+                    "model": "M-Series Quantum",
+                    "price": 849.0
+                },
+                {
+                    "id": 12,
+                    "brand": "TCL",
+                    "model": "5-Series",
+                    "price": 599.0
+                },
+                {
+                    "id": 13,
+                    "brand": "Samsung",
+                    "model": "TU8000",
+                    "price": 599.99
+                },
+                {
+                    "id": 14,
+                    "brand": "Sony",
+                    "model": "X800H",
+                    "price": 799.5
+                },
+                {
+                    "id": 15,
+                    "brand": "LG",
+                    "model": "UM7300",
+                    "price": 499.0
+                },
+                {
+                    "id": 16,
+                    "brand": "TCL",
+                    "model": "4-Series",
+                    "price": 399.99
+                },
+                {
+                    "id": 17,
+                    "brand": "Hisense",
+                    "model": "R6090G",
+                    "price": 369.95
+                },
+                {
+                    "id": 18,
+                    "brand": "Samsung",
+                    "model": "The Frame",
+                    "price": 1299.0
+                },
+                {
+                    "id": 19,
+                    "brand": "Vizio",
+                    "model": "V-Series",
+                    "price": 319.99
+                },
+                {
+                    "id": 20,
+                    "brand": "LG",
+                    "model": "UK6090",
+                    "price": 379.95
+                }
+            ]
+        },
+        {
+            "category": "Laptops",
+            "products": [
+                {
+                    "id": 1,
+                    "brand": "Dell",
+                    "model": "XPS 13",
+                    "price": 1299.99
+                },
+                {
+                    "id": 2,
+                    "brand": "Apple",
+                    "model": "MacBook Air",
+                    "price": 1099.99
+                },
+                {
+                    "id": 3,
+                    "brand": "HP",
+                    "model": "Spectre x360",
+                    "price": 1399.99
+                },
+                {
+                    "id": 4,
+                    "brand": "Lenovo",
+                    "model": "ThinkPad X1 Carbon",
+                    "price": 1499.99
+                },
+                {
+                    "id": 5,
+                    "brand": "ASUS",
+                    "model": "ZenBook 14",
+                    "price": 999.99
+                },
+                {
+                    "id": 6,
+                    "brand": "Acer",
+                    "model": "Swift 3",
+                    "price": 799.99
+                },
+                {
+                    "id": 7,
+                    "brand": "MSI",
+                    "model": "GS66 Stealth",
+                    "price": 1799.99
+                },
+                {
+                    "id": 8,
+                    "brand": "Razer",
+                    "model": "Blade 15",
+                    "price": 1899.99
+                },
+                {
+                    "id": 9,
+                    "brand": "LG",
+                    "model": "Gram 17",
+                    "price": 1499.99
+                },
+                {
+                    "id": 10,
+                    "brand": "Microsoft",
+                    "model": "Surface Laptop 4",
+                    "price": 1299.99
+                },
+                {
+                    "id": 11,
+                    "brand": "Dell",
+                    "model": "Inspiron 15",
+                    "price": 799.99
+                },
+                {
+                    "id": 12,
+                    "brand": "HP",
+                    "model": "Envy x360",
+                    "price": 1199.99
+                },
+                {
+                    "id": 13,
+                    "brand": "Lenovo",
+                    "model": "IdeaPad 5",
+                    "price": 699.99
+                },
+                {
+                    "id": 14,
+                    "brand": "ASUS",
+                    "model": "ROG Zephyrus G14",
+                    "price": 1299.99
+                },
+                {
+                    "id": 15,
+                    "brand": "Acer",
+                    "model": "Predator Helios 300",
+                    "price": 1199.99
+                },
+                {
+                    "id": 16,
+                    "brand": "MSI",
+                    "model": "GE75 Raider",
+                    "price": 1699.99
+                },
+                {
+                    "id": 17,
+                    "brand": "Apple",
+                    "model": "MacBook Pro",
+                    "price": 1799.99
+                },
+                {
+                    "id": 18,
+                    "brand": "Razer",
+                    "model": "Blade Stealth",
+                    "price": 1399.99
+                },
+                {
+                    "id": 19,
+                    "brand": "LG",
+                    "model": "Ultra 15",
+                    "price": 1299.99
+                },
+                {
+                    "id": 20,
+                    "brand": "Lenovo",
+                    "model": "Yoga C940",
+                    "price": 1299.99
+                }
+            ]
+        }
+    ]
+}
