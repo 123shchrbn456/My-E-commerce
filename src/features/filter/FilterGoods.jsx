@@ -8,37 +8,57 @@ const FilterGoods = () => {
     const location = useLocation();
     const navigate = useNavigate();
     const [searchParams, setSearchParams] = useSearchParams();
-    console.log("searchParams", searchParams);
+    // console.log("searchParams", searchParams);
+    // console.log("searchParams func", Object.fromEntries(searchParams.entries()));
 
-    const filterObj = useSelector(selectFiltersObj);
-    // console.log(filterObj);
+    const params = {};
 
-    const onInputChange = (e) => {
-        const name = e.target.name;
-        const value = e.target.type === "checkbox" ? e.target.checked : e.target.value;
-        dispatch(updateFilterValue({ name, value }));
+    searchParams.forEach((value, key) => {
+        params[key] = searchParams.getAll(key);
+    });
 
-        // console.log(value);
-        // setFilteringInputs((filteringInputs) => ({ ...filteringInputs, [e.target.name]: value }));
-    };
+    console.log(params);
+
+    // const onInputChange = (e) => {
+    //     const name = e.target.name;
+    //     const value = e.target.type === "checkbox" ? e.target.checked : e.target.value;
+    //     dispatch(updateFilterValue({ name, value }));
+    // console.log(value);
+    // setFilteringInputs((filteringInputs) => ({ ...filteringInputs, [e.target.name]: value }));
+    // };
 
     useEffect(() => {
         navigate(`${location.pathname + location.search}`);
     }, [searchParams]);
 
-    const qwe = (e) => {
-        const isAlreadyInURL = searchParams.getAll("brand");
-        console.log("isAlreadyInURL", isAlreadyInURL);
-        if (isAlreadyInURL.length > 0) {
-            searchParams.delete("brand");
-            setSearchParams(searchParams);
-            // navigate(`${location.pathname + location.search}`);
+    // searchParams.getAll("brand")
 
+    const qwe = (e) => {
+        const name = e.target.dataset.name;
+        const value = e.target.dataset.value;
+        const exactParamArr = searchParams.getAll(name);
+        const isInParamArr = exactParamArr.includes(value);
+
+        console.log("isInParamArr", isInParamArr);
+        if (exactParamArr.length === 1 && isInParamArr) {
+            // Delete completely param array
+            searchParams.delete(name);
+            setSearchParams(searchParams);
             return;
         }
-        // setSearchParams({ brand: ["iPhone 12", "iPhone 13"] });
-        return setSearchParams({ brand: "Samsung" });
-        // navigate(`${location.pathname + location.search}`);
+        if (exactParamArr.length > 1 && isInParamArr) {
+            // Delete one param of the array
+            const tempArr = exactParamArr.filter((param) => param !== value);
+            setSearchParams({ [name]: [...tempArr] });
+            return;
+        }
+        if (exactParamArr.length > 0 && !isInParamArr) {
+            // add One more to this exact array
+            setSearchParams({ [name]: [...exactParamArr, value] });
+            return;
+        }
+        // Add completely new param
+        return setSearchParams({ [name]: [value] });
     };
 
     return (
@@ -49,10 +69,11 @@ const FilterGoods = () => {
                 <label>
                     <input
                         type="checkbox"
-                        name="brand=Apple"
-                        id=""
-                        checked={filterObj?.brand === "" ? false : true}
-                        onChange={onInputChange}
+                        name="brand"
+                        data-name="brand"
+                        data-value="Apple"
+                        checked={searchParams.getAll("brand").includes("Apple") ? true : false}
+                        onChange={qwe}
                     />
                     Apple
                 </label>
@@ -63,9 +84,10 @@ const FilterGoods = () => {
                     <input
                         type="checkbox"
                         name="brand"
+                        data-name="brand"
+                        data-value="Samsung"
                         id=""
-                        value="Samsung"
-                        // checked={filteringInputs.olderThan30}
+                        checked={searchParams.getAll("brand").includes("Samsung") ? true : false}
                         onChange={qwe}
                     />
                     Samsung

@@ -8,7 +8,7 @@ import GoodsList from "./GoodsList";
 const GoodsPage = () => {
     const urlParams = useParams();
     const location = useLocation();
-    console.log(location);
+    // console.log(location);
 
     const { data = [], isLoading, isSuccess, isError } = useGetGoodsQuery(location.search ?? "");
 

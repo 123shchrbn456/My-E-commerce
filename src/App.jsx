@@ -13,7 +13,7 @@ function App() {
                     <Route element={<Layout />}>
                         <Route path="/" element={<HomePage />}></Route>
                         <Route path="/goods" element={<GoodsPage />}></Route>
-                        <Route path="/goods/:filterName/:filterValue" element={<GoodsPageCategorised />}></Route>
+                        {/* <Route path="/goods/:filterName/:filterValue" element={<GoodsPageCategorised />}></Route> */}
                         <Route path="/goods/single-goods/:id" element={<SingleGoodsPage />}></Route>
                         <Route path="*" element={<div> Not Found or You do not have permission.</div>} />
                     </Route>
