@@ -8,7 +8,7 @@ const FilterGoods = () => {
     const location = useLocation();
     const navigate = useNavigate();
     const [searchParams, setSearchParams] = useSearchParams();
-    // console.log("searchParams", searchParams);
+    console.log("searchParams", searchParams);
 
     const filterObj = useSelector(selectFiltersObj);
     // console.log(filterObj);
@@ -219,92 +219,6 @@ const FilterGoods = () => {
                         name="nameQuery"
                         id=""
                         // value={filteringInputs.nameQuery}
-                        // onChange={onInputChange}
-                    />
-                </label>
-            </p>
-            <p className="filter-bar--item">
-                <label>
-                    <b>Select Only Older Than 30 Years:</b>
-                    <input
-                        type="checkbox"
-                        name="olderThan30"
-                        id=""
-                        // checked={filteringInputs.olderThan30}
-                        // onChange={onInputChange}
-                    />
-                </label>
-            </p>
-            {/* <p className="filter-bar--item">
-                <label htmlFor="">
-                    Choose Countries
-                    <select name="country" id="" value={filteringInputs.country} onChange={onInputChange}>
-                        <option value="">Select</option>
-                        {countryNames.map((countryName, index) => (
-                            <option key={index} value={countryName.toLowerCase()}>
-                                {countryName}
-                            </option>
-                        ))}
-                    </select>
-                </label>
-            </p> */}
-            <p className="filter-bar--item" style={{ border: "1px soild red" }}>
-                <label htmlFor="">Minimum Salary:</label>
-                <br />
-                <input
-                    type="range"
-                    min="500"
-                    max="10000"
-                    step="500"
-                    name="minSalary"
-                    id=""
-                    list="markers"
-                    // value={filteringInputs.minSalary}
-                    // onChange={onInputChange}
-                />
-                <datalist id="markers">
-                    <option value="500" label="500"></option>
-                    <option value="1500" label="1000"></option>
-                    <option value="3000" label="3000"></option>
-                    <option value="4500" label="4500"></option>
-                    <option value="6000" label="6000"></option>
-                    <option value="7500" label="7500"></option>
-                    <option value="9000" label="9000"></option>
-                    <option value="10000" label="10000"></option>
-                </datalist>
-            </p>
-            <p className="filter-bar--item">
-                <label>
-                    <b>Select with 1 child:</b>
-                    <input
-                        type="checkbox"
-                        name="oneChild"
-                        id=""
-                        // checked={filteringInputs.oneChild}
-                        // onChange={onInputChange}
-                    />
-                </label>
-            </p>
-            <p className="filter-bar--item">
-                <label>
-                    <b>Select with 2 children:</b>
-                    <input
-                        type="checkbox"
-                        name="twoChildren"
-                        id=""
-                        // checked={filteringInputs.twoChildren}
-                        // onChange={onInputChange}
-                    />
-                </label>
-            </p>
-            <p className="filter-bar--item">
-                <label>
-                    <b>Select with 3 children:</b>
-                    <input
-                        type="checkbox"
-                        name="threeChildren"
-                        id=""
-                        // checked={filteringInputs.threeChildren}
                         // onChange={onInputChange}
                     />
                 </label>

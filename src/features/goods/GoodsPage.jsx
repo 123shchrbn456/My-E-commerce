@@ -1,8 +1,7 @@
 import React, { useMemo } from "react";
 import GoodsItem from "./GoodsItem";
 import { useLocation, useParams } from "react-router-dom";
-import { useGetCategoryGoodsQuery, useGetGoodsQuery, useGetSearchGoodsQuery } from "./goodsSlice";
-import { createSelector } from "@reduxjs/toolkit";
+import { useGetGoodsQuery } from "./goodsSlice";
 import FilterGoods from "../filter/FilterGoods";
 import GoodsList from "./GoodsList";
 
@@ -11,7 +10,7 @@ const GoodsPage = () => {
     const location = useLocation();
     console.log(location);
 
-    const { data, isLoading, isSuccess, isError } = useGetSearchGoodsQuery(location.search ?? "");
+    const { data = [], isLoading, isSuccess, isError } = useGetGoodsQuery(location.search ?? "");
 
     // console.log(data);
 

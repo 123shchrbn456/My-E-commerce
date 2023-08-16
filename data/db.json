@@ -231,7 +231,7 @@
             }
         }
     ],
-    "commodities-smartphones": [
+    "merchandise-improved": [
         {
             "id": 1,
             "brand": "Apple",
@@ -249,7 +249,7 @@
                 "thermal imager"
             ],
             "price": 1207.37,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 2,
@@ -262,7 +262,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["telephoto lens", "microscope lens", "macro lens", "night vision camera"],
             "price": 928.51,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 3,
@@ -282,7 +282,7 @@
                 "thermal imager"
             ],
             "price": 1119.76,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 4,
@@ -301,7 +301,7 @@
                 "optical stabilization"
             ],
             "price": 647.28,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 5,
@@ -314,7 +314,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["telephoto lens", "thermal imager"],
             "price": 1395.04,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 6,
@@ -334,7 +334,7 @@
                 "microscope lens"
             ],
             "price": 1192.35,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 7,
@@ -352,7 +352,7 @@
                 "optical stabilization"
             ],
             "price": 994.08,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 8,
@@ -365,7 +365,7 @@
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["telephoto lens", "macro lens"],
             "price": 908.86,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 9,
@@ -378,7 +378,7 @@
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["macro lens", "telephoto lens"],
             "price": 943,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 10,
@@ -391,7 +391,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["microscope lens", "night vision camera"],
             "price": 1314.49,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 11,
@@ -411,7 +411,7 @@
                 "sensor stabilization"
             ],
             "price": 855.46,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 12,
@@ -430,7 +430,7 @@
                 "macro lens"
             ],
             "price": 1185.67,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 13,
@@ -443,7 +443,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "sensor stabilization"],
             "price": 988.09,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 14,
@@ -465,7 +465,7 @@
                 "ultra wide lens"
             ],
             "price": 840.62,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 15,
@@ -487,7 +487,7 @@
                 "telephoto lens"
             ],
             "price": 1212,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 16,
@@ -500,7 +500,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["sensor stabilization", "thermal imager", "telephoto lens", "microscope lens"],
             "price": 1395.96,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 17,
@@ -513,7 +513,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "microscope lens", "sensor stabilization"],
             "price": 601.09,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 18,
@@ -534,7 +534,7 @@
                 "optical stabilization"
             ],
             "price": 669.67,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 19,
@@ -547,7 +547,7 @@
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["macro lens", "sensor stabilization", "telephoto lens", "thermal imager"],
             "price": 910.22,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 20,
@@ -560,7 +560,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["ultra wide lens", "microscope lens", "sensor stabilization"],
             "price": 1151.28,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 21,
@@ -581,7 +581,7 @@
                 "optical stabilization"
             ],
             "price": 1039.34,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 22,
@@ -594,7 +594,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["telephoto lens", "microscope lens", "night vision camera"],
             "price": 656.75,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 23,
@@ -607,7 +607,7 @@
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["optical stabilization", "ultra wide lens", "microscope lens"],
             "price": 661.72,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 24,
@@ -629,7 +629,7 @@
                 "ultra wide lens"
             ],
             "price": 1069.98,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 25,
@@ -648,7 +648,7 @@
                 "macro lens"
             ],
             "price": 622.07,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 26,
@@ -670,7 +670,7 @@
                 "ultra wide lens"
             ],
             "price": 681.2,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 27,
@@ -692,7 +692,7 @@
                 "ultra wide lens"
             ],
             "price": 807.37,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 28,
@@ -712,7 +712,7 @@
                 "macro lens"
             ],
             "price": 814.58,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 29,
@@ -733,7 +733,7 @@
                 "night vision camera"
             ],
             "price": 1159.02,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 30,
@@ -752,7 +752,7 @@
                 "optical stabilization"
             ],
             "price": 1398.11,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 31,
@@ -770,7 +770,7 @@
                 "sensor stabilization"
             ],
             "price": 1444.58,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 32,
@@ -783,7 +783,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["optical stabilization", "microscope lens", "macro lens", "thermal imager"],
             "price": 614.33,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 33,
@@ -804,7 +804,7 @@
                 "microscope lens"
             ],
             "price": 851.84,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 34,
@@ -824,7 +824,7 @@
                 "thermal imager"
             ],
             "price": 1063.75,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 35,
@@ -837,7 +837,7 @@
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["thermal imager", "ultra wide lens", "telephoto lens"],
             "price": 728.22,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 36,
@@ -858,7 +858,7 @@
                 "ultra wide lens"
             ],
             "price": 1363.38,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 37,
@@ -877,7 +877,7 @@
                 "ultra wide lens"
             ],
             "price": 1486.9,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 38,
@@ -899,7 +899,7 @@
                 "optical stabilization"
             ],
             "price": 1134.07,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 39,
@@ -919,7 +919,7 @@
                 "telephoto lens"
             ],
             "price": 1255.35,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 40,
@@ -940,7 +940,7 @@
                 "thermal imager"
             ],
             "price": 1362.71,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 41,
@@ -962,7 +962,7 @@
                 "night vision camera"
             ],
             "price": 960.88,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 42,
@@ -984,7 +984,7 @@
                 "sensor stabilization"
             ],
             "price": 695.38,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 43,
@@ -1006,7 +1006,7 @@
                 "night vision camera"
             ],
             "price": 770.72,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 44,
@@ -1028,7 +1028,7 @@
                 "ultra wide lens"
             ],
             "price": 1065.39,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 45,
@@ -1041,7 +1041,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["macro lens", "ultra wide lens", "sensor stabilization", "optical stabilization"],
             "price": 845.52,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 46,
@@ -1060,7 +1060,7 @@
                 "macro lens"
             ],
             "price": 702,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 47,
@@ -1081,7 +1081,7 @@
                 "telephoto lens"
             ],
             "price": 927.08,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 48,
@@ -1094,7 +1094,7 @@
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["microscope lens", "night vision camera", "sensor stabilization", "thermal imager"],
             "price": 646.69,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 49,
@@ -1114,7 +1114,7 @@
                 "telephoto lens"
             ],
             "price": 614.68,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 50,
@@ -1136,7 +1136,7 @@
                 "microscope lens"
             ],
             "price": 1473.97,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 51,
@@ -1149,7 +1149,7 @@
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["night vision camera", "microscope lens", "optical stabilization"],
             "price": 774.86,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 52,
@@ -1162,7 +1162,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["telephoto lens", "thermal imager"],
             "price": 767.19,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 53,
@@ -1175,7 +1175,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "optical stabilization"],
             "price": 793.8,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 54,
@@ -1197,7 +1197,7 @@
                 "sensor stabilization"
             ],
             "price": 1111.63,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 55,
@@ -1215,7 +1215,7 @@
                 "night vision camera"
             ],
             "price": 1480.51,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 56,
@@ -1236,7 +1236,7 @@
                 "night vision camera"
             ],
             "price": 1092.56,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 57,
@@ -1258,7 +1258,7 @@
                 "telephoto lens"
             ],
             "price": 1415.74,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 58,
@@ -1275,7 +1275,7 @@
                 "thermal imager"
             ],
             "price": 665.02,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 59,
@@ -1295,7 +1295,7 @@
                 "ultra wide lens"
             ],
             "price": 1415.26,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 60,
@@ -1308,7 +1308,7 @@
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["microscope lens", "telephoto lens", "sensor stabilization", "night vision camera"],
             "price": 663.71,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 61,
@@ -1329,7 +1329,7 @@
                 "microscope lens"
             ],
             "price": 586.77,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 62,
@@ -1351,7 +1351,7 @@
                 "thermal imager"
             ],
             "price": 1479.39,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 63,
@@ -1371,7 +1371,7 @@
                 "thermal imager"
             ],
             "price": 928.12,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 64,
@@ -1384,7 +1384,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["microscope lens", "night vision camera"],
             "price": 731.89,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 65,
@@ -1397,7 +1397,7 @@
             "mainCamera_Pixels": "16 MP",
             "mainCamera_Features": ["sensor stabilization", "macro lens", "optical stabilization", "ultra wide lens"],
             "price": 557.95,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 66,
@@ -1410,7 +1410,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "ultra wide lens"],
             "price": 762.72,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 67,
@@ -1432,7 +1432,7 @@
                 "thermal imager"
             ],
             "price": 339.45,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 68,
@@ -1451,7 +1451,7 @@
                 "thermal imager"
             ],
             "price": 1269.66,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 69,
@@ -1472,7 +1472,7 @@
                 "sensor stabilization"
             ],
             "price": 1332.75,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 70,
@@ -1485,7 +1485,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["telephoto lens", "thermal imager", "microscope lens", "optical stabilization"],
             "price": 1334.34,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 71,
@@ -1504,7 +1504,7 @@
                 "microscope lens"
             ],
             "price": 1165.36,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 72,
@@ -1523,7 +1523,7 @@
                 "telephoto lens"
             ],
             "price": 1218.08,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 73,
@@ -1545,7 +1545,7 @@
                 "telephoto lens"
             ],
             "price": 1029.48,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 74,
@@ -1566,7 +1566,7 @@
                 "optical stabilization"
             ],
             "price": 395.3,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 75,
@@ -1579,7 +1579,7 @@
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["macro lens", "ultra wide lens", "sensor stabilization"],
             "price": 971.33,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 76,
@@ -1592,7 +1592,7 @@
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["optical stabilization", "ultra wide lens"],
             "price": 440.92,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 77,
@@ -1605,7 +1605,7 @@
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["ultra wide lens", "sensor stabilization", "thermal imager", "microscope lens"],
             "price": 1013.39,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 78,
@@ -1626,7 +1626,7 @@
                 "macro lens"
             ],
             "price": 477.21,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 79,
@@ -1647,7 +1647,7 @@
                 "optical stabilization"
             ],
             "price": 859.26,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 80,
@@ -1668,7 +1668,7 @@
                 "sensor stabilization"
             ],
             "price": 719.52,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 81,
@@ -1681,7 +1681,7 @@
             "mainCamera_Pixels": "16 MP",
             "mainCamera_Features": ["ultra wide lens", "thermal imager", "macro lens", "night vision camera"],
             "price": 1016.17,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 82,
@@ -1701,7 +1701,7 @@
                 "telephoto lens"
             ],
             "price": 1331.56,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 83,
@@ -1714,7 +1714,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["microscope lens", "thermal imager"],
             "price": 979.06,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 84,
@@ -1727,7 +1727,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "night vision camera", "telephoto lens", "sensor stabilization"],
             "price": 307.77,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 85,
@@ -1746,7 +1746,7 @@
                 "optical stabilization"
             ],
             "price": 1457.86,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 86,
@@ -1767,7 +1767,7 @@
                 "microscope lens"
             ],
             "price": 323.57,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 87,
@@ -1788,7 +1788,7 @@
                 "night vision camera"
             ],
             "price": 1392.68,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 88,
@@ -1809,7 +1809,7 @@
                 "ultra wide lens"
             ],
             "price": 880.37,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 89,
@@ -1822,7 +1822,7 @@
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["microscope lens", "optical stabilization"],
             "price": 463.2,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 90,
@@ -1844,7 +1844,7 @@
                 "macro lens"
             ],
             "price": 623.54,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 91,
@@ -1857,7 +1857,7 @@
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["microscope lens", "sensor stabilization", "night vision camera", "thermal imager"],
             "price": 996.12,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 92,
@@ -1878,7 +1878,7 @@
                 "macro lens"
             ],
             "price": 1353.44,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 93,
@@ -1891,7 +1891,7 @@
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["telephoto lens", "microscope lens", "sensor stabilization"],
             "price": 862.55,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 94,
@@ -1913,7 +1913,7 @@
                 "microscope lens"
             ],
             "price": 985.58,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 95,
@@ -1932,7 +1932,7 @@
                 "night vision camera"
             ],
             "price": 1173.91,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 96,
@@ -1945,7 +1945,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["sensor stabilization", "ultra wide lens"],
             "price": 1376.13,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 97,
@@ -1958,7 +1958,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["telephoto lens", "thermal imager", "sensor stabilization"],
             "price": 512.38,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 98,
@@ -1978,7 +1978,7 @@
                 "macro lens"
             ],
             "price": 971.59,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 99,
@@ -2000,7 +2000,7 @@
                 "macro lens"
             ],
             "price": 852.1,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 100,
@@ -2020,7 +2020,7 @@
                 "ultra wide lens"
             ],
             "price": 1148.66,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 101,
@@ -2033,7 +2033,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "sensor stabilization", "ultra wide lens"],
             "price": 1250.65,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 102,
@@ -2055,7 +2055,7 @@
                 "sensor stabilization"
             ],
             "price": 1350.47,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 103,
@@ -2068,7 +2068,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["night vision camera", "thermal imager"],
             "price": 1184.24,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 104,
@@ -2081,7 +2081,7 @@
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["sensor stabilization", "night vision camera", "thermal imager", "macro lens"],
             "price": 1330.22,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 105,
@@ -2094,7 +2094,7 @@
             "mainCamera_Pixels": "16 MP",
             "mainCamera_Features": ["night vision camera", "optical stabilization", "macro lens", "microscope lens"],
             "price": 471.64,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 106,
@@ -2115,7 +2115,7 @@
                 "thermal imager"
             ],
             "price": 1345.26,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 107,
@@ -2137,7 +2137,7 @@
                 "macro lens"
             ],
             "price": 1289.64,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 108,
@@ -2150,7 +2150,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["microscope lens", "ultra wide lens", "telephoto lens"],
             "price": 958.7,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 109,
@@ -2163,7 +2163,7 @@
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["night vision camera", "ultra wide lens"],
             "price": 516.2,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 110,
@@ -2181,7 +2181,7 @@
                 "optical stabilization"
             ],
             "price": 459.74,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 111,
@@ -2202,7 +2202,7 @@
                 "night vision camera"
             ],
             "price": 1447.53,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 112,
@@ -2215,7 +2215,7 @@
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["ultra wide lens", "sensor stabilization", "macro lens"],
             "price": 341.1,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 113,
@@ -2234,7 +2234,7 @@
                 "sensor stabilization"
             ],
             "price": 1188.36,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 114,
@@ -2254,7 +2254,7 @@
                 "sensor stabilization"
             ],
             "price": 1053.35,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 115,
@@ -2267,7 +2267,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["optical stabilization", "microscope lens", "night vision camera"],
             "price": 1377.44,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 116,
@@ -2285,7 +2285,7 @@
                 "night vision camera"
             ],
             "price": 562.47,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 117,
@@ -2298,7 +2298,7 @@
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["macro lens", "microscope lens", "telephoto lens", "night vision camera"],
             "price": 833.35,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 118,
@@ -2317,7 +2317,7 @@
                 "sensor stabilization"
             ],
             "price": 619.38,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 119,
@@ -2330,7 +2330,7 @@
             "mainCamera_Pixels": "16 MP",
             "mainCamera_Features": ["macro lens", "sensor stabilization", "optical stabilization"],
             "price": 331.93,
-            "category": "smartphone"
+            "category": "Smartphones"
         },
         {
             "id": 120,
@@ -2350,7 +2350,287 @@
                 "thermal imager"
             ],
             "price": 1139.3,
-            "category": "smartphone"
+            "category": "Smartphones"
+        },
+        {
+            "id": 121,
+            "brand": "Samsung",
+            "category": "TVs",
+            "model": "QLED Q90R",
+            "price": 1499.99
+        },
+        {
+            "id": 122,
+            "brand": "LG",
+            "category": "TVs",
+            "model": "OLED CX",
+            "price": 1799.0
+        },
+        {
+            "id": 123,
+            "brand": "Sony",
+            "category": "TVs",
+            "model": "Bravia X900H",
+            "price": 1299.5
+        },
+        {
+            "id": 124,
+            "brand": "TCL",
+            "category": "TVs",
+            "model": "6-Series",
+            "price": 699.99
+        },
+        {
+            "id": 125,
+            "brand": "Vizio",
+            "category": "TVs",
+            "model": "P-Series Quantum",
+            "price": 1199.95
+        },
+        {
+            "id": 126,
+            "brand": "Panasonic",
+            "category": "TVs",
+            "model": "FX800",
+            "price": 999.0
+        },
+        {
+            "id": 127,
+            "brand": "Hisense",
+            "category": "TVs",
+            "model": "H9G",
+            "price": 799.99
+        },
+        {
+            "id": 128,
+            "brand": "Samsung",
+            "category": "TVs",
+            "model": "Neo QLED QN90A",
+            "price": 1699.0
+        },
+        {
+            "id": 129,
+            "brand": "Sony",
+            "category": "TVs",
+            "model": "A8H OLED",
+            "price": 1499.99
+        },
+        {
+            "id": 130,
+            "brand": "LG",
+            "category": "TVs",
+            "model": "NanoCell NANO90",
+            "price": 1299.95
+        },
+        {
+            "id": 131,
+            "brand": "Vizio",
+            "category": "TVs",
+            "model": "M-Series Quantum",
+            "price": 849.0
+        },
+        {
+            "id": 132,
+            "brand": "TCL",
+            "category": "TVs",
+            "model": "5-Series",
+            "price": 599.0
+        },
+        {
+            "id": 133,
+            "brand": "Samsung",
+            "category": "TVs",
+            "model": "TU8000",
+            "price": 599.99
+        },
+        {
+            "id": 134,
+            "brand": "Sony",
+            "category": "TVs",
+            "model": "X800H",
+            "price": 799.5
+        },
+        {
+            "id": 135,
+            "brand": "LG",
+            "category": "TVs",
+            "model": "UM7300",
+            "price": 499.0
+        },
+        {
+            "id": 136,
+            "brand": "TCL",
+            "category": "TVs",
+            "model": "4-Series",
+            "price": 399.99
+        },
+        {
+            "id": 137,
+            "brand": "Hisense",
+            "category": "TVs",
+            "model": "R6090G",
+            "price": 369.95
+        },
+        {
+            "id": 138,
+            "brand": "Samsung",
+            "category": "TVs",
+            "model": "The Frame",
+            "price": 1299.0
+        },
+        {
+            "id": 139,
+            "brand": "Vizio",
+            "category": "TVs",
+            "model": "V-Series",
+            "price": 319.99
+        },
+        {
+            "id": 140,
+            "brand": "LG",
+            "category": "TVs",
+            "model": "UK6090",
+            "price": 379.95
+        },
+        {
+            "id": 141,
+            "brand": "Dell",
+            "category": "Laptops",
+            "model": "XPS 13",
+            "price": 1299.99
+        },
+        {
+            "id": 142,
+            "brand": "Apple",
+            "category": "Laptops",
+            "model": "MacBook Air",
+            "price": 1099.99
+        },
+        {
+            "id": 143,
+            "brand": "HP",
+            "category": "Laptops",
+            "model": "Spectre x360",
+            "price": 1399.99
+        },
+        {
+            "id": 144,
+            "brand": "Lenovo",
+            "category": "Laptops",
+            "model": "ThinkPad X1 Carbon",
+            "price": 1499.99
+        },
+        {
+            "id": 145,
+            "brand": "ASUS",
+            "category": "Laptops",
+            "model": "ZenBook 14",
+            "price": 999.99
+        },
+        {
+            "id": 146,
+            "brand": "Acer",
+            "category": "Laptops",
+            "model": "Swift 3",
+            "price": 799.99
+        },
+        {
+            "id": 147,
+            "brand": "MSI",
+            "category": "Laptops",
+            "model": "GS66 Stealth",
+            "price": 1799.99
+        },
+        {
+            "id": 148,
+            "brand": "Razer",
+            "category": "Laptops",
+            "model": "Blade 15",
+            "price": 1899.99
+        },
+        {
+            "id": 149,
+            "brand": "LG",
+            "category": "Laptops",
+            "model": "Gram 17",
+            "price": 1499.99
+        },
+        {
+            "id": 150,
+            "brand": "Microsoft",
+            "category": "Laptops",
+            "model": "Surface Laptop 4",
+            "price": 1299.99
+        },
+        {
+            "id": 151,
+            "brand": "Dell",
+            "category": "Laptops",
+            "model": "Inspiron 15",
+            "price": 799.99
+        },
+        {
+            "id": 152,
+            "brand": "HP",
+            "category": "Laptops",
+            "model": "Envy x360",
+            "price": 1199.99
+        },
+        {
+            "id": 153,
+            "brand": "Lenovo",
+            "category": "Laptops",
+            "model": "IdeaPad 5",
+            "price": 699.99
+        },
+        {
+            "id": 154,
+            "brand": "ASUS",
+            "category": "Laptops",
+            "model": "ROG Zephyrus G14",
+            "price": 1299.99
+        },
+        {
+            "id": 155,
+            "brand": "Acer",
+            "category": "Laptops",
+            "model": "Predator Helios 300",
+            "price": 1199.99
+        },
+        {
+            "id": 156,
+            "brand": "MSI",
+            "category": "Laptops",
+            "model": "GE75 Raider",
+            "price": 1699.99
+        },
+        {
+            "id": 157,
+            "brand": "Apple",
+            "category": "Laptops",
+            "model": "MacBook Pro",
+            "price": 1799.99
+        },
+        {
+            "id": 158,
+            "brand": "Razer",
+            "category": "Laptops",
+            "model": "Blade Stealth",
+            "price": 1399.99
+        },
+        {
+            "id": 159,
+            "brand": "LG",
+            "category": "Laptops",
+            "model": "Ultra 15",
+            "price": 1299.99
+        },
+        {
+            "id": 160,
+            "brand": "Lenovo",
+            "category": "Laptops",
+            "model": "Yoga C940",
+            "price": 1299.99
         }
     ],
     "commodities": [
