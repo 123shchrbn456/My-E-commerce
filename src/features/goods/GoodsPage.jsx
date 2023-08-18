@@ -6,12 +6,9 @@ import FilterGoods from "../filter/FilterGoods";
 import GoodsList from "./GoodsList";
 
 const GoodsPage = () => {
-    const urlParams = useParams();
     const location = useLocation();
-    // console.log(location);
 
     const { data = [], isLoading, isSuccess, isError } = useGetGoodsQuery(location.search ?? "");
-
     // console.log(data);
 
     let content;
@@ -25,10 +22,9 @@ const GoodsPage = () => {
         content = <div>Error!!!{error.toString()}</div>;
     }
 
-    // return <div className="goods-container">{content}</div>;
     return (
         <div className="page-goods">
-            <FilterGoods />
+            {isSuccess && <FilterGoods />}
             <GoodsList content={content} />
         </div>
     );

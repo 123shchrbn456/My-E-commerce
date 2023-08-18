@@ -14,32 +14,32 @@ const HeaderCategories = () => {
                 <div className="dropdown-menu information-grid">
                     <div>
                         <div className="dropdown-heading">
-                            <Link to="/goods/?brand=Apple">Apple series</Link>
+                            <Link to="/goods/?category=Smartphones&brand=Apple">Apple series</Link>
                         </div>
                         <div className="dropdown-links">
-                            <Link to="/goods/?brand=Apple&series=iPhone 14" className="link">
+                            <Link to="/goods/?category=Smartphones&brand=Apple&series=iPhone 14" className="link">
                                 Iphone 14
                             </Link>
-                            <Link to="/goods/?brand=Apple&series=iPhone 13" className="link">
+                            <Link to="/goods/?category=Smartphones&brand=Apple&series=iPhone 13" className="link">
                                 Iphone 13
                             </Link>
-                            <Link to="/goods/?brand=Apple&series=iPhone 12" className="link">
+                            <Link to="/goods/?category=Smartphones&brand=Apple&series=iPhone 12" className="link">
                                 Iphone 12
                             </Link>
                         </div>
                     </div>
                     <div>
                         <div className="dropdown-heading">
-                            <Link to="/goods/?brand=Samsung">Samsung series</Link>
+                            <Link to="/goods/?category=Smartphones&brand=Samsung">Samsung series</Link>
                         </div>
                         <div className="dropdown-links">
-                            <Link to="/goods/?brand=Samsung&series=Galaxy S" className="link">
+                            <Link to="/goods/?category=Smartphones&brand=Samsung&series=Galaxy S" className="link">
                                 S series
                             </Link>
-                            <Link to="/goods/?brand=Samsung&series=Galaxy A" className="link">
+                            <Link to="/goods/?category=Smartphones&brand=Samsung&series=Galaxy A" className="link">
                                 A series
                             </Link>
-                            <Link to="/goods/?brand=Samsung&series=Galaxy Note" className="link">
+                            <Link to="/goods/?category=Smartphones&brand=Samsung&series=Galaxy Note" className="link">
                                 Note series
                             </Link>
                         </div>

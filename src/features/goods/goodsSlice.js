@@ -18,6 +18,16 @@ export const goodsApiSlice = apiSlice.injectEndpoints({
             },
             providesTags: (result, error, arg) => [...result.ids.map((id) => ({ type: "Goods", id }))],
         }),
+        getBrandsForExactGategory: builder.query({
+            query: (category = "") => `/merchandise-improved?category=${category}`,
+            transformResponse: (responseDataArr) => {
+                if (!responseDataArr.length) return [];
+                const allBrands = [...new Set(responseDataArr.map((dataItem) => dataItem.brand))];
+                return allBrands;
+            },
+            // Изменить здесь валидацию
+            providesTags: (result, error, arg) => [...result.map((id) => ({ type: "Goods", id }))],
+        }),
         // Was made for GoodsPageCategorised.jsx
         getCategoryGoods: builder.query({
             query: (category) => `/commodities?category=${category}`,
@@ -33,4 +43,4 @@ export const goodsApiSlice = apiSlice.injectEndpoints({
     }),
 });
 
-export const { useGetGoodsQuery, useGetCategoryGoodsQuery } = goodsApiSlice;
+export const { useGetGoodsQuery, useGetCategoryGoodsQuery, useGetBrandsForExactGategoryQuery } = goodsApiSlice;

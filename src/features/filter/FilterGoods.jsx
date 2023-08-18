@@ -1,79 +1,116 @@
-import React, { useEffect } from "react";
-import { selectFiltersObj, updateFilterValue } from "./filterSlice";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useEffect, useMemo, useState } from "react";
 import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
+import { useGetGoodsQuery, useGetBrandsForExactGategoryQuery } from "../goods/goodsSlice";
 
 const FilterGoods = () => {
-    const dispatch = useDispatch();
     const location = useLocation();
     const navigate = useNavigate();
     const [searchParams, setSearchParams] = useSearchParams();
-    // console.log("searchParams", searchParams);
-    // console.log("searchParams func", Object.fromEntries(searchParams.entries()));
+    const [filterSeries, setFilterSeries] = useState(null);
 
-    const params = {};
+    const { data = [], isSuccess } = useGetGoodsQuery(location.search ?? "");
+    const { data: allBrands = [] } = useGetBrandsForExactGategoryQuery(searchParams.get("category"));
 
-    searchParams.forEach((value, key) => {
-        params[key] = searchParams.getAll(key);
-    });
+    // console.log(allBrands);
 
-    console.log(params);
+    const allFilterTypes = data[0]
+        ? Object.keys(data[0]).filter(
+              (dataItem) => dataItem !== "id" && dataItem !== "model" && dataItem !== "category"
+          )
+        : "No data available";
 
-    // const onInputChange = (e) => {
-    //     const name = e.target.name;
-    //     const value = e.target.type === "checkbox" ? e.target.checked : e.target.value;
-    //     dispatch(updateFilterValue({ name, value }));
-    // console.log(value);
-    // setFilteringInputs((filteringInputs) => ({ ...filteringInputs, [e.target.name]: value }));
-    // };
+    // if (allBrands.length && filterBrands === null) {
+    // const allBrands = [...new Set(data.map((dataItem) => dataItem.brand))];
+    // console.log("allBrands", allBrands);
+    // setFilterBrands(allBrands);
+    // отправлять в локал сторедж allBrands и searchParams.get("category")
+    // доставать из локал стореджа бренды, если searchParams.get("category") !== локал сторедж брендам, тогда менять их
+    // }
+
+    if (searchParams.getAll("brand").length === 1) {
+        const allSeries = [...new Set(data.map((dataItem) => dataItem.series))].filter((item) => item !== undefined);
+        console.log("allSeries", allSeries);
+        // setFilterSeries(allSeries);
+    }
 
     useEffect(() => {
         navigate(`${location.pathname + location.search}`);
     }, [searchParams]);
 
-    // searchParams.getAll("brand")
+    //
+    // useEffect(() => {
+    //     alert("category changed");
+    // }, [sadsadasd]);
 
-    const qwe = (e) => {
+    // useMemo(() => alert("category changed"), [sadsadasd]);
+
+    // попробовать useMemo
+    // попробовать useCallback
+
+    const onChangeFilterInputs = (e) => {
         const name = e.target.dataset.name;
         const value = e.target.dataset.value;
         const exactParamArr = searchParams.getAll(name);
         const isInParamArr = exactParamArr.includes(value);
 
-        console.log("isInParamArr", isInParamArr);
+        // Delete completely param array
         if (exactParamArr.length === 1 && isInParamArr) {
-            // Delete completely param array
             searchParams.delete(name);
             setSearchParams(searchParams);
             return;
         }
+        // Delete one param of the array
         if (exactParamArr.length > 1 && isInParamArr) {
-            // Delete one param of the array
             const tempArr = exactParamArr.filter((param) => param !== value);
-            setSearchParams({ [name]: [...tempArr] });
+            searchParams.delete(name);
+            searchParams.append([name], [...tempArr]);
+            setSearchParams(searchParams);
             return;
         }
+        // Add One more to this exact array
         if (exactParamArr.length > 0 && !isInParamArr) {
-            // add One more to this exact array
-            setSearchParams({ [name]: [...exactParamArr, value] });
+            searchParams.append([name], [value]);
+            setSearchParams(searchParams);
             return;
         }
         // Add completely new param
-        return setSearchParams({ [name]: [value] });
+        searchParams.append([name], [value]);
+        return setSearchParams(searchParams);
     };
 
     return (
         <section className="filter-bar__container">
-            <fieldset className="fieldset">
-                <legend>Brand</legend>
+            {/* <fieldset className="fieldset"> */}
+            {/* <legend>Brand</legend> */}
+            {allBrands?.length ? (
+                <fieldset className="fieldset">
+                    <legend>Brands</legend>
+                    {allBrands.map((brand, index) => (
+                        <label key={index}>
+                            <input
+                                type="checkbox"
+                                name="brand"
+                                data-name="brand"
+                                data-value={brand}
+                                checked={searchParams.getAll("brand").includes(brand) ? true : false}
+                                onChange={onChangeFilterInputs}
+                            />
+                            {brand}
+                        </label>
+                    ))}
+                </fieldset>
+            ) : (
+                ""
+            )}
 
-                <label>
+            {/* <label>
                     <input
                         type="checkbox"
                         name="brand"
                         data-name="brand"
                         data-value="Apple"
                         checked={searchParams.getAll("brand").includes("Apple") ? true : false}
-                        onChange={qwe}
+                        onChange={onChangeFilterInputs}
                     />
                     Apple
                 </label>
@@ -88,11 +125,11 @@ const FilterGoods = () => {
                         data-value="Samsung"
                         id=""
                         checked={searchParams.getAll("brand").includes("Samsung") ? true : false}
-                        onChange={qwe}
+                        onChange={onChangeFilterInputs}
                     />
                     Samsung
-                </label>
-            </fieldset>
+                </label> */}
+            {/* </fieldset> */}
             {/* Fieldset */}
             <fieldset className="fieldset">
                 <legend>Series</legend>
