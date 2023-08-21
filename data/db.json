@@ -400,7 +400,7 @@
             "series": "iPhone X",
             "color": "blue",
             "screenRefreshRate": "144 Hz",
-            "storage": "",
+            "storage": "64 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": [
                 "telephoto lens",
@@ -522,7 +522,7 @@
             "series": "iPhone 12",
             "color": "blue",
             "screenRefreshRate": "60 Hz",
-            "storage": "",
+            "storage": "128 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": [
                 "sensor stabilization",
@@ -543,7 +543,7 @@
             "series": "iPhone 13",
             "color": "yellow",
             "screenRefreshRate": "60 Hz",
-            "storage": "",
+            "storage": "128 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["macro lens", "sensor stabilization", "telephoto lens", "thermal imager"],
             "price": 910.22,
@@ -569,7 +569,7 @@
             "series": "iPhone 11",
             "color": "blue",
             "screenRefreshRate": "90 Hz",
-            "storage": "",
+            "storage": "64 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": [
                 "telephoto lens",
@@ -679,7 +679,7 @@
             "series": "iPhone 12",
             "color": "red",
             "screenRefreshRate": "60 Hz",
-            "storage": "",
+            "storage": "128 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": [
                 "macro lens",
@@ -1123,7 +1123,7 @@
             "series": "iPhone X",
             "color": "red",
             "screenRefreshRate": "144 Hz",
-            "storage": "",
+            "storage": "64 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": [
                 "night vision camera",
@@ -1245,7 +1245,7 @@
             "series": "iPhone 13",
             "color": "black",
             "screenRefreshRate": "165 Hz",
-            "storage": "",
+            "storage": "64 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": [
                 "night vision camera",
@@ -1441,7 +1441,7 @@
             "model": "Samsung Galaxy A20",
             "color": "gray",
             "screenRefreshRate": "144 Hz",
-            "storage": "",
+            "storage": "64 GB",
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": [
                 "optical stabilization",
@@ -1710,7 +1710,7 @@
             "model": "Samsung Galaxy J7",
             "color": "green",
             "screenRefreshRate": "60 Hz",
-            "storage": "",
+            "storage": "64 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["microscope lens", "thermal imager"],
             "price": 979.06,
@@ -1736,7 +1736,7 @@
             "model": "Samsung Galaxy Note 9",
             "color": "white",
             "screenRefreshRate": "144 Hz",
-            "storage": "",
+            "storage": "64 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": [
                 "macro lens",
@@ -1818,7 +1818,7 @@
             "model": "Samsung Galaxy A10",
             "color": "black",
             "screenRefreshRate": "",
-            "storage": "",
+            "storage": "64 GB",
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["microscope lens", "optical stabilization"],
             "price": 463.2,
@@ -1922,7 +1922,7 @@
             "model": "Samsung Galaxy A20",
             "color": "white",
             "screenRefreshRate": "60 Hz",
-            "storage": "",
+            "storage": "64 GB",
             "mainCamera_Pixels": "16 MP",
             "mainCamera_Features": [
                 "sensor stabilization",
@@ -2029,7 +2029,7 @@
             "model": "Samsung Galaxy Note 9",
             "color": "gray",
             "screenRefreshRate": "90 Hz",
-            "storage": "",
+            "storage": "64 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "sensor stabilization", "ultra wide lens"],
             "price": 1250.65,
@@ -2103,7 +2103,7 @@
             "model": "Samsung Galaxy Z Flip",
             "color": "black",
             "screenRefreshRate": "",
-            "storage": "",
+            "storage": "64 GB",
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": [
                 "telephoto lens",
@@ -2795,7 +2795,7 @@
                     "series": "iPhone X",
                     "color": "blue",
                     "screenRefreshRate": "144 Hz",
-                    "storage": "",
+                    "storage": "64 GB",
                     "mainCamera_Pixels": "48MP",
                     "mainCamera_Features": [
                         "telephoto lens",
@@ -2915,7 +2915,7 @@
                     "series": "iPhone 12",
                     "color": "blue",
                     "screenRefreshRate": "60 Hz",
-                    "storage": "",
+                    "storage": "64 GB",
                     "mainCamera_Pixels": "12 MP",
                     "mainCamera_Features": [
                         "sensor stabilization",

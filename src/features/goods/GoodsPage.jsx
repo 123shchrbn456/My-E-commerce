@@ -18,6 +18,7 @@ const GoodsPage = () => {
     } else if (isSuccess) {
         // Переделать внизу
         content = data.map((singleGoods) => <GoodsItem key={singleGoods.id} singleGoods={singleGoods} />);
+        if (data.length === 0) content = <h1>No Items found, change filters.</h1>;
     } else if (isError) {
         content = <div>Error!!!{error.toString()}</div>;
     }

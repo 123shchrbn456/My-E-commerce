@@ -1,55 +1,66 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { Fragment, useEffect } from "react";
 import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import { useGetGoodsQuery, useGetBrandsForExactGategoryQuery } from "../goods/goodsSlice";
+
+const exceptionsFilterCategories = ["id", "model", "category", "brand", "series", "price"];
 
 const FilterGoods = () => {
     const location = useLocation();
     const navigate = useNavigate();
     const [searchParams, setSearchParams] = useSearchParams();
-    const [filterSeries, setFilterSeries] = useState(null);
-
-    const { data = [], isSuccess } = useGetGoodsQuery(location.search ?? "");
-    const { data: allBrands = [] } = useGetBrandsForExactGategoryQuery(searchParams.get("category"));
-
-    // console.log(allBrands);
-
-    const allFilterTypes = data[0]
-        ? Object.keys(data[0]).filter(
-              (dataItem) => dataItem !== "id" && dataItem !== "model" && dataItem !== "category"
-          )
-        : "No data available";
-
-    // if (allBrands.length && filterBrands === null) {
-    // const allBrands = [...new Set(data.map((dataItem) => dataItem.brand))];
-    // console.log("allBrands", allBrands);
-    // setFilterBrands(allBrands);
-    // отправлять в локал сторедж allBrands и searchParams.get("category")
-    // доставать из локал стореджа бренды, если searchParams.get("category") !== локал сторедж брендам, тогда менять их
-    // }
-
-    if (searchParams.getAll("brand").length === 1) {
-        const allSeries = [...new Set(data.map((dataItem) => dataItem.series))].filter((item) => item !== undefined);
-        console.log("allSeries", allSeries);
-        // setFilterSeries(allSeries);
-    }
 
     useEffect(() => {
         navigate(`${location.pathname + location.search}`);
     }, [searchParams]);
 
-    //
-    // useEffect(() => {
-    //     alert("category changed");
-    // }, [sadsadasd]);
+    const { data: allBrands = [] } = useGetBrandsForExactGategoryQuery(searchParams.get("category"));
+    const { data = [], isSuccess } = useGetGoodsQuery(createSearchString());
 
-    // useMemo(() => alert("category changed"), [sadsadasd]);
+    function createSearchString() {
+        const categoryValue = searchParams.get("category");
+        const brandValues = searchParams.getAll("brand");
+        let categoryValueString = `?category=${categoryValue}`;
+        const brandValuesString = brandValues.length ? brandValues.map((brand) => `&brand=${brand}`).join("") : "";
+        const searchString = categoryValueString + brandValuesString;
+        return searchString;
+    }
 
-    // попробовать useMemo
-    // попробовать useCallback
+    function createFilterTypes() {
+        const tempObj = {};
+        const allFilterNames =
+            data?.[0] && Object.keys(data[0]).filter((dataItem) => !exceptionsFilterCategories.includes(dataItem));
+
+        allFilterNames?.forEach((filterKey, index) => {
+            const filterName = allFilterNames[index];
+            let filterValues = [...new Set(data.map((dataItem) => dataItem[filterName]))];
+            const isArraysInsideArray = filterValues.some((filterValue) => Array.isArray(filterValue));
+            if (isArraysInsideArray) {
+                // destructuring all arrays into one array, and extract only unique values
+                filterValues = [...new Set(filterValues.reduce((a, b) => [...a, ...b], []))];
+            }
+            tempObj[filterKey] = filterValues;
+        });
+        return tempObj;
+    }
+
+    let filterTypes = createFilterTypes();
+
+    if (searchParams.getAll("brand").length === 1) {
+        const allSeries = [...new Set(data.map((dataItem) => dataItem.series))].filter((item) => item !== undefined);
+        filterTypes.series = allSeries;
+    }
+
+    const isCheckboxShouldBeChecked = (key, filterValue) => {
+        key === "mainCamera_Features" ? (key += "_like") : key;
+        const booleanResult = searchParams.getAll(key).includes(filterValue) ? true : false;
+        return booleanResult;
+    };
 
     const onChangeFilterInputs = (e) => {
-        const name = e.target.dataset.name;
+        // переделывать для mainCamera_Features
+        let name = e.target.dataset.name;
         const value = e.target.dataset.value;
+        name === "mainCamera_Features" ? (name += "_like") : name;
         const exactParamArr = searchParams.getAll(name);
         const isInParamArr = exactParamArr.includes(value);
 
@@ -61,9 +72,9 @@ const FilterGoods = () => {
         }
         // Delete one param of the array
         if (exactParamArr.length > 1 && isInParamArr) {
-            const tempArr = exactParamArr.filter((param) => param !== value);
+            const choosenArrParams = exactParamArr.filter((param) => param !== value);
             searchParams.delete(name);
-            searchParams.append([name], [...tempArr]);
+            choosenArrParams.forEach((item) => searchParams.append([name], item));
             setSearchParams(searchParams);
             return;
         }
@@ -80,208 +91,52 @@ const FilterGoods = () => {
 
     return (
         <section className="filter-bar__container">
-            {/* <fieldset className="fieldset"> */}
-            {/* <legend>Brand</legend> */}
             {allBrands?.length ? (
                 <fieldset className="fieldset">
                     <legend>Brands</legend>
                     {allBrands.map((brand, index) => (
-                        <label key={index}>
-                            <input
-                                type="checkbox"
-                                name="brand"
-                                data-name="brand"
-                                data-value={brand}
-                                checked={searchParams.getAll("brand").includes(brand) ? true : false}
-                                onChange={onChangeFilterInputs}
-                            />
-                            {brand}
-                        </label>
+                        <Fragment key={index}>
+                            <label key={index}>
+                                <input
+                                    type="checkbox"
+                                    name="brand"
+                                    data-name="brand"
+                                    data-value={brand}
+                                    checked={searchParams.getAll("brand").includes(brand) ? true : false}
+                                    onChange={onChangeFilterInputs}
+                                />
+                                {brand}
+                            </label>
+                            <br key={Date.now()} />
+                        </Fragment>
                     ))}
                 </fieldset>
             ) : (
                 ""
             )}
-
-            {/* <label>
-                    <input
-                        type="checkbox"
-                        name="brand"
-                        data-name="brand"
-                        data-value="Apple"
-                        checked={searchParams.getAll("brand").includes("Apple") ? true : false}
-                        onChange={onChangeFilterInputs}
-                    />
-                    Apple
-                </label>
-
-                <br />
-
-                <label>
-                    <input
-                        type="checkbox"
-                        name="brand"
-                        data-name="brand"
-                        data-value="Samsung"
-                        id=""
-                        checked={searchParams.getAll("brand").includes("Samsung") ? true : false}
-                        onChange={onChangeFilterInputs}
-                    />
-                    Samsung
-                </label> */}
-            {/* </fieldset> */}
-            {/* Fieldset */}
-            <fieldset className="fieldset">
-                <legend>Series</legend>
-
-                <label>
-                    <input
-                        type="checkbox"
-                        name="series"
-                        id=""
-                        // checked={filteringInputs.series}
-                        // onChange={onInputChange}
-                    />
-                    iPhone 14
-                </label>
-
-                <br />
-
-                <label>
-                    <input
-                        type="checkbox"
-                        name="series"
-                        id=""
-                        // checked={filteringInputs.series}
-                        // onChange={onInputChange}
-                    />
-                    S series
-                </label>
-            </fieldset>
-            {/* Fieldset */}
-            <fieldset className="fieldset">
-                <legend>Storage</legend>
-
-                <label>
-                    <input
-                        type="checkbox"
-                        name="olderThan30"
-                        id=""
-                        // checked={filteringInputs.olderThan30}
-                        // onChange={onInputChange}
-                    />
-                    16 GB
-                </label>
-
-                <br />
-
-                <label>
-                    <input
-                        type="checkbox"
-                        name="olderThan30"
-                        id=""
-                        // checked={filteringInputs.olderThan30}
-                        // onChange={onInputChange}
-                    />
-                    32 GB
-                </label>
-                <br />
-
-                <label>
-                    <input
-                        type="checkbox"
-                        name="olderThan30"
-                        id=""
-                        // checked={filteringInputs.olderThan30}
-                        // onChange={onInputChange}
-                    />
-                    64 GB
-                </label>
-                <br />
-
-                <label>
-                    <input
-                        type="checkbox"
-                        name="olderThan30"
-                        id=""
-                        // checked={filteringInputs.olderThan30}
-                        // onChange={onInputChange}
-                    />
-                    128 GB
-                </label>
-            </fieldset>
-
-            {/* Fieldset */}
-            <fieldset className="fieldset">
-                <legend>Price</legend>
-
-                <label>
-                    <input
-                        type="text"
-                        name="minPrice"
-                        id=""
-                        // checked={filteringInputs.olderThan30}
-                        // onChange={onInputChange}
-                    />
-                    Min
-                </label>
-
-                <br />
-
-                <label>
-                    <input
-                        type="text"
-                        name="maxPrice"
-                        id=""
-                        // checked={filteringInputs.olderThan30}
-                        // onChange={onInputChange}
-                    />
-                    Max
-                </label>
-            </fieldset>
-
-            {/* Fieldset */}
-            <fieldset className="fieldset">
-                <legend>Camera Features</legend>
-
-                <label>
-                    <input
-                        type="checkbox"
-                        name="minPrice"
-                        id=""
-                        // checked={filteringInputs.olderThan30}
-                        // onChange={onInputChange}
-                    />
-                    optical stabilization
-                </label>
-
-                <br />
-
-                <label>
-                    <input
-                        type="checkbox"
-                        name="maxPrice"
-                        id=""
-                        // checked={filteringInputs.olderThan30}
-                        // onChange={onInputChange}
-                    />
-                    digital stabilization
-                </label>
-            </fieldset>
-
-            {/*  */}
-            <p className="filter-bar--item">
-                <label>
-                    <b>Name Search:</b>
-                    <input
-                        type="text"
-                        name="nameQuery"
-                        id=""
-                        // value={filteringInputs.nameQuery}
-                        // onChange={onInputChange}
-                    />
-                </label>
-            </p>
+            {Object.keys(filterTypes).length &&
+                Object.keys(filterTypes).map((key, index) => (
+                    <fieldset key={index} className="fieldset">
+                        <legend>{key}</legend>
+                        {filterTypes[key].map((filterValue, index) => (
+                            <Fragment key={index}>
+                                <label>
+                                    <input
+                                        type="checkbox"
+                                        name={key}
+                                        data-name={key}
+                                        data-value={filterValue}
+                                        // checked={searchParams.getAll(key).includes(filterValue) ? true : false}
+                                        checked={isCheckboxShouldBeChecked(key, filterValue)}
+                                        onChange={onChangeFilterInputs}
+                                    />
+                                    {filterValue}
+                                </label>
+                                <br></br>
+                            </Fragment>
+                        ))}
+                    </fieldset>
+                ))}
         </section>
     );
 };
