@@ -1,17 +1,11 @@
 import React, { Fragment, useEffect } from "react";
-import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
 import { useGetGoodsQuery, useGetBrandsForExactGategoryQuery } from "../goods/goodsSlice";
 
 const exceptionsFilterCategories = ["id", "model", "category", "brand", "series", "price"];
 
 const FilterGoods = () => {
-    const location = useLocation();
-    const navigate = useNavigate();
     const [searchParams, setSearchParams] = useSearchParams();
-
-    useEffect(() => {
-        navigate(`${location.pathname + location.search}`);
-    }, [searchParams]);
 
     const { data: allBrands = [] } = useGetBrandsForExactGategoryQuery(searchParams.get("category"));
     const { data = [], isSuccess } = useGetGoodsQuery(createSearchString());

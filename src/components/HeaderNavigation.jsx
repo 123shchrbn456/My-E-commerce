@@ -17,7 +17,7 @@ const HeaderNavigation = () => {
                         <Link to="/add-goods">Add Goods</Link>
                     </li>
                     <li>
-                        <Link to="/goods/single-goods/:id">Single Goods Item</Link>
+                        <Link to="/cart">Cart</Link>
                     </li>
                 </ul>
             </nav>

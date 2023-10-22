@@ -5,6 +5,11 @@ const GoodsItem = ({ singleGoods }) => {
     const singleGoodsKeys = Object.keys(singleGoods).filter(
         (key) => key !== "price" && key !== "id" && key !== "mainCamera_Features"
     );
+
+    const onBuyClick = () => {
+        const { id } = singleGoods;
+        // send to the cart
+    };
     return (
         <div className="goods-single-card">
             <h4>{singleGoods.brand + " " + singleGoods.model}</h4>
@@ -19,6 +24,8 @@ const GoodsItem = ({ singleGoods }) => {
                 ))}
             </ul>
             <p>Price: {singleGoods.price}$</p>
+            <button onClick={onBuyClick}>Buy</button>
+            <br />
             <Link style={{ color: "purple", fontWeight: 700 }} to={`/goods/single-goods/${singleGoods.id}`}>
                 View Details
             </Link>
