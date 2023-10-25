@@ -1,21 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../cart/cartSlice";
 
 const GoodsItem = ({ singleGoods }) => {
-    const singleGoodsKeys = Object.keys(singleGoods).filter(
+    console.log(singleGoods);
+    const dispatch = useDispatch();
+    const singleGoodsFeatures = Object.keys(singleGoods).filter(
         (key) => key !== "price" && key !== "id" && key !== "mainCamera_Features"
     );
 
     const onBuyClick = () => {
-        const { id } = singleGoods;
+        const { id, model: name, storage, color, price } = singleGoods;
         // send to the cart
+        dispatch(addToCart({ name, id, storage, color, price }));
     };
+
     return (
         <div className="goods-single-card">
-            <h4>{singleGoods.brand + " " + singleGoods.model}</h4>
-            {singleGoodsKeys.map((key, index) => (
+            <h4>{singleGoods.brand + " " + singleGoods.model + " " + singleGoods.storage + " " + singleGoods.color}</h4>
+            {singleGoodsFeatures.map((feature, index) => (
                 <p key={index}>
-                    {key}: {singleGoods[key]}
+                    {feature}: {singleGoods[feature]}
                 </p>
             ))}
             <ul>
