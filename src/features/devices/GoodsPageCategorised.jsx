@@ -2,9 +2,9 @@ import React, { useMemo } from "react";
 import { useParams } from "react-router-dom";
 import { useGetCategoryGoodsQuery } from "./goodsSlice";
 import { createSelector } from "@reduxjs/toolkit";
-import FilterGoods from "../filter/FilterGoods";
-import GoodsList from "./GoodsList";
-import GoodsItem from "./GoodsItem";
+import FilterGoods from "../filter/FilterDevices";
+import GoodsList from "./DevicesList";
+import GoodsItem from "./DeviceItem";
 
 const GoodsPageCategorised = () => {
     const urlParams = useParams();

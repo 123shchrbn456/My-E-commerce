@@ -11,10 +11,7 @@ const HeaderNavigation = () => {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/goods">All Goods</Link>
-                    </li>
-                    <li>
-                        <Link to="/add-goods">Add Goods</Link>
+                        <Link to="/add-device">Add Devices</Link>
                     </li>
                     <li>
                         <Link to="/cart">Cart</Link>

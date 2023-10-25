@@ -1,45 +1,44 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useGetGoodsQuery } from "../features/goods/goodsSlice";
 
 const HeaderCategories = () => {
     return (
         <div className="header-categories">
             <div className="dropdown" data-dropdown>
                 <button className="link" data-dropdown-button>
-                    <Link className="link" to="/goods/?category=Smartphones">
+                    <Link className="link" to="/devices/?category=Smartphones">
                         Smartphones
                     </Link>
                 </button>
                 <div className="dropdown-menu information-grid">
                     <div>
                         <div className="dropdown-heading">
-                            <Link to="/goods/?category=Smartphones&brand=Apple">Apple series</Link>
+                            <Link to="/devices/?category=Smartphones&brand=Apple">Apple series</Link>
                         </div>
                         <div className="dropdown-links">
-                            <Link to="/goods/?category=Smartphones&brand=Apple&series=iPhone 14" className="link">
+                            <Link to="/devices/?category=Smartphones&brand=Apple&series=iPhone 14" className="link">
                                 Iphone 14
                             </Link>
-                            <Link to="/goods/?category=Smartphones&brand=Apple&series=iPhone 13" className="link">
+                            <Link to="/devices/?category=Smartphones&brand=Apple&series=iPhone 13" className="link">
                                 Iphone 13
                             </Link>
-                            <Link to="/goods/?category=Smartphones&brand=Apple&series=iPhone 12" className="link">
+                            <Link to="/devices/?category=Smartphones&brand=Apple&series=iPhone 12" className="link">
                                 Iphone 12
                             </Link>
                         </div>
                     </div>
                     <div>
                         <div className="dropdown-heading">
-                            <Link to="/goods/?category=Smartphones&brand=Samsung">Samsung series</Link>
+                            <Link to="/devices/?category=Smartphones&brand=Samsung">Samsung series</Link>
                         </div>
                         <div className="dropdown-links">
-                            <Link to="/goods/?category=Smartphones&brand=Samsung&series=Galaxy S" className="link">
+                            <Link to="/devices/?category=Smartphones&brand=Samsung&series=Galaxy S" className="link">
                                 S series
                             </Link>
-                            <Link to="/goods/?category=Smartphones&brand=Samsung&series=Galaxy A" className="link">
+                            <Link to="/devices/?category=Smartphones&brand=Samsung&series=Galaxy A" className="link">
                                 A series
                             </Link>
-                            <Link to="/goods/?category=Smartphones&brand=Samsung&series=Galaxy Note" className="link">
+                            <Link to="/devices/?category=Smartphones&brand=Samsung&series=Galaxy Note" className="link">
                                 Note series
                             </Link>
                         </div>
@@ -48,7 +47,7 @@ const HeaderCategories = () => {
             </div>
             <div className="dropdown" data-dropdown>
                 <button className="link" data-dropdown-button>
-                    <Link className="link" to="/goods/?category=TVs">
+                    <Link className="link" to="/devices/?category=TVs">
                         TVs
                     </Link>
                 </button>
@@ -56,16 +55,16 @@ const HeaderCategories = () => {
                     <div>
                         <div className="dropdown-heading">TVs Brands</div>
                         <div className="dropdown-links">
-                            <Link className="link" to="/goods/?category=TVs&brand=LG">
+                            <Link className="link" to="/devices/?category=TVs&brand=LG">
                                 LG
                             </Link>
-                            <Link className="link" to="/goods/?category=TVs&brand=Samsung">
+                            <Link className="link" to="/devices/?category=TVs&brand=Samsung">
                                 Samsung
                             </Link>
-                            <Link className="link" to="/goods/?category=TVs&brand=Sony">
+                            <Link className="link" to="/devices/?category=TVs&brand=Sony">
                                 Sony
                             </Link>
-                            <Link className="link" to="/goods/?category=TVs&brand=Panasonic">
+                            <Link className="link" to="/devices/?category=TVs&brand=Panasonic">
                                 Panasonic
                             </Link>
                         </div>
@@ -74,7 +73,7 @@ const HeaderCategories = () => {
             </div>
             <div className="dropdown" data-dropdown>
                 <button className="link" data-dropdown-button>
-                    <Link className="link" to="/goods/?category=Laptops">
+                    <Link className="link" to="/devices/?category=Laptops">
                         Laptops
                     </Link>
                 </button>
@@ -82,16 +81,16 @@ const HeaderCategories = () => {
                     <div>
                         <div className="dropdown-heading">Laptops Brands</div>
                         <div className="dropdown-links">
-                            <Link className="link" to="/goods/?category=Laptops&brand=Dell">
+                            <Link className="link" to="/devices/?category=Laptops&brand=Dell">
                                 Dell
                             </Link>
-                            <Link className="link" to="/goods/?category=Laptops&brand=Acer">
+                            <Link className="link" to="/devices/?category=Laptops&brand=Acer">
                                 Acer
                             </Link>
-                            <Link className="link" to="/goods/?category=Laptops&brand=MSI">
+                            <Link className="link" to="/devices/?category=Laptops&brand=MSI">
                                 MSI
                             </Link>
-                            <Link className="link" to="/goods/?category=Laptops&brand=Razer">
+                            <Link className="link" to="/devices/?category=Laptops&brand=Razer">
                                 Razer
                             </Link>
                         </div>

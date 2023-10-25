@@ -4,11 +4,11 @@ import { Provider } from "react-redux";
 import { store } from "./app/store";
 import App from "./App.jsx";
 import "./index.css";
-import { goodsApiSlice } from "./features/goods/goodsSlice";
+import { devicesApiSlice } from "./features/devices/devicesSlice";
 
 // import { usersApiSlice } from "./features/users/usersSlice";
 
-// store.dispatch(goodsApiSlice.endpoints.getGoods.initiate());
+// store.dispatch(devicesApiSlice.endpoints.getGoods.initiate());
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>

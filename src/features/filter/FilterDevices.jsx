@@ -1,14 +1,21 @@
 import React, { Fragment, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import { useGetGoodsQuery, useGetBrandsForExactGategoryQuery } from "../goods/goodsSlice";
+import { useGetDevicesQuery, useGetBrandsForExactGategoryQuery } from "../devices/devicesSlice";
 
 const exceptionsFilterCategories = ["id", "model", "category", "brand", "series", "price"];
 
-const FilterGoods = () => {
+const FilterDevices = () => {
     const [searchParams, setSearchParams] = useSearchParams();
 
     const { data: allBrands = [] } = useGetBrandsForExactGategoryQuery(searchParams.get("category"));
-    const { data = [], isSuccess } = useGetGoodsQuery(createSearchString());
+    const { data = [], isSuccess } = useGetDevicesQuery(createSearchString());
+
+    let filterTypes = createFilterTypes();
+
+    if (searchParams.getAll("brand").length === 1) {
+        const allSeries = [...new Set(data.map((dataItem) => dataItem.series))].filter((item) => item !== undefined);
+        filterTypes.series = allSeries;
+    }
 
     function createSearchString() {
         const categoryValue = searchParams.get("category");
@@ -35,13 +42,6 @@ const FilterGoods = () => {
             tempObj[filterKey] = filterValues;
         });
         return tempObj;
-    }
-
-    let filterTypes = createFilterTypes();
-
-    if (searchParams.getAll("brand").length === 1) {
-        const allSeries = [...new Set(data.map((dataItem) => dataItem.series))].filter((item) => item !== undefined);
-        filterTypes.series = allSeries;
     }
 
     const isCheckboxShouldBeChecked = (key, filterValue) => {
@@ -135,4 +135,4 @@ const FilterGoods = () => {
     );
 };
 
-export default FilterGoods;
+export default FilterDevices;

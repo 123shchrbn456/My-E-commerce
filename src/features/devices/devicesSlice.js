@@ -1,8 +1,8 @@
 import { apiSlice } from "../api/apiSlice";
 
-export const goodsApiSlice = apiSlice.injectEndpoints({
+export const devicesApiSlice = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
-        getGoods: builder.query({
+        getDevices: builder.query({
             query: (searchParams) => `/merchandise-improved${searchParams}`,
             providesTags: (result, error, arg) => [
                 { type: "Goods", id: "LIST" },
@@ -18,7 +18,7 @@ export const goodsApiSlice = apiSlice.injectEndpoints({
                 return allBrands;
             },
         }),
-        getSingleGoods: builder.query({
+        getSingleDevice: builder.query({
             query: (singleGoodsId) => `/merchandise-improved?id=${singleGoodsId}`,
             transformResponse: (responseDataArr) => {
                 const [singleObj] = responseDataArr;
@@ -28,7 +28,7 @@ export const goodsApiSlice = apiSlice.injectEndpoints({
         }),
 
         // Was made for GoodsPageCategorised.jsx
-        getCategoryGoods: builder.query({
+        getCategoryDevices: builder.query({
             query: (category) => `/commodities?category=${category}`,
             transformResponse: (responseDataArr) => {
                 const [responsObj] = responseDataArr;
@@ -42,5 +42,9 @@ export const goodsApiSlice = apiSlice.injectEndpoints({
     }),
 });
 
-export const { useGetGoodsQuery, useGetCategoryGoodsQuery, useGetBrandsForExactGategoryQuery, useGetSingleGoodsQuery } =
-    goodsApiSlice;
+export const {
+    useGetDevicesQuery,
+    useGetCategoryDevicesQuery,
+    useGetBrandsForExactGategoryQuery,
+    useGetSingleDeviceQuery,
+} = devicesApiSlice;

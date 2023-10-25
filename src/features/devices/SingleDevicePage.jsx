@@ -1,10 +1,10 @@
 import React from "react";
-import { useGetSingleGoodsQuery } from "./goodsSlice";
+import { useGetSingleDeviceQuery } from "./devicesSlice";
 import { useParams } from "react-router-dom";
 
-const SingleGoodsPage = () => {
+const SingleDevicePage = () => {
     const { id } = useParams();
-    const { data, isSuccess, isLoading, isError } = useGetSingleGoodsQuery(id);
+    const { data, isSuccess, isLoading, isError } = useGetSingleDeviceQuery(id);
     const singleGoodsKeys =
         isSuccess &&
         Object.keys(data).filter((key) => key !== "price" && key !== "id" && key !== "mainCamera_Features");
@@ -33,8 +33,8 @@ const SingleGoodsPage = () => {
     } else if (isError) {
         content = <div>Error </div>;
     }
-    console.log(data);
+
     return <div>{content}</div>;
 };
 
-export default SingleGoodsPage;
+export default SingleDevicePage;
