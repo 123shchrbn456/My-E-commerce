@@ -1,9 +1,11 @@
 import React from "react";
-import DeviceItem from "./DeviceItem";
+import DeviceItem from "../features/devices/DeviceItem";
 import { useLocation } from "react-router-dom";
-import { useGetDevicesQuery } from "./devicesSlice";
-import FilterDevices from "../filter/FilterDevices";
-import DevicesList from "./DevicesList";
+import { useGetDevicesQuery } from "../features/devices/devicesSlice";
+import FilterDevices from "../features/filter/FilterDevices";
+import DevicesList from "../features/devices/DevicesList";
+import PageWrapper from "../ui/PageWrapper";
+PageWrapper;
 
 const DevicesPage = () => {
     const location = useLocation();
@@ -23,10 +25,10 @@ const DevicesPage = () => {
     }
 
     return (
-        <div className="page-goods">
-            {isSuccess && <FilterDevices />}
-            <DevicesList content={content} />
-        </div>
+        <PageWrapper page="devices">
+            <FilterDevices />
+            {isSuccess && <DevicesList content={content} />}
+        </PageWrapper>
     );
 };
 

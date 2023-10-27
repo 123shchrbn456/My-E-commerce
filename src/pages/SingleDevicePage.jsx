@@ -1,13 +1,12 @@
 import React from "react";
-import { useGetSingleDeviceQuery } from "./devicesSlice";
+import { useGetSingleDeviceQuery } from "../features/devices/devicesSlice";
 import { useParams } from "react-router-dom";
 
 const SingleDevicePage = () => {
     const { id } = useParams();
     const { data, isSuccess, isLoading, isError } = useGetSingleDeviceQuery(id);
     const singleGoodsKeys =
-        isSuccess &&
-        Object.keys(data).filter((key) => key !== "price" && key !== "id" && key !== "mainCamera_Features");
+        isSuccess && Object.keys(data).filter((key) => key !== "price" && key !== "id" && key !== "mainCamera_Features");
 
     let content;
 
