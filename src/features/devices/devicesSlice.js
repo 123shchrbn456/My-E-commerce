@@ -14,8 +14,8 @@ export const devicesApiSlice = apiSlice.injectEndpoints({
             transformResponse: (responseDataArr) => {
                 // Достать все фильтры отсюда
                 if (!responseDataArr.length) return [];
-                const allBrands = [...new Set(responseDataArr.map((dataItem) => dataItem.brand))];
-                return allBrands;
+                const uniqueBrandsForCategory = [...new Set(responseDataArr.map((dataItem) => dataItem.brand))];
+                return uniqueBrandsForCategory;
             },
         }),
         getSingleDevice: builder.query({
@@ -44,6 +44,7 @@ export const devicesApiSlice = apiSlice.injectEndpoints({
 
 export const {
     useGetDevicesQuery,
+    useGetDevicesv2Query,
     useGetCategoryDevicesQuery,
     useGetBrandsForExactGategoryQuery,
     useGetSingleDeviceQuery,

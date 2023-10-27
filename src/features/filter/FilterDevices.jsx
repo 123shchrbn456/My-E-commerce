@@ -1,35 +1,42 @@
 import React, { Fragment, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import { useGetDevicesQuery, useGetBrandsForExactGategoryQuery } from "../devices/devicesSlice";
+import { useGetDevicesQuery, useGetBrandsForExactGategoryQuery, useGetDevicesv2Query } from "../devices/devicesSlice";
+import { addPropertyToObjectAtKeyIndex } from "../../utils/helpers";
 
 const exceptionsFilterCategories = ["id", "model", "category", "brand", "series", "price"];
 
 const FilterDevices = () => {
     const [searchParams, setSearchParams] = useSearchParams();
+    const isFilteringOnlyOneBrand = searchParams.getAll("brand").length === 1;
 
-    const { data: allBrands = [] } = useGetBrandsForExactGategoryQuery(searchParams.get("category"));
-    const { data = [], isSuccess } = useGetDevicesQuery(createSearchString());
+    const { data: uniqueBrandsForCategory = [] } = useGetBrandsForExactGategoryQuery(searchParams.get("category"));
+    const { data = [] } = useGetDevicesQuery(createCategoryAndBrandsSearchString());
+    // console.log(searchParams);
 
     let filterTypes = createFilterTypes();
 
-    if (searchParams.getAll("brand").length === 1) {
-        const allSeries = [...new Set(data.map((dataItem) => dataItem.series))].filter((item) => item !== undefined);
-        filterTypes.series = allSeries;
+    if (isFilteringOnlyOneBrand) {
+        // Adding series array for this brand
+        const exactBrandSeries = [...new Set(data.map((dataItem) => dataItem.series))].filter((item) => item !== undefined);
+        // filterTypes.series = exactBrandSeries;
+
+        // Insert "series" array in first position
+        filterTypes = addPropertyToObjectAtKeyIndex(filterTypes, 0, "series", exactBrandSeries);
     }
 
-    function createSearchString() {
+    function createCategoryAndBrandsSearchString() {
         const categoryValue = searchParams.get("category");
         const brandValues = searchParams.getAll("brand");
+        const isMoreThanOneBrand = brandValues.length;
         let categoryValueString = `?category=${categoryValue}`;
-        const brandValuesString = brandValues.length ? brandValues.map((brand) => `&brand=${brand}`).join("") : "";
+        const brandValuesString = isMoreThanOneBrand ? brandValues.map((brand) => `&brand=${brand}`).join("") : "";
         const searchString = categoryValueString + brandValuesString;
         return searchString;
     }
 
     function createFilterTypes() {
         const tempObj = {};
-        const allFilterNames =
-            data?.[0] && Object.keys(data[0]).filter((dataItem) => !exceptionsFilterCategories.includes(dataItem));
+        const allFilterNames = data?.[0] && Object.keys(data[0]).filter((dataItem) => !exceptionsFilterCategories.includes(dataItem));
 
         allFilterNames?.forEach((filterKey, index) => {
             const filterName = allFilterNames[index];
@@ -85,10 +92,10 @@ const FilterDevices = () => {
 
     return (
         <section className="filter-bar__container">
-            {allBrands?.length ? (
+            {uniqueBrandsForCategory?.length ? (
                 <fieldset className="fieldset">
                     <legend>Brands</legend>
-                    {allBrands.map((brand, index) => (
+                    {uniqueBrandsForCategory.map((brand, index) => (
                         <Fragment key={index}>
                             <label key={index}>
                                 <input

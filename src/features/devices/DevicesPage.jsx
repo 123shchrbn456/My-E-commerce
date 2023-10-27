@@ -3,7 +3,7 @@ import DeviceItem from "./DeviceItem";
 import { useLocation } from "react-router-dom";
 import { useGetDevicesQuery } from "./devicesSlice";
 import FilterDevices from "../filter/FilterDevices";
-import GoodsList from "./DevicesList";
+import DevicesList from "./DevicesList";
 
 const DevicesPage = () => {
     const location = useLocation();
@@ -25,7 +25,7 @@ const DevicesPage = () => {
     return (
         <div className="page-goods">
             {isSuccess && <FilterDevices />}
-            <GoodsList content={content} />
+            <DevicesList content={content} />
         </div>
     );
 };

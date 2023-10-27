@@ -11,7 +11,6 @@ const Cart = () => {
     if (!cart.length) {
         content = <div>No cart items found</div>;
     } else {
-        // Переделать внизу
         content = cart.map((cartItem, index) => <CartItem key={index} cartItem={cartItem} />);
     }
     return (
