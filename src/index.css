@@ -123,3 +123,9 @@ h1 {
     /* display: inline-block;
     width: 30%; */
 }
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}

@@ -1,14 +1,10 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { addToCart, selectAllCartItems, deleteFromCart } from "./cartSlice";
+import { useSelector } from "react-redux";
+import { selectAllCartItems } from "./cartSlice";
+import CartItem from "./CartItem";
 
 const Cart = () => {
-    const dispatch = useDispatch();
     const cart = useSelector(selectAllCartItems);
-
-    const onDeleteClick = (id) => {
-        dispatch(deleteFromCart(id));
-    };
 
     let content;
 
@@ -16,19 +12,14 @@ const Cart = () => {
         content = <div>No cart items found</div>;
     } else {
         // Переделать внизу
-        content = cart.map((cartItem, index) => (
-            <div key={index}>
-                <p>
-                    {cartItem.name} {cartItem.storage} {cartItem.color} {cartItem.price}$
-                </p>
-                <button onClick={() => onDeleteClick(cartItem.id)}>Delete</button>
-            </div>
-        ));
+        content = cart.map((cartItem, index) => <CartItem key={index} cartItem={cartItem} />);
     }
     return (
         <div>
             <h3>Cart</h3>
             {content}
+            <button>Submit cart</button>
+            <button>Clear cart</button>
         </div>
     );
 };
