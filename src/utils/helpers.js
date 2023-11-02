@@ -4,3 +4,10 @@ export const addPropertyToObjectAtKeyIndex = (object, positionKey = 0, newProper
     const newObj = Object.fromEntries(keyValuePairs);
     return newObj;
 };
+
+export const useSendCartItemsMutation = () => {
+    const q = (cartItems) => {
+        console.log(cartItems);
+    };
+    return [q];
+};
