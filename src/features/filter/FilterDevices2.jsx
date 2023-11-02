@@ -11,7 +11,6 @@ const FilterDevices = () => {
 
     const { data: uniqueBrandsForCategory = [] } = useGetBrandsForExactGategoryQuery(searchParams.get("category"));
     const { data = [] } = useGetDevicesQuery(createCategoryAndBrandsSearchString());
-    // console.log(searchParams);
 
     let filterTypes = createFilterTypes();
 
@@ -95,46 +94,42 @@ const FilterDevices = () => {
             {uniqueBrandsForCategory?.length ? (
                 <fieldset className="fieldset">
                     <legend>Brands</legend>
-                    {uniqueBrandsForCategory.map((brand, index) => (
-                        <Fragment key={index}>
-                            <label key={index}>
-                                <input
-                                    type="checkbox"
-                                    name="brand"
-                                    data-name="brand"
-                                    data-value={brand}
-                                    checked={searchParams.getAll("brand").includes(brand) ? true : false}
-                                    onChange={onChangeFilterInputs}
-                                />
-                                {brand}
-                            </label>
-                            <br key={Date.now()} />
-                        </Fragment>
+                    {uniqueBrandsForCategory.map((brandValue, index) => (
+                        <div className="filter-option" key={index}>
+                            <input
+                                type="checkbox"
+                                id={"brand" + brandValue}
+                                name="brand"
+                                data-name="brand"
+                                data-value={brandValue}
+                                checked={searchParams.getAll("brand").includes(brandValue) ? true : false}
+                                onChange={onChangeFilterInputs}
+                            />
+                            <label htmlFor={"brand" + brandValue}>{brandValue}</label>
+                        </div>
                     ))}
                 </fieldset>
             ) : (
                 ""
             )}
             {Object.keys(filterTypes).length &&
-                Object.keys(filterTypes).map((key, index) => (
+                Object.keys(filterTypes).map((filterCategoryName, index) => (
                     <fieldset key={index} className="fieldset">
-                        <legend>{key}</legend>
-                        {filterTypes[key].map((filterValue, index) => (
-                            <Fragment key={index}>
-                                <label>
-                                    <input
-                                        type="checkbox"
-                                        name={key}
-                                        data-name={key}
-                                        data-value={filterValue}
-                                        // checked={searchParams.getAll(key).includes(filterValue) ? true : false}
-                                        checked={isCheckboxShouldBeChecked(key, filterValue)}
-                                        onChange={onChangeFilterInputs}
-                                    />
-                                    {filterValue}
-                                </label>
-                                <br></br>
-                            </Fragment>
+                        <legend>{filterCategoryName}</legend>
+                        {filterTypes[filterCategoryName].map((filterValue, index) => (
+                            <div className="filter-option" key={index}>
+                                <input
+                                    type="checkbox"
+                                    id={filterCategoryName + filterValue}
+                                    name={filterCategoryName}
+                                    data-name={filterCategoryName}
+                                    data-value={filterValue}
+                                    // checked={searchParams.getAll(key).includes(filterValue) ? true : false}
+                                    checked={isCheckboxShouldBeChecked(filterCategoryName, filterValue)}
+                                    onChange={onChangeFilterInputs}
+                                />
+                                <label htmlFor={filterCategoryName + filterValue}>{filterValue}</label>
+                            </div>
                         ))}
                     </fieldset>
                 ))}

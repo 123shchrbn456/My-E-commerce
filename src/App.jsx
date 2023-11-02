@@ -2,8 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AppLayout from "./ui/AppLayout";
 import HomePage from "./pages/HomePage";
 import DevicesPage from "./pages/DevicesPage";
+import DevicesPage2 from "./pages/DevicesPage2";
 import SingleDevicePage from "./pages/SingleDevicePage";
-import CartPage from "./pages/CartPage";
+// import CartPage from "./pages/CartPage";
 import CartPage2 from "./pages/CartPage2";
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
                 <Routes>
                     <Route element={<AppLayout />}>
                         <Route path="/" element={<HomePage />}></Route>
-                        <Route path="/devices" element={<DevicesPage />}></Route>
+                        {/* <Route path="/devices" element={<DevicesPage />}></Route> */}
+                        <Route path="/devices" element={<DevicesPage2 />}></Route>
                         {/* <Route path="/goods/:filterName/:filterValue" element={<GoodsPageCategorised />}></Route> */}
                         <Route path="/devices/single-device/:id" element={<SingleDevicePage />}></Route>
                         {/* <Route path="/cart" element={<CartPage />}></Route> */}
