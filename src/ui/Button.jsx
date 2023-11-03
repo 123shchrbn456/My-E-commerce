@@ -1,5 +1,3 @@
-import React from "react";
-
 const Button = ({ type = "primary", children, ...props }) => {
     const types = {
         primary: "black",
