@@ -13,35 +13,24 @@ const FilterCheckbox = ({ filterCategoryName, filterValue }) => {
 
     const onChangeFilterInputs = (e) => {
         // переделывать для mainCamera_Features
+        const isChecked = e.target.checked;
         let name = e.target.dataset.name;
         const value = e.target.dataset.value;
-        name === "mainCamera_Features" ? (name += "_like") : name;
-        const exactParamArr = searchParams.getAll(name);
-        const isInParamArr = exactParamArr.includes(value);
+        name === "mainCamera_Features" ? name + "_like" : name;
 
-        // Delete completely param array
-        if (exactParamArr.length === 1 && isInParamArr) {
-            searchParams.delete(name);
-            setSearchParams(searchParams);
-            return;
-        }
-        // Delete one param of the array
-        if (exactParamArr.length > 1 && isInParamArr) {
-            const choosenArrParams = exactParamArr.filter((param) => param !== value);
-            searchParams.delete(name);
-            choosenArrParams.forEach((item) => searchParams.append([name], item));
-            setSearchParams(searchParams);
-            return;
-        }
-        // Add One more to this exact array
-        if (exactParamArr.length > 0 && !isInParamArr) {
+        // Add One more to this exact array or Add completely new param
+        if (isChecked) {
             searchParams.append([name], [value]);
             setSearchParams(searchParams);
             return;
         }
-        // Add completely new param
-        searchParams.append([name], [value]);
-        return setSearchParams(searchParams);
+
+        // Delete completely param array or delete one param of the array
+        if (!isChecked) {
+            searchParams.delete(name, value);
+            setSearchParams(searchParams);
+            return;
+        }
     };
 
     return (

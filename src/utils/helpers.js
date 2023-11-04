@@ -5,9 +5,19 @@ export const addPropertyToObjectAtKeyIndex = (object, positionKey = 0, newProper
     return newObj;
 };
 
+// Fake
 export const useSendCartItemsMutation = () => {
     const q = (cartItems) => {
         console.log(cartItems);
     };
     return [q];
+};
+
+export const createCategoryAndBrandsSearchString = (categoryValue, brandValues) => {
+    // In case there are two or more brands are being filtered
+    const isMoreThanOneBrand = brandValues.length;
+    let categoryValueString = `?category=${categoryValue}`;
+    const brandValuesString = isMoreThanOneBrand ? brandValues.map((brand) => `&brand=${brand}`).join("") : "";
+    const searchString = categoryValueString + brandValuesString;
+    return searchString;
 };

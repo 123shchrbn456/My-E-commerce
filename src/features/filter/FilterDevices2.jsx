@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { useGetDevicesQuery, useGetBrandsForExactGategoryQuery, useGetDevicesv2Query } from "../devices/devicesSlice";
-import { addPropertyToObjectAtKeyIndex } from "../../utils/helpers";
+import { addPropertyToObjectAtKeyIndex, createCategoryAndBrandsSearchString } from "../../utils/helpers";
 import Checkbox from "../../ui/Checkbox";
 import FilterCheckbox from "./FilterCheckbox";
 
@@ -9,34 +9,25 @@ const exceptionsFilterCategories = ["id", "model", "category", "brand", "series"
 
 const FilterDevices = () => {
     const [searchParams, setSearchParams] = useSearchParams();
-    const isFilteringOnlyOneBrand = searchParams.getAll("brand").length === 1;
+    const urlCategoryValue = searchParams.get("category");
+    const urlBrandValues = searchParams.getAll("brand");
+    const isFilteringOnlyOneBrand = urlBrandValues.length === 1;
+
+    const queryString = createCategoryAndBrandsSearchString(urlCategoryValue, urlBrandValues);
 
     const { data: uniqueBrandsForCategory = [] } = useGetBrandsForExactGategoryQuery(searchParams.get("category"));
-    const { data = [] } = useGetDevicesQuery(createCategoryAndBrandsSearchString());
+    const { data = [] } = useGetDevicesQuery(queryString);
 
-    let filterTypes = createFilterTypes();
+    let filterCategoriesAndValues = createFilteringData();
 
     if (isFilteringOnlyOneBrand) {
-        // Adding series array for this brand
-        const exactBrandSeries = [...new Set(data.map((dataItem) => dataItem.series))].filter((item) => item !== undefined);
-        // filterTypes.series = exactBrandSeries;
-
-        // Insert "series" array in first position
-        filterTypes = addPropertyToObjectAtKeyIndex(filterTypes, 0, "series", exactBrandSeries);
+        // Adding filtering "series" category
+        const seriesFilteringValues = [...new Set(data.map((dataItem) => dataItem.series))].filter((item) => item !== undefined);
+        // Insert "series" array in first(0) position
+        filterCategoriesAndValues = addPropertyToObjectAtKeyIndex(filterCategoriesAndValues, 0, "series", seriesFilteringValues);
     }
 
-    function createCategoryAndBrandsSearchString() {
-        // In case there are two or more brands are being filtered
-        const categoryValue = searchParams.get("category");
-        const brandValues = searchParams.getAll("brand");
-        const isMoreThanOneBrand = brandValues.length;
-        let categoryValueString = `?category=${categoryValue}`;
-        const brandValuesString = isMoreThanOneBrand ? brandValues.map((brand) => `&brand=${brand}`).join("") : "";
-        const searchString = categoryValueString + brandValuesString;
-        return searchString;
-    }
-
-    function createFilterTypes() {
+    function createFilteringData() {
         const tempObj = {};
         const allFilterNames = data?.[0] && Object.keys(data[0]).filter((dataItem) => !exceptionsFilterCategories.includes(dataItem));
 
@@ -50,6 +41,7 @@ const FilterDevices = () => {
             }
             tempObj[filterKey] = filterValues;
         });
+
         return tempObj;
     }
 
@@ -59,53 +51,19 @@ const FilterDevices = () => {
                 <fieldset className="fieldset">
                     <legend>Brands</legend>
                     {uniqueBrandsForCategory.map((brandValue, index) => (
-                        // <div className="filter-option" key={index}>
-                        //     <input
-                        //         type="checkbox"
-                        //         id={"brand" + brandValue}
-                        //         name="brand"
-                        //         data-name="brand"
-                        //         data-value={brandValue}
-                        //         checked={searchParams.getAll("brand").includes(brandValue) ? true : false}
-                        //         onChange={onChangeFilterInputs}
-                        //     />
-                        //     <label htmlFor={"brand" + brandValue}>{brandValue}</label>
-                        // </div>
-                        <FilterCheckbox filterCategoryName="brand" filterValue={brandValue} />
+                        <FilterCheckbox key={index} filterCategoryName="brand" filterValue={brandValue} />
                     ))}
                 </fieldset>
             ) : (
                 ""
             )}
 
-            {Object.keys(filterTypes).length &&
-                Object.keys(filterTypes).map((filterCategoryName, index) => (
+            {Object.keys(filterCategoriesAndValues).length &&
+                Object.keys(filterCategoriesAndValues).map((filterCategoryName, index) => (
                     <fieldset key={index} className="fieldset">
                         <legend>{filterCategoryName}</legend>
-                        {filterTypes[filterCategoryName].map((filterValue, index) => (
-                            // <div className="filter-option" key={index}>
-                            //     <input
-                            //         type="checkbox"
-                            //         id={filterCategoryName + filterValue}
-                            //         name={filterCategoryName}
-                            //         data-name={filterCategoryName}
-                            //         data-value={filterValue}
-                            //         // checked={searchParams.getAll(key).includes(filterValue) ? true : false}
-                            //         checked={isCheckboxShouldBeChecked(filterCategoryName, filterValue)}
-                            //         onChange={onChangeFilterInputs}
-                            //     />
-                            //     <label htmlFor={filterCategoryName + filterValue}>{filterValue}</label>
-                            // </div>
-                            // <Checkbox
-                            //     inputId={filterCategoryName + filterValue}
-                            //     name={filterCategoryName}
-                            //     dataName={filterCategoryName}
-                            //     dataValue={filterValue}
-                            //     checked={isCheckboxShouldBeChecked(filterCategoryName, filterValue)}
-                            //     onChange={onChangeFilterInputs}
-                            //     labelName={filterValue}
-                            // />
-                            <FilterCheckbox filterCategoryName={filterCategoryName} filterValue={filterValue} />
+                        {filterCategoriesAndValues[filterCategoryName].map((filterValue, index) => (
+                            <FilterCheckbox key={index} filterCategoryName={filterCategoryName} filterValue={filterValue} />
                         ))}
                     </fieldset>
                 ))}
