@@ -117,6 +117,32 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.list-grid {
+    display: grid;
+}
+
+.fr-1 {
+    grid-template-columns: 1fr;
+}
+
+.fr-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.fr-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fr-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.devices-operations {
+    border: 3px dotted black;
+    display: flex;
+    justify-content: space-around;
+}
+
 .goods-single-card {
     border: 2px solid #777;
     padding: 10px;
