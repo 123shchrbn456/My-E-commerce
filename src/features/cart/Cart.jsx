@@ -11,7 +11,7 @@ const Header = ({ heading }) => {
 };
 
 const Body = ({ data, render }) => {
-    if (!data.length) return <div>No cart items found</div>;
+    if (!data?.length) return <div>No cart items found</div>;
     return <div>{data.map(render)}</div>;
 };
 

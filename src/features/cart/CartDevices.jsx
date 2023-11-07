@@ -1,11 +1,11 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { clearCartItems, selectAllCartItems } from "../../features/cart/cartSlice";
+import { clearCartItems, selectAllCartItems } from "./cartSlice";
 import { useSendCartItemsMutation } from "../../utils/helpers";
 import Cart from "./Cart";
 import Button from "../../ui/Button";
 
-const DevicesCart = () => {
+const CartDevices = () => {
     const dispatch = useDispatch();
     const cartItems = useSelector(selectAllCartItems);
 
@@ -35,4 +35,4 @@ const DevicesCart = () => {
     );
 };
 
-export default DevicesCart;
+export default CartDevices;

@@ -1,6 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = [];
+const initialState = {
+    cartItems: [],
+    cartTotalQuantity: 0,
+    cartTotalAmount: 0,
+};
 
 const cartSlice = createSlice({
     name: "cart",
@@ -8,49 +12,43 @@ const cartSlice = createSlice({
     reducers: {
         addToCart: (state, action) => {
             const { id } = action.payload;
-            const existingCartItem = state.find((cartItem) => cartItem.id === id);
-            if (existingCartItem) {
-                // Increase amount
-                existingCartItem.amount++;
-                const items = state.filter((item) => item.id !== id);
-                state = [...items, existingCartItem];
+            const existingItemIndex = state.cartItems.findIndex((item) => item.id === id);
+            if (existingItemIndex >= 0) {
+                // Increase item amount
+                state.cartItems[existingItemIndex] = {
+                    ...state.cartItems[existingItemIndex],
+                    amount: state.cartItems[existingItemIndex].amount + 1,
+                };
             } else {
                 // Add new item
-                action.payload.amount = 1;
-                state.push(action.payload);
+                let newItem = { ...action.payload, amount: 1 };
+                state.cartItems.push(newItem);
             }
         },
         decreaseAmountInCart: (state, action) => {
             const { id } = action.payload;
-            const existingCartItem = state.find((cartItem) => cartItem.id === id);
-            if (existingCartItem && existingCartItem.amount === 1) {
-                // Complete deleting
-                // Using this deleting method because our state is just an Array(not a nested Object)
-                // state.splice(
-                //     state.findIndex((cartItem) => cartItem.id === id),
-                //     1
-                // );
-                // Or this way, in ordet to mutate state
-                return state.filter((cartItem) => cartItem.id !== id);
-            } else {
+            const itemIndex = state.cartItems.findIndex((item) => item.id === id);
+            if (state.cartItems[itemIndex].amount > 1) {
                 // Decrease amount
-                const { id } = action.payload;
-                existingCartItem.amount--;
-                const items = state.filter((item) => item.id !== id);
-                state = [...items, existingCartItem];
+                state.cartItems[itemIndex].amount -= 1;
+            } else if (state.cartItems[itemIndex].amount === 1) {
+                // Complete deleting
+                const newCartItems = state.cartItems.filter((item) => item.id !== id);
+                state.cartItems = newCartItems;
             }
         },
         deleteFromCart: (state, action) => {
             const { id } = action.payload;
-            return state.filter((cartItem) => cartItem.id !== id);
+            const newCartItems = state.cartItems.filter((cartItem) => cartItem.id !== id);
+            state.cartItems = newCartItems;
         },
         clearCartItems: (state, action) => {
-            return [];
+            state.cartItems = [];
         },
     },
 });
 
-export const selectAllCartItems = (state) => state.cart;
+export const selectAllCartItems = (state) => state.cart.cartItems;
 
 export const { addToCart, clearCartItems, decreaseAmountInCart, deleteFromCart } = cartSlice.actions;
 
