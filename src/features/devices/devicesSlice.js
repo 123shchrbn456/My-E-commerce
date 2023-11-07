@@ -1,3 +1,4 @@
+import { generateFilteringData } from "../../utils/helpers";
 import { apiSlice } from "../api/apiSlice";
 
 export const devicesApiSlice = apiSlice.injectEndpoints({
@@ -5,17 +6,24 @@ export const devicesApiSlice = apiSlice.injectEndpoints({
         getDevices: builder.query({
             query: (searchParams) => `/merchandise-improved${searchParams}`,
             providesTags: (result, error, arg) => [
-                { type: "Goods", id: "LIST" },
-                ...result.map((item) => ({ type: "Goods", id: item.id })),
+                { type: "Devices", id: "LIST" },
+                ...result.map((item) => ({ type: "Devices", id: item.id })),
             ],
         }),
-        getBrandsForExactGategory: builder.query({
-            query: (category = "") => `/merchandise-improved?category=${category}`,
-            transformResponse: (responseDataArr) => {
-                // Достать все фильтры отсюда
-                if (!responseDataArr.length) return [];
-                const uniqueBrandsForCategory = [...new Set(responseDataArr.map((dataItem) => dataItem.brand))];
-                return uniqueBrandsForCategory;
+        getFilteringData: builder.query({
+            async queryFn(_arg, _queryApi, _extraOptions, fetchWithBQ) {
+                const categoriesResult = await fetchWithBQ(`/merchandise-improved?category=${_arg.category}`);
+                const categoryAndBrandsResult = await fetchWithBQ(`/merchandise-improved${_arg.categoryAndBrandsString}`);
+                const filterCategoriesAndValues = generateFilteringData(
+                    categoriesResult.data,
+                    categoryAndBrandsResult.data,
+                    _arg.urlBrandValues
+                );
+                let res = {
+                    ...categoryAndBrandsResult,
+                    data: { ...filterCategoriesAndValues },
+                };
+                return res;
             },
         }),
         getSingleDevice: builder.query({
@@ -24,28 +32,9 @@ export const devicesApiSlice = apiSlice.injectEndpoints({
                 const [singleObj] = responseDataArr;
                 return { ...singleObj };
             },
-            providesTags: (result, error, arg) => [{ type: "Goods", id: arg }],
-        }),
-
-        // Was made for GoodsPageCategorised.jsx
-        getCategoryDevices: builder.query({
-            query: (category) => `/commodities?category=${category}`,
-            transformResponse: (responseDataArr) => {
-                const [responsObj] = responseDataArr;
-                return responsObj;
-            },
-            providesTags: (result, error, arg) => [
-                { type: "Goods", id: "LIST" },
-                ...result.products.map((product) => ({ type: "Goods", id: product.id })),
-            ],
+            providesTags: (result, error, arg) => [{ type: "Devices", id: arg }],
         }),
     }),
 });
 
-export const {
-    useGetDevicesQuery,
-    useGetDevicesv2Query,
-    useGetCategoryDevicesQuery,
-    useGetBrandsForExactGategoryQuery,
-    useGetSingleDeviceQuery,
-} = devicesApiSlice;
+export const { useGetDevicesQuery, useGetSingleDeviceQuery, useGetFilteringDataQuery } = devicesApiSlice;
