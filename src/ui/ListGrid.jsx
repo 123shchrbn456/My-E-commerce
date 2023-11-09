@@ -1,6 +1,6 @@
 import React from "react";
 
-const ListGrid = ({ gridValue = "3column", data, render }) => {
+const ListGrid = ({ gridValue, data, render }) => {
     const gridTypes = {
         "1column": "fr-1",
         "2columns": "fr-2",

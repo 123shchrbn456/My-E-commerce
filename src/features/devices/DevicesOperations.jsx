@@ -1,21 +1,20 @@
 import React from "react";
+import SortBy from "../../ui/SortBy";
+import DevicesSearchInput from "./DevicesSearchInput";
+import DevicesChangeGrid from "./DevicesChangeGrid";
 
-const DevicesOperations = () => {
+const DevicesOperations = ({ changeGridHandler }) => {
     return (
         <section className="devices-operations">
-            <div className="devices-operations__grid">
-                <button>3 grid</button>
-                <button>1 grid</button>
-            </div>
-            <div className="devices-operations__search">
-                <input type="text" placeholder="Search a device" />
-            </div>
-            <div className="devices-operations__sort">
-                <select name="" id="">
-                    <option value="price">Price</option>
-                    <option value="name">Name</option>
-                </select>
-            </div>
+            <DevicesChangeGrid changeGridHandler={changeGridHandler} />
+            <DevicesSearchInput />
+            <SortBy
+                options={[
+                    { value: "id|desc", label: "Date: recent to latest" },
+                    { value: "price|desc", label: "Price: high to low" },
+                    { value: "price|asc", label: "Price: low to high" },
+                ]}
+            />
         </section>
     );
 };

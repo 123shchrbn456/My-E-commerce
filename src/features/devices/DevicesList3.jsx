@@ -4,9 +4,10 @@ import { useLocation } from "react-router-dom";
 import { useGetDevicesQuery } from "./devicesSlice";
 import DeviceItem from "./DeviceItem";
 
-const DevicesList3 = () => {
+const DevicesList3 = ({ gridValue }) => {
     const location = useLocation();
-    const gridValue = "3columns";
+
+    // receive SearchText and add to useGetDevicesQuery
 
     const { data: devices = [], isSuccess } = useGetDevicesQuery(location.search ?? "");
 

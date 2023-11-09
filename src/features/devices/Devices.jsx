@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import DevicesOperations from "./DevicesOperations";
 import DevicesList3 from "./DevicesList3";
 
 const Devices = () => {
+    const [gridValue, setGridValue] = useState("3columns");
+
+    const changeGridHandler = (e) => {
+        setGridValue(e.target.name);
+    };
+
     return (
         <section className="devices-section">
-            <DevicesOperations />
-            <DevicesList3 />
+            <DevicesOperations changeGridHandler={changeGridHandler} />
+            <DevicesList3 gridValue={gridValue} />
         </section>
     );
 };
