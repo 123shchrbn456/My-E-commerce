@@ -23,14 +23,7 @@ function Pagination({ dataCount }) {
         setSearchParams(searchParams);
     }
 
-    // if (pageMaxCount <= 1) return null;
-
     return (
-        // <P>
-        //     Showing <span>{(currentPage - 1) * PAGE_SIZE + 1}</span> to{" "}
-        //     <span>{currentPage === pageMaxCount ? count : currentPage * PAGE_SIZE}</span> of <span>{count}</span> results
-        // </P>
-
         <>
             <button onClick={prevPage} disabled={currentPage === 1}>
                 <span>Previous</span>
