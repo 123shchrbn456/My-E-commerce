@@ -5,9 +5,12 @@ export const devicesApiSlice = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
         getDevices: builder.query({
             query: (searchParams) => `/merchandise-improved${searchParams}`,
+            transformResponse(response, meta) {
+                return { devices: response, totalCount: Number(meta.response.headers.get("X-Total-Count")) };
+            },
             providesTags: (result, error, arg) => [
                 { type: "Devices", id: "LIST" },
-                ...result.map((item) => ({ type: "Devices", id: item.id })),
+                ...result.devices.map((item) => ({ type: "Devices", id: item.id })),
             ],
         }),
         getFilteringData: builder.query({
