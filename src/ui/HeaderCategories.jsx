@@ -96,20 +96,14 @@ const HeaderCategories = () => {
                     </div>
                 </div>
             </div>
-            <div className="dropdown" data-dropdown>
+            {/* <div className="dropdown" data-dropdown>
                 <button className="link" data-dropdown-button>
                     Login
                 </button>
                 <div className="dropdown-menu">
-                    <form className="login-form">
-                        <label htmlFor="email">Email</label>
-                        <input type="email" name="email" id="email" />
-                        <label htmlFor="password">Password</label>
-                        <input type="password" name="password" id="password" />
-                        <button type="submit">Login</button>
-                    </form>
+                    <LoginForm />
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
