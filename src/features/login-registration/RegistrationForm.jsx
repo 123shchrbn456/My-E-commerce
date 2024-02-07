@@ -44,7 +44,7 @@ const RegistrationForm = () => {
             <input type="email" name="email" id="email" value={formData.email} onChange={inputChangeHandler} />
             <label htmlFor="password">Password</label>
             <input type="password" name="password" id="password" value={formData.password} onChange={inputChangeHandler} />
-            <button type="submit">Login</button>
+            <button type="submit">Register</button>
         </form>
     );
 };
