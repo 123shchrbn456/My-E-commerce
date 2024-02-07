@@ -1,5 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
 import RegistrationForm from "../features/login-registration/RegistrationForm";
 import { FcGoogle } from "react-icons/fc";
 import { toast } from "react-toastify";
@@ -8,9 +7,9 @@ import { doc, getDoc, serverTimestamp, setDoc } from "firebase/firestore";
 import { db } from "../firebase";
 import { useNavigate } from "react-router-dom";
 
-const LoginPage = () => {
+const RegistrationPage = () => {
     const navigate = useNavigate();
-    const googleLoginHandler = async (e) => {
+    const googleRegistrationHandler = async (e) => {
         try {
             const auth = getAuth();
             const provider = new GoogleAuthProvider();
@@ -37,24 +36,7 @@ const LoginPage = () => {
     return (
         <div>
             <RegistrationForm />
-=======
-import { FcGoogle } from "react-icons/fc";
-import LoginForm from "../features/login-registration/LoginForm";
-import { Link } from "react-router-dom";
-
-const LoginPage = () => {
-    const googleLoginHandler = async () => {};
-    return (
-        <div>
-            <LoginForm />
-            <p>
-                Don't have an account?<Link to="/registration">Register</Link>
-            </p>
-            <p>
-                <Link to="/forgot-password">Forgot password?</Link>
-            </p>
->>>>>>> tmp
-            <button type="button" onClick={googleLoginHandler}>
+            <button type="button" onClick={googleRegistrationHandler}>
                 <FcGoogle />
                 Continue with Google
             </button>
@@ -62,4 +44,4 @@ const LoginPage = () => {
     );
 };
 
-export default LoginPage;
+export default RegistrationPage;

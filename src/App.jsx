@@ -7,6 +7,8 @@ import DevicesPage2 from "./pages/DevicesPage2";
 import SingleDevicePage from "./pages/SingleDevicePage";
 import CartPage2 from "./pages/CartPage2";
 import LoginPage from "./pages/LoginPage";
+import RegistrationPage from "./pages/RegistrationPage";
+import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 
 function App() {
     return (
@@ -19,6 +21,8 @@ function App() {
                         <Route path="/devices/single-device/:id" element={<SingleDevicePage />}></Route>
                         <Route path="/cart" element={<CartPage2 />}></Route>
                         <Route path="/login" element={<LoginPage />}></Route>
+                        <Route path="/registration" element={<RegistrationPage />}></Route>
+                        <Route path="/forgot-password" element={<ForgotPasswordPage />}></Route>
                         <Route path="*" element={<div> Not Found or You do not have permission.</div>} />
                     </Route>
                 </Routes>
