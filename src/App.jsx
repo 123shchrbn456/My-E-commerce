@@ -9,6 +9,8 @@ import CartPage2 from "./pages/CartPage2";
 import LoginPage from "./pages/LoginPage";
 import RegistrationPage from "./pages/RegistrationPage";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
+import ProfilePage from "./pages/ProfilePage";
+import PrivateRoute from "./features/PrivateRoute";
 
 function App() {
     return (
@@ -23,6 +25,9 @@ function App() {
                         <Route path="/login" element={<LoginPage />}></Route>
                         <Route path="/registration" element={<RegistrationPage />}></Route>
                         <Route path="/forgot-password" element={<ForgotPasswordPage />}></Route>
+                        <Route path="/profile" element={<PrivateRoute />}>
+                            <Route path="/profile" element={<ProfilePage />}></Route>
+                        </Route>
                         <Route path="*" element={<div> Not Found or You do not have permission.</div>} />
                     </Route>
                 </Routes>
