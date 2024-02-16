@@ -1,0 +1,42 @@
+
+title React Router Flow
+
+// Define nodes and relationships
+AppLayout [icon: layout] > HomePage [icon: home]
+AppLayout > DevicesPage2 [icon: smartphone]
+AppLayout > SingleDevicePage [icon: tablet]
+AppLayout > CartPage2 [icon: shopping-cart]
+AppLayout > LoginPage [icon: log-in]
+AppLayout > RegistrationPage [icon: user-plus]
+AppLayout > ForgotPasswordPage [icon: refresh-cw]
+AppLayout > PrivateRoute [icon: lock]
+PrivateRoute > ProfilePage [icon: user]
+
+DevicesPage2 [icon: layout] > FilterDevices2 [icon: filter]
+FilterDevices2 [icon: layout] > FilterCheckbox [icon: cpu]
+FilterDevices2 [icon: layout] > FilterCheckbox2 [icon: cpu]
+FilterCheckbox [icon: layout] > Checkbox [icon: cpu]
+FilterCheckbox2 [icon: layout] > Checkbox2 [icon: cpu]
+DevicesPage2 [icon: layout] > Devices [icon: cpu]
+
+Devices > DevicesOperations > DevicesChangeGrid  
+Devices > DevicesOperations > DevicesSearchInput > Input
+Devices > DevicesOperations > SortBy > Select > Option
+
+Devices > DevicesList3 > ListGrid
+Devices > DevicesList3 > Pagination 
+
+// Define Groups
+Routes [icon: map] {
+  HomePage
+  DevicesPage2
+  SingleDevicePage
+  CartPage2
+  LoginPage
+  RegistrationPage
+  ForgotPasswordPage
+  PrivateRoute {
+    ProfilePage
+  }
+  Not Found or You do not have permission
+}

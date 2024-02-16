@@ -28,7 +28,7 @@ function App() {
                         <Route path="/profile" element={<PrivateRoute />}>
                             <Route path="/profile" element={<ProfilePage />}></Route>
                         </Route>
-                        <Route path="*" element={<div> Not Found or You do not have permission.</div>} />
+                        <Route path="*" element={<div style={{ color: "red" }}> Not Found or You do not have permission.</div>} />
                     </Route>
                 </Routes>
             </BrowserRouter>
