@@ -234,41 +234,43 @@
     "merchandise-improved": [
         {
             "id": 1,
-            "brand": "Apple",
-            "model": "iPhone 12",
-            "series": "iPhone 12",
+            "brand": "apple",
+            "model": "iphone_12",
+            "series": "iphone_12",
             "color": "red",
             "screenRefreshRate": "144 Hz",
             "storage": "32 GB",
             "mainCamera_Pixels": "48MP",
-            "mainCamera_Features": [
-                "microscope lens",
-                "optical stabilization",
-                "ultra wide lens",
-                "macro lens",
-                "thermal imager"
-            ],
+            "mainCamera_Features": ["microscope lens", "optical stabilization", "ultra wide lens", "macro lens", "thermal imager"],
             "price": 1207.37,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12",
+            "labelOfModel": "iPhone 12"
         },
         {
             "id": 2,
-            "brand": "Apple",
-            "model": "iPhone 11",
-            "series": "iPhone 11",
+            "brand": "apple",
+            "model": "iphone_11",
+            "series": "iphone_11",
             "color": "black",
             "screenRefreshRate": "60 Hz",
             "storage": "≥ 512 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["telephoto lens", "microscope lens", "macro lens", "night vision camera"],
             "price": 928.51,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 11",
+            "labelOfModel": "iPhone 11"
         },
         {
             "id": 3,
-            "brand": "Apple",
-            "model": "iPhone 13",
-            "series": "iPhone 13",
+            "brand": "apple",
+            "model": "iphone_13",
+            "series": "iphone_13",
             "color": "blue",
             "screenRefreshRate": "90 Hz",
             "storage": "256 GB",
@@ -282,45 +284,51 @@
                 "thermal imager"
             ],
             "price": 1119.76,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13"
         },
         {
             "id": 4,
-            "brand": "Apple",
-            "model": "iPhone 12",
-            "series": "iPhone 12",
+            "brand": "apple",
+            "model": "iphone_12",
+            "series": "iphone_12",
             "color": "yellow",
             "screenRefreshRate": "90 Hz",
             "storage": "16 GB",
             "mainCamera_Pixels": "48MP",
-            "mainCamera_Features": [
-                "sensor stabilization",
-                "microscope lens",
-                "thermal imager",
-                "macro lens",
-                "optical stabilization"
-            ],
+            "mainCamera_Features": ["sensor stabilization", "microscope lens", "thermal imager", "macro lens", "optical stabilization"],
             "price": 647.28,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12",
+            "labelOfModel": "iPhone 12"
         },
         {
             "id": 5,
-            "brand": "Apple",
-            "model": "iPhone 14",
-            "series": "iPhone 14",
+            "brand": "apple",
+            "model": "iphone_14",
+            "series": "iphone_14",
             "color": "yellow",
             "screenRefreshRate": "120 Hz",
             "storage": "16 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["telephoto lens", "thermal imager"],
             "price": 1395.04,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 14",
+            "labelOfModel": "iPhone 14"
         },
         {
             "id": 6,
-            "brand": "Apple",
-            "model": "iPhone SE",
-            "series": "iPhone SE",
+            "brand": "apple",
+            "model": "iphone_se",
+            "series": "iphone_se",
             "color": "yellow",
             "screenRefreshRate": "60 Hz",
             "storage": "64 GB",
@@ -334,70 +342,85 @@
                 "microscope lens"
             ],
             "price": 1192.35,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone SE",
+            "labelOfModel": "iPhone SE"
         },
         {
             "id": 7,
-            "brand": "Apple",
-            "model": "iPhone 12 Pro",
-            "series": "iPhone 12",
+            "brand": "apple",
+            "model": "iphone_12_pro",
+            "series": "iphone_12",
             "color": "blue",
             "screenRefreshRate": "120 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "48MP",
-            "mainCamera_Features": [
-                "macro lens",
-                "night vision camera",
-                "sensor stabilization",
-                "optical stabilization"
-            ],
+            "mainCamera_Features": ["macro lens", "night vision camera", "sensor stabilization", "optical stabilization"],
             "price": 994.08,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12",
+            "labelOfModel": "iPhone 12 Pro"
         },
         {
             "id": 8,
-            "brand": "Apple",
-            "model": "iPhone X",
-            "series": "iPhone X",
+            "brand": "apple",
+            "model": "iphone_x",
+            "series": "iphone_x",
             "color": "yellow",
             "screenRefreshRate": "165 Hz",
             "storage": "≥ 512 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["telephoto lens", "macro lens"],
             "price": 908.86,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone X",
+            "labelOfModel": "iPhone X"
         },
         {
             "id": 9,
-            "brand": "Apple",
-            "model": "iPhone 12",
-            "series": "iPhone 12",
+            "brand": "apple",
+            "model": "iphone_12",
+            "series": "iphone_12",
             "color": "black",
             "screenRefreshRate": "90 Hz",
             "storage": "128 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["macro lens", "telephoto lens"],
             "price": 943,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12",
+            "labelOfModel": "iPhone 12"
         },
         {
             "id": 10,
-            "brand": "Apple",
-            "model": "iPhone SE",
-            "series": "iPhone SE",
+            "brand": "apple",
+            "model": "iphone_se",
+            "series": "iphone_se",
             "color": "yellow",
             "screenRefreshRate": "90 Hz",
             "storage": "128 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["microscope lens", "night vision camera"],
             "price": 1314.49,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone SE",
+            "labelOfModel": "iPhone SE"
         },
         {
             "id": 11,
-            "brand": "Apple",
-            "model": "iPhone X",
-            "series": "iPhone X",
+            "brand": "apple",
+            "model": "iphone_x",
+            "series": "iphone_x",
             "color": "blue",
             "screenRefreshRate": "144 Hz",
             "storage": "64 GB",
@@ -411,45 +434,51 @@
                 "sensor stabilization"
             ],
             "price": 855.46,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone X",
+            "labelOfModel": "iPhone X"
         },
         {
             "id": 12,
-            "brand": "Apple",
-            "model": "iPhone 12",
-            "series": "iPhone 12",
+            "brand": "apple",
+            "model": "iphone_12",
+            "series": "iphone_12",
             "color": "black",
             "screenRefreshRate": "60 Hz",
             "storage": "32 GB",
             "mainCamera_Pixels": "12 MP",
-            "mainCamera_Features": [
-                "microscope lens",
-                "optical stabilization",
-                "sensor stabilization",
-                "ultra wide lens",
-                "macro lens"
-            ],
+            "mainCamera_Features": ["microscope lens", "optical stabilization", "sensor stabilization", "ultra wide lens", "macro lens"],
             "price": 1185.67,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12",
+            "labelOfModel": "iPhone 12"
         },
         {
             "id": 13,
-            "brand": "Apple",
-            "model": "iPhone 12 Pro",
-            "series": "iPhone 12",
+            "brand": "apple",
+            "model": "iphone_12_pro",
+            "series": "iphone_12",
             "color": "blue",
             "screenRefreshRate": "90 Hz",
             "storage": "256 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "sensor stabilization"],
             "price": 988.09,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12",
+            "labelOfModel": "iPhone 12 Pro"
         },
         {
             "id": 14,
-            "brand": "Apple",
-            "model": "iPhone 12",
-            "series": "iPhone 12",
+            "brand": "apple",
+            "model": "iphone_12",
+            "series": "iphone_12",
             "color": "blue",
             "screenRefreshRate": "144 Hz",
             "storage": "32 GB",
@@ -465,13 +494,17 @@
                 "ultra wide lens"
             ],
             "price": 840.62,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12",
+            "labelOfModel": "iPhone 12"
         },
         {
             "id": 15,
-            "brand": "Apple",
-            "model": "iPhone 13",
-            "series": "iPhone 13",
+            "brand": "apple",
+            "model": "iphone_13",
+            "series": "iphone_13",
             "color": "blue",
             "screenRefreshRate": "120 Hz",
             "storage": "128 GB",
@@ -487,39 +520,51 @@
                 "telephoto lens"
             ],
             "price": 1212,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13"
         },
         {
             "id": 16,
-            "brand": "Apple",
-            "model": "iPhone 13",
-            "series": "iPhone 13",
+            "brand": "apple",
+            "model": "iphone_13",
+            "series": "iphone_13",
             "color": "yellow",
             "screenRefreshRate": "90 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["sensor stabilization", "thermal imager", "telephoto lens", "microscope lens"],
             "price": 1395.96,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13"
         },
         {
             "id": 17,
-            "brand": "Apple",
-            "model": "iPhone 13 mini",
-            "series": "iPhone 13",
+            "brand": "apple",
+            "model": "iphone_13_mini",
+            "series": "iphone_13",
             "color": "yellow",
             "screenRefreshRate": "144 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "microscope lens", "sensor stabilization"],
             "price": 601.09,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13 mini"
         },
         {
             "id": 18,
-            "brand": "Apple",
-            "model": "iPhone 12 Pro",
-            "series": "iPhone 12",
+            "brand": "apple",
+            "model": "iphone_12_pro",
+            "series": "iphone_12",
             "color": "blue",
             "screenRefreshRate": "60 Hz",
             "storage": "128 GB",
@@ -534,39 +579,51 @@
                 "optical stabilization"
             ],
             "price": 669.67,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12",
+            "labelOfModel": "iPhone 12 Pro"
         },
         {
             "id": 19,
-            "brand": "Apple",
-            "model": "iPhone 13",
-            "series": "iPhone 13",
+            "brand": "apple",
+            "model": "iphone_13",
+            "series": "iphone_13",
             "color": "yellow",
             "screenRefreshRate": "60 Hz",
             "storage": "128 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["macro lens", "sensor stabilization", "telephoto lens", "thermal imager"],
             "price": 910.22,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13"
         },
         {
             "id": 20,
-            "brand": "Apple",
-            "model": "iPhone SE",
-            "series": "iPhone SE",
+            "brand": "apple",
+            "model": "iphone_se",
+            "series": "iphone_se",
             "color": "yellow",
             "screenRefreshRate": "144 Hz",
             "storage": "32 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["ultra wide lens", "microscope lens", "sensor stabilization"],
             "price": 1151.28,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone SE",
+            "labelOfModel": "iPhone SE"
         },
         {
             "id": 21,
-            "brand": "Apple",
-            "model": "iPhone 11",
-            "series": "iPhone 11",
+            "brand": "apple",
+            "model": "iphone_11",
+            "series": "iphone_11",
             "color": "blue",
             "screenRefreshRate": "90 Hz",
             "storage": "64 GB",
@@ -581,39 +638,51 @@
                 "optical stabilization"
             ],
             "price": 1039.34,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 11",
+            "labelOfModel": "iPhone 11"
         },
         {
             "id": 22,
-            "brand": "Apple",
-            "model": "iPhone 11 Pro",
-            "series": "iPhone 11",
+            "brand": "apple",
+            "model": "iphone_11_pro",
+            "series": "iphone_11",
             "color": "yellow",
             "screenRefreshRate": "144 Hz",
             "storage": "16 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["telephoto lens", "microscope lens", "night vision camera"],
             "price": 656.75,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 11",
+            "labelOfModel": "iPhone 11 Pro"
         },
         {
             "id": 23,
-            "brand": "Apple",
-            "model": "iPhone 13 Pro",
-            "series": "iPhone 13",
+            "brand": "apple",
+            "model": "iphone_13_pro",
+            "series": "iphone_13",
             "color": "red",
             "screenRefreshRate": "120 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["optical stabilization", "ultra wide lens", "microscope lens"],
             "price": 661.72,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13 Pro"
         },
         {
             "id": 24,
-            "brand": "Apple",
-            "model": "iPhone 11 Pro",
-            "series": "iPhone 11",
+            "brand": "apple",
+            "model": "iphone_11_pro",
+            "series": "iphone_11",
             "color": "yellow",
             "screenRefreshRate": "120 Hz",
             "storage": "64 GB",
@@ -629,32 +698,34 @@
                 "ultra wide lens"
             ],
             "price": 1069.98,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 11",
+            "labelOfModel": "iPhone 11 Pro"
         },
         {
             "id": 25,
-            "brand": "Apple",
-            "model": "iPhone 14",
-            "series": "iPhone 14",
+            "brand": "apple",
+            "model": "iphone_14",
+            "series": "iphone_14",
             "color": "red",
             "screenRefreshRate": "165 Hz",
             "storage": "≥ 512 GB",
             "mainCamera_Pixels": "12 MP",
-            "mainCamera_Features": [
-                "optical stabilization",
-                "ultra wide lens",
-                "thermal imager",
-                "night vision camera",
-                "macro lens"
-            ],
+            "mainCamera_Features": ["optical stabilization", "ultra wide lens", "thermal imager", "night vision camera", "macro lens"],
             "price": 622.07,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 14",
+            "labelOfModel": "iPhone 14"
         },
         {
             "id": 26,
-            "brand": "Apple",
-            "model": "iPhone X",
-            "series": "iPhone X",
+            "brand": "apple",
+            "model": "iphone_x",
+            "series": "iphone_x",
             "color": "yellow",
             "screenRefreshRate": "144 Hz",
             "storage": "≥ 512 GB",
@@ -670,13 +741,17 @@
                 "ultra wide lens"
             ],
             "price": 681.2,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone X",
+            "labelOfModel": "iPhone X"
         },
         {
             "id": 27,
-            "brand": "Apple",
-            "model": "iPhone 12 Pro",
-            "series": "iPhone 12",
+            "brand": "apple",
+            "model": "iphone_12_pro",
+            "series": "iphone_12",
             "color": "red",
             "screenRefreshRate": "60 Hz",
             "storage": "128 GB",
@@ -692,13 +767,17 @@
                 "ultra wide lens"
             ],
             "price": 807.37,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12",
+            "labelOfModel": "iPhone 12 Pro"
         },
         {
             "id": 28,
-            "brand": "Apple",
-            "model": "iPhone 11 Pro",
-            "series": "iPhone 11",
+            "brand": "apple",
+            "model": "iphone_11_pro",
+            "series": "iphone_11",
             "color": "yellow",
             "screenRefreshRate": "60 Hz",
             "storage": "16 GB",
@@ -712,13 +791,17 @@
                 "macro lens"
             ],
             "price": 814.58,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 11",
+            "labelOfModel": "iPhone 11 Pro"
         },
         {
             "id": 29,
-            "brand": "Apple",
-            "model": "iPhone 14 Pro",
-            "series": "iPhone 14",
+            "brand": "apple",
+            "model": "iphone_14_pro",
+            "series": "iphone_14",
             "color": "red",
             "screenRefreshRate": "60 Hz",
             "storage": "32 GB",
@@ -733,63 +816,68 @@
                 "night vision camera"
             ],
             "price": 1159.02,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 14",
+            "labelOfModel": "iPhone 14 Pro"
         },
         {
             "id": 30,
-            "brand": "Apple",
-            "model": "iPhone 11",
-            "series": "iPhone 11",
+            "brand": "apple",
+            "model": "iphone_11",
+            "series": "iphone_11",
             "color": "yellow",
             "screenRefreshRate": "60 Hz",
             "storage": "128 GB",
             "mainCamera_Pixels": "12 MP",
-            "mainCamera_Features": [
-                "ultra wide lens",
-                "telephoto lens",
-                "microscope lens",
-                "night vision camera",
-                "optical stabilization"
-            ],
+            "mainCamera_Features": ["ultra wide lens", "telephoto lens", "microscope lens", "night vision camera", "optical stabilization"],
             "price": 1398.11,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 11",
+            "labelOfModel": "iPhone 11"
         },
         {
             "id": 31,
-            "brand": "Apple",
-            "model": "iPhone 11 Pro",
-            "series": "iPhone 11",
+            "brand": "apple",
+            "model": "iphone_11_pro",
+            "series": "iphone_11",
             "color": "blue",
             "screenRefreshRate": "144 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "48MP",
-            "mainCamera_Features": [
-                "microscope lens",
-                "optical stabilization",
-                "telephoto lens",
-                "sensor stabilization"
-            ],
+            "mainCamera_Features": ["microscope lens", "optical stabilization", "telephoto lens", "sensor stabilization"],
             "price": 1444.58,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 11",
+            "labelOfModel": "iPhone 11 Pro"
         },
         {
             "id": 32,
-            "brand": "Apple",
-            "model": "iPhone 13 mini",
-            "series": "iPhone 13",
+            "brand": "apple",
+            "model": "iphone_13_mini",
+            "series": "iphone_13",
             "color": "black",
             "screenRefreshRate": "90 Hz",
             "storage": "128 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["optical stabilization", "microscope lens", "macro lens", "thermal imager"],
             "price": 614.33,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13 mini"
         },
         {
             "id": 33,
-            "brand": "Apple",
-            "model": "iPhone X",
-            "series": "iPhone X",
+            "brand": "apple",
+            "model": "iphone_x",
+            "series": "iphone_x",
             "color": "red",
             "screenRefreshRate": "120 Hz",
             "storage": "64 GB",
@@ -804,13 +892,17 @@
                 "microscope lens"
             ],
             "price": 851.84,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone X",
+            "labelOfModel": "iPhone X"
         },
         {
             "id": 34,
-            "brand": "Apple",
-            "model": "iPhone 13",
-            "series": "iPhone 13",
+            "brand": "apple",
+            "model": "iphone_13",
+            "series": "iphone_13",
             "color": "black",
             "screenRefreshRate": "60 Hz",
             "storage": "128 GB",
@@ -824,26 +916,34 @@
                 "thermal imager"
             ],
             "price": 1063.75,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13"
         },
         {
             "id": 35,
-            "brand": "Apple",
-            "model": "iPhone SE",
-            "series": "iPhone SE",
+            "brand": "apple",
+            "model": "iphone_se",
+            "series": "iphone_se",
             "color": "red",
             "screenRefreshRate": "120 Hz",
             "storage": "256 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["thermal imager", "ultra wide lens", "telephoto lens"],
             "price": 728.22,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone SE",
+            "labelOfModel": "iPhone SE"
         },
         {
             "id": 36,
-            "brand": "Apple",
-            "model": "iPhone 12",
-            "series": "iPhone 12",
+            "brand": "apple",
+            "model": "iphone_12",
+            "series": "iphone_12",
             "color": "blue",
             "screenRefreshRate": "120 Hz",
             "storage": "128 GB",
@@ -858,32 +958,34 @@
                 "ultra wide lens"
             ],
             "price": 1363.38,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12",
+            "labelOfModel": "iPhone 12"
         },
         {
             "id": 37,
-            "brand": "Apple",
-            "model": "iPhone SE",
-            "series": "iPhone SE",
+            "brand": "apple",
+            "model": "iphone_se",
+            "series": "iphone_se",
             "color": "black",
             "screenRefreshRate": "90 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "48MP",
-            "mainCamera_Features": [
-                "night vision camera",
-                "telephoto lens",
-                "sensor stabilization",
-                "microscope lens",
-                "ultra wide lens"
-            ],
+            "mainCamera_Features": ["night vision camera", "telephoto lens", "sensor stabilization", "microscope lens", "ultra wide lens"],
             "price": 1486.9,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone SE",
+            "labelOfModel": "iPhone SE"
         },
         {
             "id": 38,
-            "brand": "Apple",
-            "model": "iPhone 14 Pro",
-            "series": "iPhone 14",
+            "brand": "apple",
+            "model": "iphone_14_pro",
+            "series": "iphone_14",
             "color": "black",
             "screenRefreshRate": "90 Hz",
             "storage": "64 GB",
@@ -899,13 +1001,17 @@
                 "optical stabilization"
             ],
             "price": 1134.07,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 14",
+            "labelOfModel": "iPhone 14 Pro"
         },
         {
             "id": 39,
-            "brand": "Apple",
-            "model": "iPhone 14 Pro",
-            "series": "iPhone 14",
+            "brand": "apple",
+            "model": "iphone_14_pro",
+            "series": "iphone_14",
             "color": "red",
             "screenRefreshRate": "120 Hz",
             "storage": "64 GB",
@@ -919,13 +1025,17 @@
                 "telephoto lens"
             ],
             "price": 1255.35,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 14",
+            "labelOfModel": "iPhone 14 Pro"
         },
         {
             "id": 40,
-            "brand": "Apple",
-            "model": "iPhone X",
-            "series": "iPhone X",
+            "brand": "apple",
+            "model": "iphone_x",
+            "series": "iphone_x",
             "color": "yellow",
             "screenRefreshRate": "90 Hz",
             "storage": "256 GB",
@@ -940,13 +1050,17 @@
                 "thermal imager"
             ],
             "price": 1362.71,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone X",
+            "labelOfModel": "iPhone X"
         },
         {
             "id": 41,
-            "brand": "Apple",
-            "model": "iPhone 14 Pro",
-            "series": "iPhone 14",
+            "brand": "apple",
+            "model": "iphone_14_pro",
+            "series": "iphone_14",
             "color": "blue",
             "screenRefreshRate": "120 Hz",
             "storage": "64 GB",
@@ -962,13 +1076,17 @@
                 "night vision camera"
             ],
             "price": 960.88,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 14",
+            "labelOfModel": "iPhone 14 Pro"
         },
         {
             "id": 42,
-            "brand": "Apple",
-            "model": "iPhone 12 mini",
-            "series": "iPhone 12 mini",
+            "brand": "apple",
+            "model": "iphone_12_mini",
+            "series": "iphone_12_mini",
             "color": "yellow",
             "screenRefreshRate": "144 Hz",
             "storage": "128 GB",
@@ -984,13 +1102,17 @@
                 "sensor stabilization"
             ],
             "price": 695.38,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12 mini",
+            "labelOfModel": "iPhone 12 mini"
         },
         {
             "id": 43,
-            "brand": "Apple",
-            "model": "iPhone 12 mini",
-            "series": "iPhone 12 mini",
+            "brand": "apple",
+            "model": "iphone_12_mini",
+            "series": "iphone_12_mini",
             "color": "yellow",
             "screenRefreshRate": "144 Hz",
             "storage": "256 GB",
@@ -1006,13 +1128,17 @@
                 "night vision camera"
             ],
             "price": 770.72,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12 mini",
+            "labelOfModel": "iPhone 12 mini"
         },
         {
             "id": 44,
-            "brand": "Apple",
-            "model": "iPhone 13 mini",
-            "series": "iPhone 13",
+            "brand": "apple",
+            "model": "iphone_13_mini",
+            "series": "iphone_13",
             "color": "blue",
             "screenRefreshRate": "60 Hz",
             "storage": "256 GB",
@@ -1028,45 +1154,51 @@
                 "ultra wide lens"
             ],
             "price": 1065.39,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13 mini"
         },
         {
             "id": 45,
-            "brand": "Apple",
-            "model": "iPhone 11 Pro",
-            "series": "iPhone 11",
+            "brand": "apple",
+            "model": "iphone_11_pro",
+            "series": "iphone_11",
             "color": "yellow",
             "screenRefreshRate": "120 Hz",
             "storage": "256 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["macro lens", "ultra wide lens", "sensor stabilization", "optical stabilization"],
             "price": 845.52,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 11",
+            "labelOfModel": "iPhone 11 Pro"
         },
         {
             "id": 46,
-            "brand": "Apple",
-            "model": "iPhone SE",
-            "series": "iPhone SE",
+            "brand": "apple",
+            "model": "iphone_se",
+            "series": "iphone_se",
             "color": "yellow",
             "screenRefreshRate": "120 Hz",
             "storage": "≥ 512 GB",
             "mainCamera_Pixels": "48MP",
-            "mainCamera_Features": [
-                "telephoto lens",
-                "microscope lens",
-                "night vision camera",
-                "optical stabilization",
-                "macro lens"
-            ],
+            "mainCamera_Features": ["telephoto lens", "microscope lens", "night vision camera", "optical stabilization", "macro lens"],
             "price": 702,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone SE",
+            "labelOfModel": "iPhone SE"
         },
         {
             "id": 47,
-            "brand": "Apple",
-            "model": "iPhone 14",
-            "series": "iPhone 14",
+            "brand": "apple",
+            "model": "iphone_14",
+            "series": "iphone_14",
             "color": "red",
             "screenRefreshRate": "120 Hz",
             "storage": "256 GB",
@@ -1081,26 +1213,34 @@
                 "telephoto lens"
             ],
             "price": 927.08,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 14",
+            "labelOfModel": "iPhone 14"
         },
         {
             "id": 48,
-            "brand": "Apple",
-            "model": "iPhone 14 Pro",
-            "series": "iPhone 14",
+            "brand": "apple",
+            "model": "iphone_14_pro",
+            "series": "iphone_14",
             "color": "red",
             "screenRefreshRate": "120 Hz",
             "storage": "≥ 512 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["microscope lens", "night vision camera", "sensor stabilization", "thermal imager"],
             "price": 646.69,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 14",
+            "labelOfModel": "iPhone 14 Pro"
         },
         {
             "id": 49,
-            "brand": "Apple",
-            "model": "iPhone 12 Pro",
-            "series": "iPhone 12",
+            "brand": "apple",
+            "model": "iphone_12_pro",
+            "series": "iphone_12",
             "color": "blue",
             "screenRefreshRate": "165 Hz",
             "storage": "32 GB",
@@ -1114,13 +1254,17 @@
                 "telephoto lens"
             ],
             "price": 614.68,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12",
+            "labelOfModel": "iPhone 12 Pro"
         },
         {
             "id": 50,
-            "brand": "Apple",
-            "model": "iPhone X",
-            "series": "iPhone X",
+            "brand": "apple",
+            "model": "iphone_x",
+            "series": "iphone_x",
             "color": "red",
             "screenRefreshRate": "144 Hz",
             "storage": "64 GB",
@@ -1136,52 +1280,68 @@
                 "microscope lens"
             ],
             "price": 1473.97,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone X",
+            "labelOfModel": "iPhone X"
         },
         {
             "id": 51,
-            "brand": "Apple",
-            "model": "iPhone 11",
-            "series": "iPhone 11",
+            "brand": "apple",
+            "model": "iphone_11",
+            "series": "iphone_11",
             "color": "blue",
             "screenRefreshRate": "165 Hz",
             "storage": "32 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["night vision camera", "microscope lens", "optical stabilization"],
             "price": 774.86,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 11",
+            "labelOfModel": "iPhone 11"
         },
         {
             "id": 52,
-            "brand": "Apple",
-            "model": "iPhone 14",
-            "series": "iPhone 14",
+            "brand": "apple",
+            "model": "iphone_14",
+            "series": "iphone_14",
             "color": "red",
             "screenRefreshRate": "60 Hz",
             "storage": "128 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["telephoto lens", "thermal imager"],
             "price": 767.19,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 14",
+            "labelOfModel": "iPhone 14"
         },
         {
             "id": 53,
-            "brand": "Apple",
-            "model": "iPhone 13",
-            "series": "iPhone 13",
+            "brand": "apple",
+            "model": "iphone_13",
+            "series": "iphone_13",
             "color": "black",
             "screenRefreshRate": "120 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "optical stabilization"],
             "price": 793.8,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13"
         },
         {
             "id": 54,
-            "brand": "Apple",
-            "model": "iPhone 14",
-            "series": "iPhone 14",
+            "brand": "apple",
+            "model": "iphone_14",
+            "series": "iphone_14",
             "color": "red",
             "screenRefreshRate": "60 Hz",
             "storage": "≥ 512 GB",
@@ -1197,31 +1357,34 @@
                 "sensor stabilization"
             ],
             "price": 1111.63,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 14",
+            "labelOfModel": "iPhone 14"
         },
         {
             "id": 55,
-            "brand": "Apple",
-            "model": "iPhone 12 mini",
-            "series": "iPhone 12 mini",
+            "brand": "apple",
+            "model": "iphone_12_mini",
+            "series": "iphone_12_mini",
             "color": "black",
             "screenRefreshRate": "165 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "12 MP",
-            "mainCamera_Features": [
-                "sensor stabilization",
-                "microscope lens",
-                "ultra wide lens",
-                "night vision camera"
-            ],
+            "mainCamera_Features": ["sensor stabilization", "microscope lens", "ultra wide lens", "night vision camera"],
             "price": 1480.51,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12 mini",
+            "labelOfModel": "iPhone 12 mini"
         },
         {
             "id": 56,
-            "brand": "Apple",
-            "model": "iPhone 11 Pro",
-            "series": "iPhone 11",
+            "brand": "apple",
+            "model": "iphone_11_pro",
+            "series": "iphone_11",
             "color": "black",
             "screenRefreshRate": "165 Hz",
             "storage": "16 GB",
@@ -1236,13 +1399,17 @@
                 "night vision camera"
             ],
             "price": 1092.56,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 11",
+            "labelOfModel": "iPhone 11 Pro"
         },
         {
             "id": 57,
-            "brand": "Apple",
-            "model": "iPhone 13",
-            "series": "iPhone 13",
+            "brand": "apple",
+            "model": "iphone_13",
+            "series": "iphone_13",
             "color": "black",
             "screenRefreshRate": "165 Hz",
             "storage": "64 GB",
@@ -1258,30 +1425,34 @@
                 "telephoto lens"
             ],
             "price": 1415.74,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13"
         },
         {
             "id": 58,
-            "brand": "Apple",
-            "model": "iPhone 13 mini",
+            "brand": "apple",
+            "model": "iphone_13_mini",
+            "series": "iphone_13",
             "color": "yellow",
             "screenRefreshRate": "165 Hz",
             "storage": "16 GB",
             "mainCamera_Pixels": "48MP",
-            "mainCamera_Features": [
-                "sensor stabilization",
-                "optical stabilization",
-                "night vision camera",
-                "thermal imager"
-            ],
+            "mainCamera_Features": ["sensor stabilization", "optical stabilization", "night vision camera", "thermal imager"],
             "price": 665.02,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13 mini"
         },
         {
             "id": 59,
-            "brand": "Apple",
-            "model": "iPhone 13",
-            "series": "iPhone 13",
+            "brand": "apple",
+            "model": "iphone_13",
+            "series": "iphone_13",
             "color": "yellow",
             "screenRefreshRate": "90 Hz",
             "storage": "256 GB",
@@ -1295,26 +1466,34 @@
                 "ultra wide lens"
             ],
             "price": 1415.26,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 13",
+            "labelOfModel": "iPhone 13"
         },
         {
             "id": 60,
-            "brand": "Apple",
-            "model": "iPhone 12 Pro",
-            "series": "iPhone 12",
+            "brand": "apple",
+            "model": "iphone_12_pro",
+            "series": "iphone_12",
             "color": "blue",
             "screenRefreshRate": "60 Hz",
             "storage": "128 GB",
             "mainCamera_Pixels": "48MP",
             "mainCamera_Features": ["microscope lens", "telephoto lens", "sensor stabilization", "night vision camera"],
             "price": 663.71,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "iPhone 12",
+            "labelOfModel": "iPhone 12 Pro"
         },
         {
             "id": 61,
-            "brand": "Samsung",
-            "series": "Galaxy Flip",
-            "model": "Samsung Galaxy M21",
+            "brand": "samsung",
+            "series": "galaxy_flip",
+            "model": "samsung_galaxy_m21",
             "color": "white",
             "screenRefreshRate": "60 Hz",
             "storage": "≥ 512 GB",
@@ -1329,13 +1508,17 @@
                 "microscope lens"
             ],
             "price": 586.77,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Flip",
+            "labelOfModel": "Samsung Galaxy M21"
         },
         {
             "id": 62,
-            "brand": "Samsung",
-            "series": "Galaxy Note",
-            "model": "Samsung Galaxy A80",
+            "brand": "samsung",
+            "series": "galaxy_note",
+            "model": "samsung_galaxy_a80",
             "color": "white",
             "screenRefreshRate": "90 Hz",
             "storage": "128 GB",
@@ -1351,13 +1534,17 @@
                 "thermal imager"
             ],
             "price": 1479.39,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Note",
+            "labelOfModel": "Samsung Galaxy A80"
         },
         {
             "id": 63,
-            "brand": "Samsung",
-            "series": "Galaxy F",
-            "model": "Samsung Galaxy S10",
+            "brand": "samsung",
+            "series": "galaxy_f",
+            "model": "samsung_galaxy_s10",
             "color": "gray",
             "screenRefreshRate": "120 Hz",
             "storage": "128 GB",
@@ -1371,52 +1558,68 @@
                 "thermal imager"
             ],
             "price": 928.12,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy F",
+            "labelOfModel": "Samsung Galaxy S10"
         },
         {
             "id": 64,
-            "brand": "Samsung",
-            "series": "Galaxy Flip",
-            "model": "Samsung Galaxy Note 10",
+            "brand": "samsung",
+            "series": "galaxy_flip",
+            "model": "samsung_galaxy_note_10",
             "color": "white",
             "screenRefreshRate": "90 Hz",
             "storage": "256 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["microscope lens", "night vision camera"],
             "price": 731.89,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Flip",
+            "labelOfModel": "Samsung Galaxy Note 10"
         },
         {
             "id": 65,
-            "brand": "Samsung",
-            "series": "Galaxy A",
-            "model": "Samsung Galaxy Z Fold 2",
+            "brand": "samsung",
+            "series": "galaxy_a",
+            "model": "samsung_galaxy_z_fold_2",
             "color": "gray",
             "screenRefreshRate": "144 Hz",
             "storage": "32 GB",
             "mainCamera_Pixels": "16 MP",
             "mainCamera_Features": ["sensor stabilization", "macro lens", "optical stabilization", "ultra wide lens"],
             "price": 557.95,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy A",
+            "labelOfModel": "Samsung Galaxy Z Fold 2"
         },
         {
             "id": 66,
-            "brand": "Samsung",
-            "series": "Galaxy Xcover",
-            "model": "Samsung Galaxy A70",
+            "brand": "samsung",
+            "series": "galaxy_xcover",
+            "model": "samsung_galaxy_a70",
             "color": "gray",
             "screenRefreshRate": "",
             "storage": "16 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "ultra wide lens"],
             "price": 762.72,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Xcover",
+            "labelOfModel": "Samsung Galaxy A70"
         },
         {
             "id": 67,
-            "brand": "Samsung",
-            "series": "Galaxy S",
-            "model": "Samsung Galaxy A72",
+            "brand": "samsung",
+            "series": "galaxy_s",
+            "model": "samsung_galaxy_a72",
             "color": "gray",
             "screenRefreshRate": "144 Hz",
             "storage": "≥ 512 GB",
@@ -1432,32 +1635,34 @@
                 "thermal imager"
             ],
             "price": 339.45,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy S",
+            "labelOfModel": "Samsung Galaxy A72"
         },
         {
             "id": 68,
-            "brand": "Samsung",
-            "series": "Galaxy M",
-            "model": "Samsung Galaxy A20",
+            "brand": "samsung",
+            "series": "galaxy_m",
+            "model": "samsung_galaxy_a20",
             "color": "gray",
             "screenRefreshRate": "144 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "50 MP",
-            "mainCamera_Features": [
-                "optical stabilization",
-                "night vision camera",
-                "microscope lens",
-                "ultra wide lens",
-                "thermal imager"
-            ],
+            "mainCamera_Features": ["optical stabilization", "night vision camera", "microscope lens", "ultra wide lens", "thermal imager"],
             "price": 1269.66,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy M",
+            "labelOfModel": "Samsung Galaxy A20"
         },
         {
             "id": 69,
-            "brand": "Samsung",
-            "series": "Galaxy A",
-            "model": "Samsung Galaxy A90Samsung Galaxy S21",
+            "brand": "samsung",
+            "series": "galaxy_a",
+            "model": "samsung_galaxy_a90samsung_galaxy_s21",
             "color": "green",
             "screenRefreshRate": "",
             "storage": "16 GB",
@@ -1472,45 +1677,51 @@
                 "sensor stabilization"
             ],
             "price": 1332.75,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy A",
+            "labelOfModel": "Samsung Galaxy A90Samsung Galaxy S21"
         },
         {
             "id": 70,
-            "brand": "Samsung",
-            "series": "Galaxy Xcover",
-            "model": "Samsung Galaxy M31",
+            "brand": "samsung",
+            "series": "galaxy_xcover",
+            "model": "samsung_galaxy_m31",
             "color": "black",
             "screenRefreshRate": "120 Hz",
             "storage": "32 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["telephoto lens", "thermal imager", "microscope lens", "optical stabilization"],
             "price": 1334.34,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Xcover",
+            "labelOfModel": "Samsung Galaxy M31"
         },
         {
             "id": 71,
-            "brand": "Samsung",
-            "series": "Galaxy Flip",
-            "model": "Samsung Galaxy A10",
+            "brand": "samsung",
+            "series": "galaxy_flip",
+            "model": "samsung_galaxy_a10",
             "color": "green",
             "screenRefreshRate": "",
             "storage": "≥ 512 GB",
             "mainCamera_Pixels": "16 MP",
-            "mainCamera_Features": [
-                "thermal imager",
-                "night vision camera",
-                "optical stabilization",
-                "telephoto lens",
-                "microscope lens"
-            ],
+            "mainCamera_Features": ["thermal imager", "night vision camera", "optical stabilization", "telephoto lens", "microscope lens"],
             "price": 1165.36,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Flip",
+            "labelOfModel": "Samsung Galaxy A10"
         },
         {
             "id": 72,
-            "brand": "Samsung",
-            "series": "Galaxy Xcover",
-            "model": "Samsung Galaxy A51",
+            "brand": "samsung",
+            "series": "galaxy_xcover",
+            "model": "samsung_galaxy_a51",
             "color": "white",
             "screenRefreshRate": "90 Hz",
             "storage": "32 GB",
@@ -1523,13 +1734,17 @@
                 "telephoto lens"
             ],
             "price": 1218.08,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Xcover",
+            "labelOfModel": "Samsung Galaxy A51"
         },
         {
             "id": 73,
-            "brand": "Samsung",
-            "series": "Galaxy Flip",
-            "model": "Samsung Galaxy A80",
+            "brand": "samsung",
+            "series": "galaxy_flip",
+            "model": "samsung_galaxy_a80",
             "color": "white",
             "screenRefreshRate": "60 Hz",
             "storage": "16 GB",
@@ -1545,13 +1760,17 @@
                 "telephoto lens"
             ],
             "price": 1029.48,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Flip",
+            "labelOfModel": "Samsung Galaxy A80"
         },
         {
             "id": 74,
-            "brand": "Samsung",
-            "series": "Galaxy Note",
-            "model": "Samsung Galaxy Z Fold 2",
+            "brand": "samsung",
+            "series": "galaxy_note",
+            "model": "samsung_galaxy_z_fold_2",
             "color": "white",
             "screenRefreshRate": "",
             "storage": "32 GB",
@@ -1566,52 +1785,68 @@
                 "optical stabilization"
             ],
             "price": 395.3,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Note",
+            "labelOfModel": "Samsung Galaxy Z Fold 2"
         },
         {
             "id": 75,
-            "brand": "Samsung",
-            "series": "Galaxy Xcover",
-            "model": "Samsung Galaxy A90Samsung Galaxy S21",
+            "brand": "samsung",
+            "series": "galaxy_xcover",
+            "model": "samsung_galaxy_a90samsung_galaxy_s21",
             "color": "gray",
             "screenRefreshRate": "60 Hz",
             "storage": "32 GB",
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["macro lens", "ultra wide lens", "sensor stabilization"],
             "price": 971.33,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Xcover",
+            "labelOfModel": "Samsung Galaxy A90Samsung Galaxy S21"
         },
         {
             "id": 76,
-            "brand": "Samsung",
-            "series": "Galaxy S",
-            "model": "Samsung Galaxy A42",
+            "brand": "samsung",
+            "series": "galaxy_s",
+            "model": "samsung_galaxy_a42",
             "color": "gray",
             "screenRefreshRate": "",
             "storage": "64 GB",
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["optical stabilization", "ultra wide lens"],
             "price": 440.92,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy S",
+            "labelOfModel": "Samsung Galaxy A42"
         },
         {
             "id": 77,
-            "brand": "Samsung",
-            "series": "Galaxy S",
-            "model": "Samsung Galaxy J7",
+            "brand": "samsung",
+            "series": "galaxy_s",
+            "model": "samsung_galaxy_j7",
             "color": "white",
             "screenRefreshRate": "144 Hz",
             "storage": "16 GB",
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["ultra wide lens", "sensor stabilization", "thermal imager", "microscope lens"],
             "price": 1013.39,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy S",
+            "labelOfModel": "Samsung Galaxy J7"
         },
         {
             "id": 78,
-            "brand": "Samsung",
-            "series": "Galaxy Fold",
-            "model": "Samsung Galaxy J7",
+            "brand": "samsung",
+            "series": "galaxy_fold",
+            "model": "samsung_galaxy_j7",
             "color": "black",
             "screenRefreshRate": "",
             "storage": "128 GB",
@@ -1626,13 +1861,17 @@
                 "macro lens"
             ],
             "price": 477.21,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Fold",
+            "labelOfModel": "Samsung Galaxy J7"
         },
         {
             "id": 79,
-            "brand": "Samsung",
-            "series": "Galaxy Fold",
-            "model": "Samsung Galaxy A10",
+            "brand": "samsung",
+            "series": "galaxy_fold",
+            "model": "samsung_galaxy_a10",
             "color": "white",
             "screenRefreshRate": "90 Hz",
             "storage": "32 GB",
@@ -1647,13 +1886,17 @@
                 "optical stabilization"
             ],
             "price": 859.26,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Fold",
+            "labelOfModel": "Samsung Galaxy A10"
         },
         {
             "id": 80,
-            "brand": "Samsung",
-            "series": "Galaxy Flip",
-            "model": "Samsung Galaxy A30",
+            "brand": "samsung",
+            "series": "galaxy_flip",
+            "model": "samsung_galaxy_a30",
             "color": "gray",
             "screenRefreshRate": "144 Hz",
             "storage": "128 GB",
@@ -1668,26 +1911,34 @@
                 "sensor stabilization"
             ],
             "price": 719.52,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Flip",
+            "labelOfModel": "Samsung Galaxy A30"
         },
         {
             "id": 81,
-            "brand": "Samsung",
-            "series": "Galaxy Note",
-            "model": "Samsung Galaxy A71",
+            "brand": "samsung",
+            "series": "galaxy_note",
+            "model": "samsung_galaxy_a71",
             "color": "gray",
             "screenRefreshRate": "120 Hz",
             "storage": "32 GB",
             "mainCamera_Pixels": "16 MP",
             "mainCamera_Features": ["ultra wide lens", "thermal imager", "macro lens", "night vision camera"],
             "price": 1016.17,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Note",
+            "labelOfModel": "Samsung Galaxy A71"
         },
         {
             "id": 82,
-            "brand": "Samsung",
-            "series": "Galaxy F",
-            "model": "Samsung Galaxy A30",
+            "brand": "samsung",
+            "series": "galaxy_f",
+            "model": "samsung_galaxy_a30",
             "color": "black",
             "screenRefreshRate": "90 Hz",
             "storage": "128 GB",
@@ -1701,58 +1952,68 @@
                 "telephoto lens"
             ],
             "price": 1331.56,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy F",
+            "labelOfModel": "Samsung Galaxy A30"
         },
         {
             "id": 83,
-            "brand": "Samsung",
-            "series": "Galaxy Flip",
-            "model": "Samsung Galaxy J7",
+            "brand": "samsung",
+            "series": "galaxy_flip",
+            "model": "samsung_galaxy_j7",
             "color": "green",
             "screenRefreshRate": "60 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["microscope lens", "thermal imager"],
             "price": 979.06,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Flip",
+            "labelOfModel": "Samsung Galaxy J7"
         },
         {
             "id": 84,
-            "brand": "Samsung",
-            "series": "Galaxy Flip",
-            "model": "Samsung Galaxy A20",
+            "brand": "samsung",
+            "series": "galaxy_flip",
+            "model": "samsung_galaxy_a20",
             "color": "white",
             "screenRefreshRate": "60 Hz",
             "storage": "128 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "night vision camera", "telephoto lens", "sensor stabilization"],
             "price": 307.77,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Flip",
+            "labelOfModel": "Samsung Galaxy A20"
         },
         {
             "id": 85,
-            "brand": "Samsung",
-            "series": "Galaxy Note",
-            "model": "Samsung Galaxy Note 9",
+            "brand": "samsung",
+            "series": "galaxy_note",
+            "model": "samsung_galaxy_note_9",
             "color": "white",
             "screenRefreshRate": "144 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "12 MP",
-            "mainCamera_Features": [
-                "macro lens",
-                "telephoto lens",
-                "microscope lens",
-                "night vision camera",
-                "optical stabilization"
-            ],
+            "mainCamera_Features": ["macro lens", "telephoto lens", "microscope lens", "night vision camera", "optical stabilization"],
             "price": 1457.86,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Note",
+            "labelOfModel": "Samsung Galaxy Note 9"
         },
         {
             "id": 86,
-            "brand": "Samsung",
-            "series": "Galaxy S",
-            "model": "Samsung Galaxy A50",
+            "brand": "samsung",
+            "series": "galaxy_s",
+            "model": "samsung_galaxy_a50",
             "color": "black",
             "screenRefreshRate": "90 Hz",
             "storage": "≥ 512 GB",
@@ -1767,13 +2028,17 @@
                 "microscope lens"
             ],
             "price": 323.57,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy S",
+            "labelOfModel": "Samsung Galaxy A50"
         },
         {
             "id": 87,
-            "brand": "Samsung",
-            "series": "Galaxy A",
-            "model": "Samsung Galaxy Z Fold 2",
+            "brand": "samsung",
+            "series": "galaxy_a",
+            "model": "samsung_galaxy_z_fold_2",
             "color": "gray",
             "screenRefreshRate": "60 Hz",
             "storage": "16 GB",
@@ -1788,13 +2053,17 @@
                 "night vision camera"
             ],
             "price": 1392.68,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy A",
+            "labelOfModel": "Samsung Galaxy Z Fold 2"
         },
         {
             "id": 88,
-            "brand": "Samsung",
-            "series": "Galaxy A0",
-            "model": "Samsung Galaxy A02s",
+            "brand": "samsung",
+            "series": "galaxy_a0",
+            "model": "samsung_galaxy_a02s",
             "color": "gray",
             "screenRefreshRate": "60 Hz",
             "storage": "16 GB",
@@ -1809,26 +2078,34 @@
                 "ultra wide lens"
             ],
             "price": 880.37,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy A0",
+            "labelOfModel": "Samsung Galaxy A02s"
         },
         {
             "id": 89,
-            "brand": "Samsung",
-            "series": "Galaxy Xcover",
-            "model": "Samsung Galaxy A10",
+            "brand": "samsung",
+            "series": "galaxy_xcover",
+            "model": "samsung_galaxy_a10",
             "color": "black",
             "screenRefreshRate": "",
             "storage": "64 GB",
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["microscope lens", "optical stabilization"],
             "price": 463.2,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Xcover",
+            "labelOfModel": "Samsung Galaxy A10"
         },
         {
             "id": 90,
-            "brand": "Samsung",
-            "series": "Galaxy Flip",
-            "model": "Samsung Galaxy A32",
+            "brand": "samsung",
+            "series": "galaxy_flip",
+            "model": "samsung_galaxy_a32",
             "color": "black",
             "screenRefreshRate": "60 Hz",
             "storage": "≥ 512 GB",
@@ -1844,26 +2121,34 @@
                 "macro lens"
             ],
             "price": 623.54,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Flip",
+            "labelOfModel": "Samsung Galaxy A32"
         },
         {
             "id": 91,
-            "brand": "Samsung",
-            "series": "Galaxy A0",
-            "model": "Samsung Galaxy A20",
+            "brand": "samsung",
+            "series": "galaxy_a0",
+            "model": "samsung_galaxy_a20",
             "color": "white",
             "screenRefreshRate": "144 Hz",
             "storage": "≥ 512 GB",
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["microscope lens", "sensor stabilization", "night vision camera", "thermal imager"],
             "price": 996.12,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy A0",
+            "labelOfModel": "Samsung Galaxy A20"
         },
         {
             "id": 92,
-            "brand": "Samsung",
-            "series": "Galaxy Fold",
-            "model": "Samsung Galaxy Z Fold 2",
+            "brand": "samsung",
+            "series": "galaxy_fold",
+            "model": "samsung_galaxy_z_fold_2",
             "color": "green",
             "screenRefreshRate": "120 Hz",
             "storage": "32 GB",
@@ -1878,26 +2163,34 @@
                 "macro lens"
             ],
             "price": 1353.44,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Fold",
+            "labelOfModel": "Samsung Galaxy Z Fold 2"
         },
         {
             "id": 93,
-            "brand": "Samsung",
-            "series": "Galaxy S",
-            "model": "Samsung Galaxy Z Fold 2",
+            "brand": "samsung",
+            "series": "galaxy_s",
+            "model": "samsung_galaxy_z_fold_2",
             "color": "white",
             "screenRefreshRate": "120 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["telephoto lens", "microscope lens", "sensor stabilization"],
             "price": 862.55,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy S",
+            "labelOfModel": "Samsung Galaxy Z Fold 2"
         },
         {
             "id": 94,
-            "brand": "Samsung",
-            "series": "Galaxy F",
-            "model": "Samsung Galaxy S10",
+            "brand": "samsung",
+            "series": "galaxy_f",
+            "model": "samsung_galaxy_s10",
             "color": "green",
             "screenRefreshRate": "60 Hz",
             "storage": "32 GB",
@@ -1913,13 +2206,17 @@
                 "microscope lens"
             ],
             "price": 985.58,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy F",
+            "labelOfModel": "Samsung Galaxy S10"
         },
         {
             "id": 95,
-            "brand": "Samsung",
-            "series": "Galaxy Fold",
-            "model": "Samsung Galaxy A20",
+            "brand": "samsung",
+            "series": "galaxy_fold",
+            "model": "samsung_galaxy_a20",
             "color": "white",
             "screenRefreshRate": "60 Hz",
             "storage": "64 GB",
@@ -1932,39 +2229,51 @@
                 "night vision camera"
             ],
             "price": 1173.91,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Fold",
+            "labelOfModel": "Samsung Galaxy A20"
         },
         {
             "id": 96,
-            "brand": "Samsung",
-            "series": "Galaxy Fold",
-            "model": "Samsung Galaxy A20",
+            "brand": "samsung",
+            "series": "galaxy_fold",
+            "model": "samsung_galaxy_a20",
             "color": "white",
             "screenRefreshRate": "",
             "storage": "≥ 512 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["sensor stabilization", "ultra wide lens"],
             "price": 1376.13,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Fold",
+            "labelOfModel": "Samsung Galaxy A20"
         },
         {
             "id": 97,
-            "brand": "Samsung",
-            "series": "Galaxy F",
-            "model": "Samsung Galaxy M31",
+            "brand": "samsung",
+            "series": "galaxy_f",
+            "model": "samsung_galaxy_m31",
             "color": "black",
             "screenRefreshRate": "120 Hz",
             "storage": "128 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["telephoto lens", "thermal imager", "sensor stabilization"],
             "price": 512.38,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy F",
+            "labelOfModel": "Samsung Galaxy M31"
         },
         {
             "id": 98,
-            "brand": "Samsung",
-            "series": "Galaxy A",
-            "model": "Samsung Galaxy A50",
+            "brand": "samsung",
+            "series": "galaxy_a",
+            "model": "samsung_galaxy_a50",
             "color": "green",
             "screenRefreshRate": "144 Hz",
             "storage": "256 GB",
@@ -1978,13 +2287,17 @@
                 "macro lens"
             ],
             "price": 971.59,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy A",
+            "labelOfModel": "Samsung Galaxy A50"
         },
         {
             "id": 99,
-            "brand": "Samsung",
-            "series": "Galaxy M",
-            "model": "Samsung Galaxy Note 10",
+            "brand": "samsung",
+            "series": "galaxy_m",
+            "model": "samsung_galaxy_note_10",
             "color": "gray",
             "screenRefreshRate": "60 Hz",
             "storage": "32 GB",
@@ -2000,13 +2313,17 @@
                 "macro lens"
             ],
             "price": 852.1,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy M",
+            "labelOfModel": "Samsung Galaxy Note 10"
         },
         {
             "id": 100,
-            "brand": "Samsung",
-            "series": "Galaxy S",
-            "model": "Samsung Galaxy M21",
+            "brand": "samsung",
+            "series": "galaxy_s",
+            "model": "samsung_galaxy_m21",
             "color": "green",
             "screenRefreshRate": "",
             "storage": "128 GB",
@@ -2020,26 +2337,34 @@
                 "ultra wide lens"
             ],
             "price": 1148.66,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy S",
+            "labelOfModel": "Samsung Galaxy M21"
         },
         {
             "id": 101,
-            "brand": "Samsung",
-            "series": "Galaxy Note",
-            "model": "Samsung Galaxy Note 9",
+            "brand": "samsung",
+            "series": "galaxy_note",
+            "model": "samsung_galaxy_note_9",
             "color": "gray",
             "screenRefreshRate": "90 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["thermal imager", "sensor stabilization", "ultra wide lens"],
             "price": 1250.65,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Note",
+            "labelOfModel": "Samsung Galaxy Note 9"
         },
         {
             "id": 102,
-            "brand": "Samsung",
-            "series": "Galaxy Xcover",
-            "model": "Samsung Galaxy Note 9",
+            "brand": "samsung",
+            "series": "galaxy_xcover",
+            "model": "samsung_galaxy_note_9",
             "color": "gray",
             "screenRefreshRate": "144 Hz",
             "storage": "≥ 512 GB",
@@ -2055,52 +2380,68 @@
                 "sensor stabilization"
             ],
             "price": 1350.47,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Xcover",
+            "labelOfModel": "Samsung Galaxy Note 9"
         },
         {
             "id": 103,
-            "brand": "Samsung",
-            "series": "Galaxy A0",
-            "model": "Samsung Galaxy A32",
+            "brand": "samsung",
+            "series": "galaxy_a0",
+            "model": "samsung_galaxy_a32",
             "color": "green",
             "screenRefreshRate": "120 Hz",
             "storage": "32 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["night vision camera", "thermal imager"],
             "price": 1184.24,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy A0",
+            "labelOfModel": "Samsung Galaxy A32"
         },
         {
             "id": 104,
-            "brand": "Samsung",
-            "series": "Galaxy Fold",
-            "model": "Samsung Galaxy Z Fold 2",
+            "brand": "samsung",
+            "series": "galaxy_fold",
+            "model": "samsung_galaxy_z_fold_2",
             "color": "gray",
             "screenRefreshRate": "60 Hz",
             "storage": "128 GB",
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["sensor stabilization", "night vision camera", "thermal imager", "macro lens"],
             "price": 1330.22,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Fold",
+            "labelOfModel": "Samsung Galaxy Z Fold 2"
         },
         {
             "id": 105,
-            "brand": "Samsung",
-            "series": "Galaxy M",
-            "model": "Samsung Galaxy Note 20",
+            "brand": "samsung",
+            "series": "galaxy_m",
+            "model": "samsung_galaxy_note_20",
             "color": "gray",
             "screenRefreshRate": "",
             "storage": "16 GB",
             "mainCamera_Pixels": "16 MP",
             "mainCamera_Features": ["night vision camera", "optical stabilization", "macro lens", "microscope lens"],
             "price": 471.64,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy M",
+            "labelOfModel": "Samsung Galaxy Note 20"
         },
         {
             "id": 106,
-            "brand": "Samsung",
-            "series": "Galaxy Note",
-            "model": "Samsung Galaxy Z Flip",
+            "brand": "samsung",
+            "series": "galaxy_note",
+            "model": "samsung_galaxy_z_flip",
             "color": "black",
             "screenRefreshRate": "",
             "storage": "64 GB",
@@ -2115,13 +2456,17 @@
                 "thermal imager"
             ],
             "price": 1345.26,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Note",
+            "labelOfModel": "Samsung Galaxy Z Flip"
         },
         {
             "id": 107,
-            "brand": "Samsung",
-            "series": "Galaxy A",
-            "model": "Samsung Galaxy A30",
+            "brand": "samsung",
+            "series": "galaxy_a",
+            "model": "samsung_galaxy_a30",
             "color": "green",
             "screenRefreshRate": "120 Hz",
             "storage": "64 GB",
@@ -2137,57 +2482,68 @@
                 "macro lens"
             ],
             "price": 1289.64,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy A",
+            "labelOfModel": "Samsung Galaxy A30"
         },
         {
             "id": 108,
-            "brand": "Samsung",
-            "series": "Galaxy Fold",
-            "model": "Samsung Galaxy A72",
+            "brand": "samsung",
+            "series": "galaxy_fold",
+            "model": "samsung_galaxy_a72",
             "color": "white",
             "screenRefreshRate": "90 Hz",
             "storage": "128 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["microscope lens", "ultra wide lens", "telephoto lens"],
             "price": 958.7,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Fold",
+            "labelOfModel": "Samsung Galaxy A72"
         },
         {
             "id": 109,
-            "brand": "Samsung",
-            "series": "Galaxy M",
-            "model": "Samsung Galaxy A40",
+            "brand": "samsung",
+            "series": "galaxy_m",
+            "model": "samsung_galaxy_a40",
             "color": "green",
             "screenRefreshRate": "90 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["night vision camera", "ultra wide lens"],
             "price": 516.2,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy M",
+            "labelOfModel": "Samsung Galaxy A40"
         },
         {
             "id": 110,
-            "brand": "Samsung",
-            "series": "Galaxy Note",
-            "model": "Samsung Galaxy A20",
+            "brand": "samsung",
+            "series": "galaxy_note",
+            "model": "samsung_galaxy_a20",
             "color": "gray",
             "screenRefreshRate": "120 Hz",
             "storage": "256 GB",
             "mainCamera_Pixels": "50 MP",
-            "mainCamera_Features": [
-                "ultra wide lens",
-                "microscope lens",
-                "night vision camera",
-                "optical stabilization"
-            ],
+            "mainCamera_Features": ["ultra wide lens", "microscope lens", "night vision camera", "optical stabilization"],
             "price": 459.74,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Note",
+            "labelOfModel": "Samsung Galaxy A20"
         },
         {
             "id": 111,
-            "brand": "Samsung",
-            "series": "Galaxy F",
-            "model": "Samsung Galaxy Z Flip",
+            "brand": "samsung",
+            "series": "galaxy_f",
+            "model": "samsung_galaxy_z_flip",
             "color": "white",
             "screenRefreshRate": "",
             "storage": "64 GB",
@@ -2202,45 +2558,51 @@
                 "night vision camera"
             ],
             "price": 1447.53,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy F",
+            "labelOfModel": "Samsung Galaxy Z Flip"
         },
         {
             "id": 112,
-            "brand": "Samsung",
-            "series": "Galaxy Note",
-            "model": "Samsung Galaxy A10",
+            "brand": "samsung",
+            "series": "galaxy_note",
+            "model": "samsung_galaxy_a10",
             "color": "gray",
             "screenRefreshRate": "144 Hz",
             "storage": "≥ 512 GB",
             "mainCamera_Pixels": "50 MP",
             "mainCamera_Features": ["ultra wide lens", "sensor stabilization", "macro lens"],
             "price": 341.1,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Note",
+            "labelOfModel": "Samsung Galaxy A10"
         },
         {
             "id": 113,
-            "brand": "Samsung",
-            "series": "Galaxy A",
-            "model": "Samsung Galaxy Note 20",
+            "brand": "samsung",
+            "series": "galaxy_a",
+            "model": "samsung_galaxy_note_20",
             "color": "white",
             "screenRefreshRate": "144 Hz",
             "storage": "16 GB",
             "mainCamera_Pixels": "12 MP",
-            "mainCamera_Features": [
-                "microscope lens",
-                "thermal imager",
-                "telephoto lens",
-                "optical stabilization",
-                "sensor stabilization"
-            ],
+            "mainCamera_Features": ["microscope lens", "thermal imager", "telephoto lens", "optical stabilization", "sensor stabilization"],
             "price": 1188.36,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy A",
+            "labelOfModel": "Samsung Galaxy Note 20"
         },
         {
             "id": 114,
-            "brand": "Samsung",
-            "series": "Galaxy Flip",
-            "model": "Samsung Galaxy A02s",
+            "brand": "samsung",
+            "series": "galaxy_flip",
+            "model": "samsung_galaxy_a02s",
             "color": "white",
             "screenRefreshRate": "144 Hz",
             "storage": "64 GB",
@@ -2254,57 +2616,68 @@
                 "sensor stabilization"
             ],
             "price": 1053.35,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Flip",
+            "labelOfModel": "Samsung Galaxy A02s"
         },
         {
             "id": 115,
-            "brand": "Samsung",
-            "series": "Galaxy Flip",
-            "model": "Samsung Galaxy A10",
+            "brand": "samsung",
+            "series": "galaxy_flip",
+            "model": "samsung_galaxy_a10",
             "color": "green",
             "screenRefreshRate": "120 Hz",
             "storage": "64 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["optical stabilization", "microscope lens", "night vision camera"],
             "price": 1377.44,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Flip",
+            "labelOfModel": "Samsung Galaxy A10"
         },
         {
             "id": 116,
-            "brand": "Samsung",
-            "series": "Galaxy M",
-            "model": "Samsung Galaxy A80",
+            "brand": "samsung",
+            "series": "galaxy_m",
+            "model": "samsung_galaxy_a80",
             "color": "black",
             "screenRefreshRate": "120 Hz",
             "storage": "128 GB",
             "mainCamera_Pixels": "12 MP",
-            "mainCamera_Features": [
-                "optical stabilization",
-                "ultra wide lens",
-                "thermal imager",
-                "night vision camera"
-            ],
+            "mainCamera_Features": ["optical stabilization", "ultra wide lens", "thermal imager", "night vision camera"],
             "price": 562.47,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy M",
+            "labelOfModel": "Samsung Galaxy A80"
         },
         {
             "id": 117,
-            "brand": "Samsung",
-            "series": "Galaxy Xcover",
-            "model": "Samsung Galaxy A70",
+            "brand": "samsung",
+            "series": "galaxy_xcover",
+            "model": "samsung_galaxy_a70",
             "color": "white",
             "screenRefreshRate": "120 Hz",
             "storage": "16 GB",
             "mainCamera_Pixels": "12 MP",
             "mainCamera_Features": ["macro lens", "microscope lens", "telephoto lens", "night vision camera"],
             "price": 833.35,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Xcover",
+            "labelOfModel": "Samsung Galaxy A70"
         },
         {
             "id": 118,
-            "brand": "Samsung",
-            "series": "Galaxy Fold",
-            "model": "Samsung Galaxy S10",
+            "brand": "samsung",
+            "series": "galaxy_fold",
+            "model": "samsung_galaxy_s10",
             "color": "green",
             "screenRefreshRate": "144 Hz",
             "storage": "≥ 512 GB",
@@ -2317,26 +2690,34 @@
                 "sensor stabilization"
             ],
             "price": 619.38,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Fold",
+            "labelOfModel": "Samsung Galaxy S10"
         },
         {
             "id": 119,
-            "brand": "Samsung",
-            "series": "Galaxy F",
-            "model": "Samsung Galaxy A71",
+            "brand": "samsung",
+            "series": "galaxy_f",
+            "model": "samsung_galaxy_a71",
             "color": "white",
             "screenRefreshRate": "60 Hz",
             "storage": "32 GB",
             "mainCamera_Pixels": "16 MP",
             "mainCamera_Features": ["macro lens", "sensor stabilization", "optical stabilization"],
             "price": 331.93,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy F",
+            "labelOfModel": "Samsung Galaxy A71"
         },
         {
             "id": 120,
-            "brand": "Samsung",
-            "series": "Galaxy Fold",
-            "model": "Samsung Galaxy J7",
+            "brand": "samsung",
+            "series": "galaxy_fold",
+            "model": "samsung_galaxy_j7",
             "color": "black",
             "screenRefreshRate": "144 Hz",
             "storage": "16 GB",
@@ -2350,314 +2731,512 @@
                 "thermal imager"
             ],
             "price": 1139.3,
-            "category": "Smartphones"
+            "category": "smartphones",
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Smartphones",
+            "labelOfSeries": "Galaxy Fold",
+            "labelOfModel": "Samsung Galaxy J7"
         },
         {
             "id": 121,
-            "brand": "Samsung",
-            "category": "TVs",
-            "model": "QLED Q90R",
-            "price": 1499.99
+            "brand": "samsung",
+            "category": "tvs",
+            "series": "empty",
+            "model": "qled_q90r",
+            "price": 1499.99,
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "QLED Q90R"
         },
         {
             "id": 122,
-            "brand": "LG",
-            "category": "TVs",
-            "model": "OLED CX",
-            "price": 1799.0
+            "brand": "lg",
+            "category": "tvs",
+            "series": "empty",
+            "model": "oled_cx",
+            "price": 1799,
+            "labelOfBrand": "LG",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "OLED CX"
         },
         {
             "id": 123,
-            "brand": "Sony",
-            "category": "TVs",
-            "model": "Bravia X900H",
-            "price": 1299.5
+            "brand": "sony",
+            "category": "tvs",
+            "series": "empty",
+            "model": "bravia_x900h",
+            "price": 1299.5,
+            "labelOfBrand": "Sony",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Bravia X900H"
         },
         {
             "id": 124,
-            "brand": "TCL",
-            "category": "TVs",
-            "model": "6-Series",
-            "price": 699.99
+            "brand": "tcl",
+            "category": "tvs",
+            "series": "empty",
+            "model": "6-series",
+            "price": 699.99,
+            "labelOfBrand": "TCL",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "6-Series"
         },
         {
             "id": 125,
-            "brand": "Vizio",
-            "category": "TVs",
-            "model": "P-Series Quantum",
-            "price": 1199.95
+            "brand": "vizio",
+            "category": "tvs",
+            "series": "empty",
+            "model": "p-series_quantum",
+            "price": 1199.95,
+            "labelOfBrand": "Vizio",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "P-Series Quantum"
         },
         {
             "id": 126,
-            "brand": "Panasonic",
-            "category": "TVs",
-            "model": "FX800",
-            "price": 999.0
+            "brand": "panasonic",
+            "category": "tvs",
+            "series": "empty",
+            "model": "fx800",
+            "price": 999,
+            "labelOfBrand": "Panasonic",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "FX800"
         },
         {
             "id": 127,
-            "brand": "Hisense",
-            "category": "TVs",
-            "model": "H9G",
-            "price": 799.99
+            "brand": "hisense",
+            "category": "tvs",
+            "series": "empty",
+            "model": "h9g",
+            "price": 799.99,
+            "labelOfBrand": "Hisense",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "H9G"
         },
         {
             "id": 128,
-            "brand": "Samsung",
-            "category": "TVs",
-            "model": "Neo QLED QN90A",
-            "price": 1699.0
+            "brand": "samsung",
+            "category": "tvs",
+            "series": "empty",
+            "model": "neo_qled_qn90a",
+            "price": 1699,
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Neo QLED QN90A"
         },
         {
             "id": 129,
-            "brand": "Sony",
-            "category": "TVs",
-            "model": "A8H OLED",
-            "price": 1499.99
+            "brand": "sony",
+            "category": "tvs",
+            "series": "empty",
+            "model": "a8h_oled",
+            "price": 1499.99,
+            "labelOfBrand": "Sony",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "A8H OLED"
         },
         {
             "id": 130,
-            "brand": "LG",
-            "category": "TVs",
-            "model": "NanoCell NANO90",
-            "price": 1299.95
+            "brand": "lg",
+            "category": "tvs",
+            "series": "empty",
+            "model": "nanocell_nano90",
+            "price": 1299.95,
+            "labelOfBrand": "LG",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "NanoCell NANO90"
         },
         {
             "id": 131,
-            "brand": "Vizio",
-            "category": "TVs",
-            "model": "M-Series Quantum",
-            "price": 849.0
+            "brand": "vizio",
+            "category": "tvs",
+            "series": "empty",
+            "model": "m-series_quantum",
+            "price": 849,
+            "labelOfBrand": "Vizio",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "M-Series Quantum"
         },
         {
             "id": 132,
-            "brand": "TCL",
-            "category": "TVs",
-            "model": "5-Series",
-            "price": 599.0
+            "brand": "tcl",
+            "category": "tvs",
+            "series": "empty",
+            "model": "5-series",
+            "price": 599,
+            "labelOfBrand": "TCL",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "5-Series"
         },
         {
             "id": 133,
-            "brand": "Samsung",
-            "category": "TVs",
-            "model": "TU8000",
-            "price": 599.99
+            "brand": "samsung",
+            "category": "tvs",
+            "series": "empty",
+            "model": "tu8000",
+            "price": 599.99,
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "TU8000"
         },
         {
             "id": 134,
-            "brand": "Sony",
-            "category": "TVs",
-            "model": "X800H",
-            "price": 799.5
+            "brand": "sony",
+            "category": "tvs",
+            "series": "empty",
+            "model": "x800h",
+            "price": 799.5,
+            "labelOfBrand": "Sony",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "X800H"
         },
         {
             "id": 135,
-            "brand": "LG",
-            "category": "TVs",
-            "model": "UM7300",
-            "price": 499.0
+            "brand": "lg",
+            "category": "tvs",
+            "series": "empty",
+            "model": "um7300",
+            "price": 499,
+            "labelOfBrand": "LG",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "UM7300"
         },
         {
             "id": 136,
-            "brand": "TCL",
-            "category": "TVs",
-            "model": "4-Series",
-            "price": 399.99
+            "brand": "tcl",
+            "category": "tvs",
+            "series": "empty",
+            "model": "4-series",
+            "price": 399.99,
+            "labelOfBrand": "TCL",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "4-Series"
         },
         {
             "id": 137,
-            "brand": "Hisense",
-            "category": "TVs",
-            "model": "R6090G",
-            "price": 369.95
+            "brand": "hisense",
+            "category": "tvs",
+            "series": "empty",
+            "model": "r6090g",
+            "price": 369.95,
+            "labelOfBrand": "Hisense",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "R6090G"
         },
         {
             "id": 138,
-            "brand": "Samsung",
-            "category": "TVs",
-            "model": "The Frame",
-            "price": 1299.0
+            "brand": "samsung",
+            "category": "tvs",
+            "series": "empty",
+            "model": "the_frame",
+            "price": 1299,
+            "labelOfBrand": "Samsung",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "The Frame"
         },
         {
             "id": 139,
-            "brand": "Vizio",
-            "category": "TVs",
-            "model": "V-Series",
-            "price": 319.99
+            "brand": "vizio",
+            "category": "tvs",
+            "series": "empty",
+            "model": "v-series",
+            "price": 319.99,
+            "labelOfBrand": "Vizio",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "V-Series"
         },
         {
             "id": 140,
-            "brand": "LG",
-            "category": "TVs",
-            "model": "UK6090",
-            "price": 379.95
+            "brand": "lg",
+            "category": "tvs",
+            "series": "empty",
+            "model": "uk6090",
+            "price": 379.95,
+            "labelOfBrand": "LG",
+            "labelOfCategory": "Tvs",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "UK6090"
         },
         {
             "id": 141,
-            "brand": "Dell",
-            "category": "Laptops",
-            "model": "XPS 13",
-            "price": 1299.99
+            "brand": "dell",
+            "category": "laptops",
+            "series": "empty",
+            "model": "xps_13",
+            "price": 1299.99,
+            "labelOfBrand": "Dell",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "XPS 13"
         },
         {
             "id": 142,
-            "brand": "Apple",
-            "category": "Laptops",
-            "model": "MacBook Air",
-            "price": 1099.99
+            "brand": "apple",
+            "category": "laptops",
+            "series": "empty",
+            "model": "macbook_air",
+            "price": 1099.99,
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "MacBook Air"
         },
         {
             "id": 143,
-            "brand": "HP",
-            "category": "Laptops",
-            "model": "Spectre x360",
-            "price": 1399.99
+            "brand": "hp",
+            "category": "laptops",
+            "series": "empty",
+            "model": "spectre_x360",
+            "price": 1399.99,
+            "labelOfBrand": "HP",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Spectre x360"
         },
         {
             "id": 144,
-            "brand": "Lenovo",
-            "category": "Laptops",
-            "model": "ThinkPad X1 Carbon",
-            "price": 1499.99
+            "brand": "lenovo",
+            "category": "laptops",
+            "series": "empty",
+            "model": "thinkpad_x1_carbon",
+            "price": 1499.99,
+            "labelOfBrand": "Lenovo",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "ThinkPad X1 Carbon"
         },
         {
             "id": 145,
-            "brand": "ASUS",
-            "category": "Laptops",
-            "model": "ZenBook 14",
-            "price": 999.99
+            "brand": "asus",
+            "category": "laptops",
+            "series": "empty",
+            "model": "zenbook_14",
+            "price": 999.99,
+            "labelOfBrand": "ASUS",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "ZenBook 14"
         },
         {
             "id": 146,
-            "brand": "Acer",
-            "category": "Laptops",
-            "model": "Swift 3",
-            "price": 799.99
+            "brand": "acer",
+            "category": "laptops",
+            "series": "empty",
+            "model": "swift_3",
+            "price": 799.99,
+            "labelOfBrand": "Acer",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Swift 3"
         },
         {
             "id": 147,
-            "brand": "MSI",
-            "category": "Laptops",
-            "model": "GS66 Stealth",
-            "price": 1799.99
+            "brand": "msi",
+            "category": "laptops",
+            "series": "empty",
+            "model": "gs66_stealth",
+            "price": 1799.99,
+            "labelOfBrand": "MSI",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "GS66 Stealth"
         },
         {
             "id": 148,
-            "brand": "Razer",
-            "category": "Laptops",
-            "model": "Blade 15",
-            "price": 1899.99
+            "brand": "razer",
+            "category": "laptops",
+            "series": "empty",
+            "model": "blade_15",
+            "price": 1899.99,
+            "labelOfBrand": "Razer",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Blade 15"
         },
         {
             "id": 149,
-            "brand": "LG",
-            "category": "Laptops",
-            "model": "Gram 17",
-            "price": 1499.99
+            "brand": "lg",
+            "category": "laptops",
+            "series": "empty",
+            "model": "gram_17",
+            "price": 1499.99,
+            "labelOfBrand": "LG",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Gram 17"
         },
         {
             "id": 150,
-            "brand": "Microsoft",
-            "category": "Laptops",
-            "model": "Surface Laptop 4",
-            "price": 1299.99
+            "brand": "microsoft",
+            "category": "laptops",
+            "series": "empty",
+            "model": "surface_laptop_4",
+            "price": 1299.99,
+            "labelOfBrand": "Microsoft",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Surface Laptop 4"
         },
         {
             "id": 151,
-            "brand": "Dell",
-            "category": "Laptops",
-            "model": "Inspiron 15",
-            "price": 799.99
+            "brand": "dell",
+            "category": "laptops",
+            "series": "empty",
+            "model": "inspiron_15",
+            "price": 799.99,
+            "labelOfBrand": "Dell",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Inspiron 15"
         },
         {
             "id": 152,
-            "brand": "HP",
-            "category": "Laptops",
-            "model": "Envy x360",
-            "price": 1199.99
+            "brand": "hp",
+            "category": "laptops",
+            "series": "empty",
+            "model": "envy_x360",
+            "price": 1199.99,
+            "labelOfBrand": "HP",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Envy x360"
         },
         {
             "id": 153,
-            "brand": "Lenovo",
-            "category": "Laptops",
-            "model": "IdeaPad 5",
-            "price": 699.99
+            "brand": "lenovo",
+            "category": "laptops",
+            "series": "empty",
+            "model": "ideapad_5",
+            "price": 699.99,
+            "labelOfBrand": "Lenovo",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "IdeaPad 5"
         },
         {
             "id": 154,
-            "brand": "ASUS",
-            "category": "Laptops",
-            "model": "ROG Zephyrus G14",
-            "price": 1299.99
+            "brand": "asus",
+            "category": "laptops",
+            "series": "empty",
+            "model": "rog_zephyrus_g14",
+            "price": 1299.99,
+            "labelOfBrand": "ASUS",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "ROG Zephyrus G14"
         },
         {
             "id": 155,
-            "brand": "Acer",
-            "category": "Laptops",
-            "model": "Predator Helios 300",
-            "price": 1199.99
+            "brand": "acer",
+            "category": "laptops",
+            "series": "empty",
+            "model": "predator_helios_300",
+            "price": 1199.99,
+            "labelOfBrand": "Acer",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Predator Helios 300"
         },
         {
             "id": 156,
-            "brand": "MSI",
-            "category": "Laptops",
-            "model": "GE75 Raider",
-            "price": 1699.99
+            "brand": "msi",
+            "category": "laptops",
+            "series": "empty",
+            "model": "ge75_raider",
+            "price": 1699.99,
+            "labelOfBrand": "MSI",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "GE75 Raider"
         },
         {
             "id": 157,
-            "brand": "Apple",
-            "category": "Laptops",
-            "model": "MacBook Pro",
-            "price": 1799.99
+            "brand": "apple",
+            "category": "laptops",
+            "series": "empty",
+            "model": "macbook_pro",
+            "price": 1799.99,
+            "labelOfBrand": "Apple",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "MacBook Pro"
         },
         {
             "id": 158,
-            "brand": "Razer",
-            "category": "Laptops",
-            "model": "Blade Stealth",
-            "price": 1399.99
+            "brand": "razer",
+            "category": "laptops",
+            "series": "empty",
+            "model": "blade_stealth",
+            "price": 1399.99,
+            "labelOfBrand": "Razer",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Blade Stealth"
         },
         {
             "id": 159,
-            "brand": "LG",
-            "category": "Laptops",
-            "model": "Ultra 15",
-            "price": 1299.99
+            "brand": "lg",
+            "category": "laptops",
+            "series": "empty",
+            "model": "ultra_15",
+            "price": 1299.99,
+            "labelOfBrand": "LG",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Ultra 15"
         },
         {
             "id": 160,
-            "brand": "Lenovo",
-            "category": "Laptops",
-            "model": "Yoga C940",
-            "price": 1299.99
+            "brand": "lenovo",
+            "category": "laptops",
+            "series": "empty",
+            "model": "yoga_c940",
+            "price": 1299.99,
+            "labelOfBrand": "Lenovo",
+            "labelOfCategory": "Laptops",
+            "labelOfSeries": "Empty",
+            "labelOfModel": "Yoga C940"
         }
     ],
     "commodities": [
         {
-            "category": "Smartphones",
+            "category": "smartphones",
             "products": [
                 {
                     "id": 1,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12",
                     "series": "iPhone 12",
                     "color": "red",
                     "screenRefreshRate": "144 Hz",
                     "storage": "32 GB",
                     "mainCamera_Pixels": "48MP",
-                    "mainCamera_Features": [
-                        "microscope lens",
-                        "optical stabilization",
-                        "ultra wide lens",
-                        "macro lens",
-                        "thermal imager"
-                    ],
+                    "mainCamera_Features": ["microscope lens", "optical stabilization", "ultra wide lens", "macro lens", "thermal imager"],
                     "price": 1207.37
                 },
                 {
                     "id": 2,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 11",
                     "series": "iPhone 11",
                     "color": "black",
@@ -2669,7 +3248,7 @@
                 },
                 {
                     "id": 3,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13",
                     "series": "iPhone 13",
                     "color": "blue",
@@ -2688,7 +3267,7 @@
                 },
                 {
                     "id": 4,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12",
                     "series": "iPhone 12",
                     "color": "yellow",
@@ -2706,7 +3285,7 @@
                 },
                 {
                     "id": 5,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 14",
                     "series": "iPhone 14",
                     "color": "yellow",
@@ -2718,7 +3297,7 @@
                 },
                 {
                     "id": 6,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone SE",
                     "series": "iPhone SE",
                     "color": "yellow",
@@ -2737,24 +3316,19 @@
                 },
                 {
                     "id": 7,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12 Pro",
                     "series": "iPhone 12",
                     "color": "blue",
                     "screenRefreshRate": "120 Hz",
                     "storage": "64 GB",
                     "mainCamera_Pixels": "48MP",
-                    "mainCamera_Features": [
-                        "macro lens",
-                        "night vision camera",
-                        "sensor stabilization",
-                        "optical stabilization"
-                    ],
+                    "mainCamera_Features": ["macro lens", "night vision camera", "sensor stabilization", "optical stabilization"],
                     "price": 994.08
                 },
                 {
                     "id": 8,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone X",
                     "series": "iPhone X",
                     "color": "yellow",
@@ -2766,7 +3340,7 @@
                 },
                 {
                     "id": 9,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12",
                     "series": "iPhone 12",
                     "color": "black",
@@ -2778,7 +3352,7 @@
                 },
                 {
                     "id": 10,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone SE",
                     "series": "iPhone SE",
                     "color": "yellow",
@@ -2790,7 +3364,7 @@
                 },
                 {
                     "id": 11,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone X",
                     "series": "iPhone X",
                     "color": "blue",
@@ -2809,7 +3383,7 @@
                 },
                 {
                     "id": 12,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12",
                     "series": "iPhone 12",
                     "color": "black",
@@ -2827,7 +3401,7 @@
                 },
                 {
                     "id": 13,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12 Pro",
                     "series": "iPhone 12",
                     "color": "blue",
@@ -2839,7 +3413,7 @@
                 },
                 {
                     "id": 14,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12",
                     "series": "iPhone 12",
                     "color": "blue",
@@ -2860,7 +3434,7 @@
                 },
                 {
                     "id": 15,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13",
                     "series": "iPhone 13",
                     "color": "blue",
@@ -2881,24 +3455,19 @@
                 },
                 {
                     "id": 16,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13",
                     "series": "iPhone 13",
                     "color": "yellow",
                     "screenRefreshRate": "90 Hz",
                     "storage": "64 GB",
                     "mainCamera_Pixels": "12 MP",
-                    "mainCamera_Features": [
-                        "sensor stabilization",
-                        "thermal imager",
-                        "telephoto lens",
-                        "microscope lens"
-                    ],
+                    "mainCamera_Features": ["sensor stabilization", "thermal imager", "telephoto lens", "microscope lens"],
                     "price": 1395.96
                 },
                 {
                     "id": 17,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13 mini",
                     "series": "iPhone 13",
                     "color": "yellow",
@@ -2910,7 +3479,7 @@
                 },
                 {
                     "id": 18,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12 Pro",
                     "series": "iPhone 12",
                     "color": "blue",
@@ -2930,7 +3499,7 @@
                 },
                 {
                     "id": 19,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13",
                     "series": "iPhone 13",
                     "color": "yellow",
@@ -2942,7 +3511,7 @@
                 },
                 {
                     "id": 20,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone SE",
                     "series": "iPhone SE",
                     "color": "yellow",
@@ -2954,7 +3523,7 @@
                 },
                 {
                     "id": 21,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 11",
                     "series": "iPhone 11",
                     "color": "blue",
@@ -2974,7 +3543,7 @@
                 },
                 {
                     "id": 22,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 11 Pro",
                     "series": "iPhone 11",
                     "color": "yellow",
@@ -2986,7 +3555,7 @@
                 },
                 {
                     "id": 23,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13 Pro",
                     "series": "iPhone 13",
                     "color": "red",
@@ -2998,7 +3567,7 @@
                 },
                 {
                     "id": 24,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 11 Pro",
                     "series": "iPhone 11",
                     "color": "yellow",
@@ -3019,7 +3588,7 @@
                 },
                 {
                     "id": 25,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 14",
                     "series": "iPhone 14",
                     "color": "red",
@@ -3037,7 +3606,7 @@
                 },
                 {
                     "id": 26,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone X",
                     "series": "iPhone X",
                     "color": "yellow",
@@ -3058,7 +3627,7 @@
                 },
                 {
                     "id": 27,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12 Pro",
                     "series": "iPhone 12",
                     "color": "red",
@@ -3079,7 +3648,7 @@
                 },
                 {
                     "id": 28,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 11 Pro",
                     "series": "iPhone 11",
                     "color": "yellow",
@@ -3098,7 +3667,7 @@
                 },
                 {
                     "id": 29,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 14 Pro",
                     "series": "iPhone 14",
                     "color": "red",
@@ -3118,7 +3687,7 @@
                 },
                 {
                     "id": 30,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 11",
                     "series": "iPhone 11",
                     "color": "yellow",
@@ -3136,24 +3705,19 @@
                 },
                 {
                     "id": 31,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 11 Pro",
                     "series": "iPhone 11",
                     "color": "blue",
                     "screenRefreshRate": "144 Hz",
                     "storage": "64 GB",
                     "mainCamera_Pixels": "48MP",
-                    "mainCamera_Features": [
-                        "microscope lens",
-                        "optical stabilization",
-                        "telephoto lens",
-                        "sensor stabilization"
-                    ],
+                    "mainCamera_Features": ["microscope lens", "optical stabilization", "telephoto lens", "sensor stabilization"],
                     "price": 1444.58
                 },
                 {
                     "id": 32,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13 mini",
                     "series": "iPhone 13",
                     "color": "black",
@@ -3165,7 +3729,7 @@
                 },
                 {
                     "id": 33,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone X",
                     "series": "iPhone X",
                     "color": "red",
@@ -3185,7 +3749,7 @@
                 },
                 {
                     "id": 34,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13",
                     "series": "iPhone 13",
                     "color": "black",
@@ -3204,7 +3768,7 @@
                 },
                 {
                     "id": 35,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone SE",
                     "series": "iPhone SE",
                     "color": "red",
@@ -3216,7 +3780,7 @@
                 },
                 {
                     "id": 36,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12",
                     "series": "iPhone 12",
                     "color": "blue",
@@ -3236,7 +3800,7 @@
                 },
                 {
                     "id": 37,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone SE",
                     "series": "iPhone SE",
                     "color": "black",
@@ -3254,7 +3818,7 @@
                 },
                 {
                     "id": 38,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 14 Pro",
                     "series": "iPhone 14",
                     "color": "black",
@@ -3275,7 +3839,7 @@
                 },
                 {
                     "id": 39,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 14 Pro",
                     "series": "iPhone 14",
                     "color": "red",
@@ -3294,7 +3858,7 @@
                 },
                 {
                     "id": 40,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone X",
                     "series": "iPhone X",
                     "color": "yellow",
@@ -3314,7 +3878,7 @@
                 },
                 {
                     "id": 41,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 14 Pro",
                     "series": "iPhone 14",
                     "color": "blue",
@@ -3335,7 +3899,7 @@
                 },
                 {
                     "id": 42,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12 mini",
                     "series": "iPhone 12 mini",
                     "color": "yellow",
@@ -3356,7 +3920,7 @@
                 },
                 {
                     "id": 43,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12 mini",
                     "series": "iPhone 12 mini",
                     "color": "yellow",
@@ -3377,7 +3941,7 @@
                 },
                 {
                     "id": 44,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13 mini",
                     "series": "iPhone 13",
                     "color": "blue",
@@ -3398,24 +3962,19 @@
                 },
                 {
                     "id": 45,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 11 Pro",
                     "series": "iPhone 11",
                     "color": "yellow",
                     "screenRefreshRate": "120 Hz",
                     "storage": "256 GB",
                     "mainCamera_Pixels": "12 MP",
-                    "mainCamera_Features": [
-                        "macro lens",
-                        "ultra wide lens",
-                        "sensor stabilization",
-                        "optical stabilization"
-                    ],
+                    "mainCamera_Features": ["macro lens", "ultra wide lens", "sensor stabilization", "optical stabilization"],
                     "price": 845.52
                 },
                 {
                     "id": 46,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone SE",
                     "series": "iPhone SE",
                     "color": "yellow",
@@ -3433,7 +3992,7 @@
                 },
                 {
                     "id": 47,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 14",
                     "series": "iPhone 14",
                     "color": "red",
@@ -3453,24 +4012,19 @@
                 },
                 {
                     "id": 48,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 14 Pro",
                     "series": "iPhone 14",
                     "color": "red",
                     "screenRefreshRate": "120 Hz",
                     "storage": "≥ 512 GB",
                     "mainCamera_Pixels": "48MP",
-                    "mainCamera_Features": [
-                        "microscope lens",
-                        "night vision camera",
-                        "sensor stabilization",
-                        "thermal imager"
-                    ],
+                    "mainCamera_Features": ["microscope lens", "night vision camera", "sensor stabilization", "thermal imager"],
                     "price": 646.69
                 },
                 {
                     "id": 49,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12 Pro",
                     "series": "iPhone 12",
                     "color": "blue",
@@ -3489,7 +4043,7 @@
                 },
                 {
                     "id": 50,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone X",
                     "series": "iPhone X",
                     "color": "red",
@@ -3510,7 +4064,7 @@
                 },
                 {
                     "id": 51,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 11",
                     "series": "iPhone 11",
                     "color": "blue",
@@ -3522,7 +4076,7 @@
                 },
                 {
                     "id": 52,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 14",
                     "series": "iPhone 14",
                     "color": "red",
@@ -3534,7 +4088,7 @@
                 },
                 {
                     "id": 53,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13",
                     "series": "iPhone 13",
                     "color": "black",
@@ -3546,7 +4100,7 @@
                 },
                 {
                     "id": 54,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 14",
                     "series": "iPhone 14",
                     "color": "red",
@@ -3567,24 +4121,19 @@
                 },
                 {
                     "id": 55,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12 mini",
                     "series": "iPhone 12 mini",
                     "color": "black",
                     "screenRefreshRate": "165 Hz",
                     "storage": "64 GB",
                     "mainCamera_Pixels": "12 MP",
-                    "mainCamera_Features": [
-                        "sensor stabilization",
-                        "microscope lens",
-                        "ultra wide lens",
-                        "night vision camera"
-                    ],
+                    "mainCamera_Features": ["sensor stabilization", "microscope lens", "ultra wide lens", "night vision camera"],
                     "price": 1480.51
                 },
                 {
                     "id": 56,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 11 Pro",
                     "series": "iPhone 11",
                     "color": "black",
@@ -3604,7 +4153,7 @@
                 },
                 {
                     "id": 57,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13",
                     "series": "iPhone 13",
                     "color": "black",
@@ -3625,24 +4174,19 @@
                 },
                 {
                     "id": 58,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13 mini",
                     "model": "iPhone 13 mini",
                     "color": "yellow",
                     "screenRefreshRate": "165 Hz",
                     "storage": "16 GB",
                     "mainCamera_Pixels": "48MP",
-                    "mainCamera_Features": [
-                        "sensor stabilization",
-                        "optical stabilization",
-                        "night vision camera",
-                        "thermal imager"
-                    ],
+                    "mainCamera_Features": ["sensor stabilization", "optical stabilization", "night vision camera", "thermal imager"],
                     "price": 665.02
                 },
                 {
                     "id": 59,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 13",
                     "series": "iPhone 13",
                     "color": "yellow",
@@ -3661,24 +4205,19 @@
                 },
                 {
                     "id": 60,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "iPhone 12 Pro",
                     "series": "iPhone 12",
                     "color": "blue",
                     "screenRefreshRate": "60 Hz",
                     "storage": "128 GB",
                     "mainCamera_Pixels": "48MP",
-                    "mainCamera_Features": [
-                        "microscope lens",
-                        "telephoto lens",
-                        "sensor stabilization",
-                        "night vision camera"
-                    ],
+                    "mainCamera_Features": ["microscope lens", "telephoto lens", "sensor stabilization", "night vision camera"],
                     "price": 663.71
                 },
                 {
                     "id": 61,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Flip",
                     "model": "Samsung Galaxy M21",
                     "color": "white",
@@ -3698,7 +4237,7 @@
                 },
                 {
                     "id": 62,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Note",
                     "model": "Samsung Galaxy A80",
                     "color": "white",
@@ -3719,7 +4258,7 @@
                 },
                 {
                     "id": 63,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy F",
                     "model": "Samsung Galaxy S10",
                     "color": "gray",
@@ -3738,7 +4277,7 @@
                 },
                 {
                     "id": 64,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Flip",
                     "model": "Samsung Galaxy Note 10",
                     "color": "white",
@@ -3750,24 +4289,19 @@
                 },
                 {
                     "id": 65,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy A",
                     "model": "Samsung Galaxy Z Fold 2",
                     "color": "gray",
                     "screenRefreshRate": "144 Hz",
                     "storage": "32 GB",
                     "mainCamera_Pixels": "16 MP",
-                    "mainCamera_Features": [
-                        "sensor stabilization",
-                        "macro lens",
-                        "optical stabilization",
-                        "ultra wide lens"
-                    ],
+                    "mainCamera_Features": ["sensor stabilization", "macro lens", "optical stabilization", "ultra wide lens"],
                     "price": 557.95
                 },
                 {
                     "id": 66,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Xcover",
                     "model": "Samsung Galaxy A70",
                     "color": "gray",
@@ -3779,7 +4313,7 @@
                 },
                 {
                     "id": 67,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy S",
                     "model": "Samsung Galaxy A72",
                     "color": "gray",
@@ -3800,7 +4334,7 @@
                 },
                 {
                     "id": 68,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy M",
                     "model": "Samsung Galaxy A20",
                     "color": "gray",
@@ -3818,7 +4352,7 @@
                 },
                 {
                     "id": 69,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy A",
                     "model": "Samsung Galaxy A90Samsung Galaxy S21",
                     "color": "green",
@@ -3838,24 +4372,19 @@
                 },
                 {
                     "id": 70,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Xcover",
                     "model": "Samsung Galaxy M31",
                     "color": "black",
                     "screenRefreshRate": "120 Hz",
                     "storage": "32 GB",
                     "mainCamera_Pixels": "12 MP",
-                    "mainCamera_Features": [
-                        "telephoto lens",
-                        "thermal imager",
-                        "microscope lens",
-                        "optical stabilization"
-                    ],
+                    "mainCamera_Features": ["telephoto lens", "thermal imager", "microscope lens", "optical stabilization"],
                     "price": 1334.34
                 },
                 {
                     "id": 71,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Flip",
                     "model": "Samsung Galaxy A10",
                     "color": "green",
@@ -3873,7 +4402,7 @@
                 },
                 {
                     "id": 72,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Xcover",
                     "model": "Samsung Galaxy A51",
                     "color": "white",
@@ -3891,7 +4420,7 @@
                 },
                 {
                     "id": 73,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Flip",
                     "model": "Samsung Galaxy A80",
                     "color": "white",
@@ -3912,7 +4441,7 @@
                 },
                 {
                     "id": 74,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Note",
                     "model": "Samsung Galaxy Z Fold 2",
                     "color": "white",
@@ -3932,7 +4461,7 @@
                 },
                 {
                     "id": 75,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Xcover",
                     "model": "Samsung Galaxy A90Samsung Galaxy S21",
                     "color": "gray",
@@ -3944,7 +4473,7 @@
                 },
                 {
                     "id": 76,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy S",
                     "model": "Samsung Galaxy A42",
                     "color": "gray",
@@ -3956,24 +4485,19 @@
                 },
                 {
                     "id": 77,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy S",
                     "model": "Samsung Galaxy J7",
                     "color": "white",
                     "screenRefreshRate": "144 Hz",
                     "storage": "16 GB",
                     "mainCamera_Pixels": "50 MP",
-                    "mainCamera_Features": [
-                        "ultra wide lens",
-                        "sensor stabilization",
-                        "thermal imager",
-                        "microscope lens"
-                    ],
+                    "mainCamera_Features": ["ultra wide lens", "sensor stabilization", "thermal imager", "microscope lens"],
                     "price": 1013.39
                 },
                 {
                     "id": 78,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Fold",
                     "model": "Samsung Galaxy J7",
                     "color": "black",
@@ -3993,7 +4517,7 @@
                 },
                 {
                     "id": 79,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Fold",
                     "model": "Samsung Galaxy A10",
                     "color": "white",
@@ -4013,7 +4537,7 @@
                 },
                 {
                     "id": 80,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Flip",
                     "model": "Samsung Galaxy A30",
                     "color": "gray",
@@ -4033,7 +4557,7 @@
                 },
                 {
                     "id": 81,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Note",
                     "model": "Samsung Galaxy A71",
                     "color": "gray",
@@ -4045,7 +4569,7 @@
                 },
                 {
                     "id": 82,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy F",
                     "model": "Samsung Galaxy A30",
                     "color": "black",
@@ -4064,7 +4588,7 @@
                 },
                 {
                     "id": 83,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Flip",
                     "model": "Samsung Galaxy J7",
                     "color": "green",
@@ -4076,24 +4600,19 @@
                 },
                 {
                     "id": 84,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Flip",
                     "model": "Samsung Galaxy A20",
                     "color": "white",
                     "screenRefreshRate": "60 Hz",
                     "storage": "128 GB",
                     "mainCamera_Pixels": "12 MP",
-                    "mainCamera_Features": [
-                        "thermal imager",
-                        "night vision camera",
-                        "telephoto lens",
-                        "sensor stabilization"
-                    ],
+                    "mainCamera_Features": ["thermal imager", "night vision camera", "telephoto lens", "sensor stabilization"],
                     "price": 307.77
                 },
                 {
                     "id": 85,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Note",
                     "model": "Samsung Galaxy Note 9",
                     "color": "white",
@@ -4111,7 +4630,7 @@
                 },
                 {
                     "id": 86,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy S",
                     "model": "Samsung Galaxy A50",
                     "color": "black",
@@ -4131,7 +4650,7 @@
                 },
                 {
                     "id": 87,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy A",
                     "model": "Samsung Galaxy Z Fold 2",
                     "color": "gray",
@@ -4151,7 +4670,7 @@
                 },
                 {
                     "id": 88,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy A0",
                     "model": "Samsung Galaxy A02s",
                     "color": "gray",
@@ -4171,7 +4690,7 @@
                 },
                 {
                     "id": 89,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Xcover",
                     "model": "Samsung Galaxy A10",
                     "color": "black",
@@ -4183,7 +4702,7 @@
                 },
                 {
                     "id": 90,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Flip",
                     "model": "Samsung Galaxy A32",
                     "color": "black",
@@ -4204,24 +4723,19 @@
                 },
                 {
                     "id": 91,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy A0",
                     "model": "Samsung Galaxy A20",
                     "color": "white",
                     "screenRefreshRate": "144 Hz",
                     "storage": "≥ 512 GB",
                     "mainCamera_Pixels": "50 MP",
-                    "mainCamera_Features": [
-                        "microscope lens",
-                        "sensor stabilization",
-                        "night vision camera",
-                        "thermal imager"
-                    ],
+                    "mainCamera_Features": ["microscope lens", "sensor stabilization", "night vision camera", "thermal imager"],
                     "price": 996.12
                 },
                 {
                     "id": 92,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Fold",
                     "model": "Samsung Galaxy Z Fold 2",
                     "color": "green",
@@ -4241,7 +4755,7 @@
                 },
                 {
                     "id": 93,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy S",
                     "model": "Samsung Galaxy Z Fold 2",
                     "color": "white",
@@ -4253,7 +4767,7 @@
                 },
                 {
                     "id": 94,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy F",
                     "model": "Samsung Galaxy S10",
                     "color": "green",
@@ -4274,7 +4788,7 @@
                 },
                 {
                     "id": 95,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Fold",
                     "model": "Samsung Galaxy A20",
                     "color": "white",
@@ -4292,7 +4806,7 @@
                 },
                 {
                     "id": 96,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Fold",
                     "model": "Samsung Galaxy A20",
                     "color": "white",
@@ -4304,7 +4818,7 @@
                 },
                 {
                     "id": 97,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy F",
                     "model": "Samsung Galaxy M31",
                     "color": "black",
@@ -4316,7 +4830,7 @@
                 },
                 {
                     "id": 98,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy A",
                     "model": "Samsung Galaxy A50",
                     "color": "green",
@@ -4335,7 +4849,7 @@
                 },
                 {
                     "id": 99,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy M",
                     "model": "Samsung Galaxy Note 10",
                     "color": "gray",
@@ -4356,7 +4870,7 @@
                 },
                 {
                     "id": 100,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy S",
                     "model": "Samsung Galaxy M21",
                     "color": "green",
@@ -4375,7 +4889,7 @@
                 },
                 {
                     "id": 101,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Note",
                     "model": "Samsung Galaxy Note 9",
                     "color": "gray",
@@ -4387,7 +4901,7 @@
                 },
                 {
                     "id": 102,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Xcover",
                     "model": "Samsung Galaxy Note 9",
                     "color": "gray",
@@ -4408,7 +4922,7 @@
                 },
                 {
                     "id": 103,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy A0",
                     "model": "Samsung Galaxy A32",
                     "color": "green",
@@ -4420,41 +4934,31 @@
                 },
                 {
                     "id": 104,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Fold",
                     "model": "Samsung Galaxy Z Fold 2",
                     "color": "gray",
                     "screenRefreshRate": "60 Hz",
                     "storage": "128 GB",
                     "mainCamera_Pixels": "50 MP",
-                    "mainCamera_Features": [
-                        "sensor stabilization",
-                        "night vision camera",
-                        "thermal imager",
-                        "macro lens"
-                    ],
+                    "mainCamera_Features": ["sensor stabilization", "night vision camera", "thermal imager", "macro lens"],
                     "price": 1330.22
                 },
                 {
                     "id": 105,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy M",
                     "model": "Samsung Galaxy Note 20",
                     "color": "gray",
                     "screenRefreshRate": "",
                     "storage": "16 GB",
                     "mainCamera_Pixels": "16 MP",
-                    "mainCamera_Features": [
-                        "night vision camera",
-                        "optical stabilization",
-                        "macro lens",
-                        "microscope lens"
-                    ],
+                    "mainCamera_Features": ["night vision camera", "optical stabilization", "macro lens", "microscope lens"],
                     "price": 471.64
                 },
                 {
                     "id": 106,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Note",
                     "model": "Samsung Galaxy Z Flip",
                     "color": "black",
@@ -4474,7 +4978,7 @@
                 },
                 {
                     "id": 107,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy A",
                     "model": "Samsung Galaxy A30",
                     "color": "green",
@@ -4495,7 +4999,7 @@
                 },
                 {
                     "id": 108,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Fold",
                     "model": "Samsung Galaxy A72",
                     "color": "white",
@@ -4507,7 +5011,7 @@
                 },
                 {
                     "id": 109,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy M",
                     "model": "Samsung Galaxy A40",
                     "color": "green",
@@ -4519,24 +5023,19 @@
                 },
                 {
                     "id": 110,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Note",
                     "model": "Samsung Galaxy A20",
                     "color": "gray",
                     "screenRefreshRate": "120 Hz",
                     "storage": "256 GB",
                     "mainCamera_Pixels": "50 MP",
-                    "mainCamera_Features": [
-                        "ultra wide lens",
-                        "microscope lens",
-                        "night vision camera",
-                        "optical stabilization"
-                    ],
+                    "mainCamera_Features": ["ultra wide lens", "microscope lens", "night vision camera", "optical stabilization"],
                     "price": 459.74
                 },
                 {
                     "id": 111,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy F",
                     "model": "Samsung Galaxy Z Flip",
                     "color": "white",
@@ -4556,7 +5055,7 @@
                 },
                 {
                     "id": 112,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Note",
                     "model": "Samsung Galaxy A10",
                     "color": "gray",
@@ -4568,7 +5067,7 @@
                 },
                 {
                     "id": 113,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy A",
                     "model": "Samsung Galaxy Note 20",
                     "color": "white",
@@ -4586,7 +5085,7 @@
                 },
                 {
                     "id": 114,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Flip",
                     "model": "Samsung Galaxy A02s",
                     "color": "white",
@@ -4605,7 +5104,7 @@
                 },
                 {
                     "id": 115,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Flip",
                     "model": "Samsung Galaxy A10",
                     "color": "green",
@@ -4617,24 +5116,19 @@
                 },
                 {
                     "id": 116,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy M",
                     "model": "Samsung Galaxy A80",
                     "color": "black",
                     "screenRefreshRate": "120 Hz",
                     "storage": "128 GB",
                     "mainCamera_Pixels": "12 MP",
-                    "mainCamera_Features": [
-                        "optical stabilization",
-                        "ultra wide lens",
-                        "thermal imager",
-                        "night vision camera"
-                    ],
+                    "mainCamera_Features": ["optical stabilization", "ultra wide lens", "thermal imager", "night vision camera"],
                     "price": 562.47
                 },
                 {
                     "id": 117,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Xcover",
                     "model": "Samsung Galaxy A70",
                     "color": "white",
@@ -4646,7 +5140,7 @@
                 },
                 {
                     "id": 118,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Fold",
                     "model": "Samsung Galaxy S10",
                     "color": "green",
@@ -4664,7 +5158,7 @@
                 },
                 {
                     "id": 119,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy F",
                     "model": "Samsung Galaxy A71",
                     "color": "white",
@@ -4676,7 +5170,7 @@
                 },
                 {
                     "id": 120,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "series": "Galaxy Fold",
                     "model": "Samsung Galaxy J7",
                     "color": "black",
@@ -4696,11 +5190,11 @@
             ]
         },
         {
-            "category": "TVs",
+            "category": "tvs",
             "products": [
                 {
                     "id": 1,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "model": "QLED Q90R",
                     "price": 1499.99
                 },
@@ -4742,7 +5236,7 @@
                 },
                 {
                     "id": 8,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "model": "Neo QLED QN90A",
                     "price": 1699.0
                 },
@@ -4772,7 +5266,7 @@
                 },
                 {
                     "id": 13,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "model": "TU8000",
                     "price": 599.99
                 },
@@ -4802,7 +5296,7 @@
                 },
                 {
                     "id": 18,
-                    "brand": "Samsung",
+                    "brand": "samsung",
                     "model": "The Frame",
                     "price": 1299.0
                 },
@@ -4831,7 +5325,7 @@
                 },
                 {
                     "id": 2,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "MacBook Air",
                     "price": 1099.99
                 },
@@ -4921,7 +5415,7 @@
                 },
                 {
                     "id": 17,
-                    "brand": "Apple",
+                    "brand": "apple",
                     "model": "MacBook Pro",
                     "price": 1799.99
                 },
