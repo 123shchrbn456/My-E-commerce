@@ -6,7 +6,7 @@ import DeviceItem from "./DeviceItem";
 import Pagination from "../../ui/Pagination";
 import { PAGE_SIZE } from "../../utils/constants";
 
-import { addDoc, collection, doc, getDocs, orderBy, query, serverTimestamp, setDoc, where } from "firebase/firestore";
+import { addDoc, and, collection, doc, getDocs, or, orderBy, query, serverTimestamp, setDoc, where } from "firebase/firestore";
 import { getStorage, ref, listAll, getDownloadURL } from "firebase/storage";
 import { db } from "../../firebase";
 
@@ -18,9 +18,6 @@ const DevicesList4 = ({ gridValue }) => {
     const isSuccess = true;
     const totalCount = 30;
 
-    const searchParamsObject = Object.fromEntries([...searchParams]);
-    const searchParamsArrays = [...searchParams];
-
     useEffect(() => {
         if (!isPaginationActive) {
             searchParams.set("_page", 1);
@@ -30,7 +27,7 @@ const DevicesList4 = ({ gridValue }) => {
     }, []);
 
     useEffect(() => {
-        console.log("triggered");
+        fetchDevices();
     }, [searchParams]);
 
     function getAllImages() {
@@ -67,25 +64,43 @@ const DevicesList4 = ({ gridValue }) => {
             });
     }
 
-    async function fetchSmartphones() {
-        try {
-            const smartphonesRef = collection(db, "smartphones");
+    function getUniqueURLSearchKeys() {
+        let searchKeys = [];
+        for (const key of searchParams.keys()) {
+            if (key !== "_page" && key !== "_limit") searchKeys.push(key);
+        }
+        const uniqueSearchKeys = [...new Set(searchKeys)];
+        return uniqueSearchKeys;
+    }
 
-            const onlyFilteringParams = searchParamsArrays.filter((item) => item[0] !== "_page" && item[0] !== "_limit");
-            const whereQuery = onlyFilteringParams.map(([filterName, filterValue]) => where(filterName, "==", filterValue));
-            // const q = query(smartphonesRef, where("color", "==", "black"), where("color", "==", "blue")); /* not working this way */
-            const q = query(smartphonesRef, ...whereQuery);
+    function createFilterDevicesQuery() {
+        const uniqueSearchKeys = getUniqueURLSearchKeys();
+        let finalQueries = [];
+        uniqueSearchKeys.forEach((searchKey) => {
+            const searchValues = searchParams.getAll(searchKey);
+            const searchKeyQuery = or(...searchValues.map((searchValue) => where(searchKey, "==", searchValue)));
+            finalQueries.push(searchKeyQuery);
+        });
+        return finalQueries;
+    }
+
+    async function fetchDevices() {
+        try {
+            const devicesRef = collection(db, "devices");
+            const filterDevicesQuery = createFilterDevicesQuery();
+
+            const q = query(devicesRef, and(...filterDevicesQuery));
 
             const querySnap = await getDocs(q);
-            let smartphonesList = [];
+            let devicesList = [];
             querySnap.forEach((doc) => {
-                return smartphonesList.push({
+                return devicesList.push({
                     id: doc.id,
                     ...doc.data(),
                 });
             });
-            console.log("smartphonesList", smartphonesList);
-            setDevices(smartphonesList);
+            console.log("devicesList", devicesList);
+            setDevices(devicesList);
         } catch (error) {
             throw new Error(error);
         }
@@ -94,7 +109,6 @@ const DevicesList4 = ({ gridValue }) => {
     return (
         isSuccess && (
             <>
-                <button onClick={fetchSmartphones}>fetchSmartphones</button>
                 {/* <button onClick={getAllImages}>fetchImages</button> */}
                 {/* <ListGrid gridValue={gridValue} data={devices} render={(device) => <DeviceItem key={device.id} singleDevice={device} />} /> */}
                 <Pagination dataCount={totalCount} />
