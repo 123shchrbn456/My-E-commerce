@@ -1,22 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
-import { useGetDevicesQuery } from "./devicesSlice";
+import { useGetDevicesFromFirebaseQuery } from "./devicesSlice";
 import ListGrid from "../../ui/ListGrid";
 import DeviceItem from "./DeviceItem";
 import Pagination from "../../ui/Pagination";
 import { PAGE_SIZE } from "../../utils/constants";
 
-import { addDoc, and, collection, doc, getDocs, or, orderBy, query, serverTimestamp, setDoc, where } from "firebase/firestore";
 import { getStorage, ref, listAll, getDownloadURL } from "firebase/storage";
-import { db } from "../../firebase";
 
 const DevicesList4 = ({ gridValue }) => {
     const [searchParams, setSearchParams] = useSearchParams();
     const isPaginationActive = searchParams.get("_page");
-    // NEW
-    const [devices, setDevices] = useState([]);
-    const isSuccess = true;
-    const totalCount = 30;
+
+    const { data: devices, isLoading, isSuccess } = useGetDevicesFromFirebaseQuery(createUniqueSearchParamsObj());
+    console.log("from firebase", devices);
 
     useEffect(() => {
         if (!isPaginationActive) {
@@ -25,10 +22,6 @@ const DevicesList4 = ({ gridValue }) => {
             setSearchParams(searchParams);
         }
     }, []);
-
-    useEffect(() => {
-        fetchDevices();
-    }, [searchParams]);
 
     function getAllImages() {
         const storage = getStorage();
@@ -73,37 +66,14 @@ const DevicesList4 = ({ gridValue }) => {
         return uniqueSearchKeys;
     }
 
-    function createFilterDevicesQuery() {
+    function createUniqueSearchParamsObj() {
+        let searchObj = {};
         const uniqueSearchKeys = getUniqueURLSearchKeys();
-        let finalQueries = [];
         uniqueSearchKeys.forEach((searchKey) => {
-            const searchValues = searchParams.getAll(searchKey);
-            const searchKeyQuery = or(...searchValues.map((searchValue) => where(searchKey, "==", searchValue)));
-            finalQueries.push(searchKeyQuery);
+            searchObj[searchKey] = searchParams.getAll(searchKey);
         });
-        return finalQueries;
-    }
-
-    async function fetchDevices() {
-        try {
-            const devicesRef = collection(db, "devices");
-            const filterDevicesQuery = createFilterDevicesQuery();
-
-            const q = query(devicesRef, and(...filterDevicesQuery));
-
-            const querySnap = await getDocs(q);
-            let devicesList = [];
-            querySnap.forEach((doc) => {
-                return devicesList.push({
-                    id: doc.id,
-                    ...doc.data(),
-                });
-            });
-            console.log("devicesList", devicesList);
-            setDevices(devicesList);
-        } catch (error) {
-            throw new Error(error);
-        }
+        // console.log(searchObj);
+        return searchObj;
     }
 
     return (
@@ -111,7 +81,7 @@ const DevicesList4 = ({ gridValue }) => {
             <>
                 {/* <button onClick={getAllImages}>fetchImages</button> */}
                 {/* <ListGrid gridValue={gridValue} data={devices} render={(device) => <DeviceItem key={device.id} singleDevice={device} />} /> */}
-                <Pagination dataCount={totalCount} />
+                {/* <Pagination dataCount={totalCount} /> */}
             </>
         )
     );

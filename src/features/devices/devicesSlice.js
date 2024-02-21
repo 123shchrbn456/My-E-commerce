@@ -1,5 +1,7 @@
 import { generateFilteringData } from "../../utils/helpers";
 import { apiSlice } from "../api/apiSlice";
+import { db } from "../../firebase";
+import { and, collection, getDocs, or, query, where } from "firebase/firestore";
 
 export const devicesApiSlice = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
@@ -12,6 +14,36 @@ export const devicesApiSlice = apiSlice.injectEndpoints({
                 { type: "Devices", id: "LIST" },
                 ...result.devices.map((item) => ({ type: "Devices", id: item.id })),
             ],
+        }),
+        getDevicesFromFirebase: builder.query({
+            async queryFn(uniqueSearchParamsObj) {
+                try {
+                    const devicesRef = collection(db, "devices");
+
+                    let filterDevicesQuery = [];
+                    const uniqueSearchKeys = Object.keys(uniqueSearchParamsObj);
+
+                    // create Firebase query for each URL search key ?searchKey=searchValue
+                    uniqueSearchKeys.forEach((searchKey) => {
+                        const searchValues = uniqueSearchParamsObj[searchKey];
+                        const searchKeyQuery = or(...searchValues.map((searchValue) => where(searchKey, "==", searchValue)));
+                        filterDevicesQuery.push(searchKeyQuery);
+                    });
+
+                    const q = query(devicesRef, and(...filterDevicesQuery));
+
+                    const querySnap = await getDocs(q);
+                    let devicesList = [];
+
+                    querySnap.forEach((doc) => {
+                        devicesList.push({ id: doc.id, ...doc.data(), timeStamp: doc.data.timeStamp?.seconds });
+                    });
+                    return { data: devicesList };
+                } catch (error) {
+                    console.log(error);
+                }
+            },
+            providesTags: [{ type: "Devices" }],
         }),
         getFilteringData: builder.query({
             async queryFn(_arg, _queryApi, _extraOptions, fetchWithBQ) {
@@ -40,4 +72,4 @@ export const devicesApiSlice = apiSlice.injectEndpoints({
     }),
 });
 
-export const { useGetDevicesQuery, useGetSingleDeviceQuery, useGetFilteringDataQuery } = devicesApiSlice;
+export const { useGetDevicesQuery, useGetSingleDeviceQuery, useGetFilteringDataQuery, useGetDevicesFromFirebaseQuery } = devicesApiSlice;
