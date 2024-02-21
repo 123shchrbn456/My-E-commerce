@@ -23,7 +23,7 @@ export const devicesApiSlice = apiSlice.injectEndpoints({
                     _arg.urlBrandValues
                 );
                 let res = {
-                    ...categoryAndBrandsResult,
+                    ...categoryAndBrandsResult /* сохранили свойство meta */,
                     data: { ...filterCategoriesAndValues },
                 };
                 return res;
