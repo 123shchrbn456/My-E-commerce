@@ -13,7 +13,7 @@ const DevicesList4 = ({ gridValue }) => {
     const isPaginationActive = searchParams.get("_page");
 
     const { data: devices, isLoading, isSuccess } = useGetDevicesFromFirebaseQuery(createUniqueSearchParamsObj());
-    console.log("from firebase", devices);
+    // console.log("from firebase", devices);
 
     useEffect(() => {
         if (!isPaginationActive) {
@@ -26,10 +26,10 @@ const DevicesList4 = ({ gridValue }) => {
     function getAllImages() {
         const storage = getStorage();
         const storageRef = ref(storage);
-        // const specificFolderRef = ref(storage, "specific_folder");
+        // const specificFolderRef = ref(storage, "apple_iphone_14_red");
 
         // Find all the prefixes and items.
-        listAll(storageRef)
+        listAll(specificFolderRef)
             .then((res) => {
                 res.prefixes.forEach((folderRef) => {
                     // All the prefixes under storageRef.
@@ -80,8 +80,8 @@ const DevicesList4 = ({ gridValue }) => {
         isSuccess && (
             <>
                 {/* <button onClick={getAllImages}>fetchImages</button> */}
-                {/* <ListGrid gridValue={gridValue} data={devices} render={(device) => <DeviceItem key={device.id} singleDevice={device} />} /> */}
-                {/* <Pagination dataCount={totalCount} /> */}
+                <ListGrid gridValue={gridValue} data={devices} render={(device) => <DeviceItem key={device.id} singleDevice={device} />} />
+                <Pagination dataCount={devices.length} />
             </>
         )
     );

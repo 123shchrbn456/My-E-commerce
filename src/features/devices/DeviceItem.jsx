@@ -6,7 +6,7 @@ import { addToCart } from "../cart/cartSlice";
 const DeviceItem = ({ singleDevice }) => {
     const dispatch = useDispatch();
     const singleDeviceFeatures = Object.keys(singleDevice).filter(
-        (key) => key !== "price" && key !== "id" && key !== "mainCamera_Features"
+        (key) => key !== "price" && key !== "id" && key !== "mainCamera_Features" && key !== "imgURLs"
     );
 
     const onBuyClick = () => {
@@ -17,9 +17,8 @@ const DeviceItem = ({ singleDevice }) => {
 
     return (
         <div className="goods-single-card">
-            <h4>
-                {singleDevice.brand + " " + singleDevice.model + " " + singleDevice.storage + " " + singleDevice.color}
-            </h4>
+            <h4>{singleDevice.brand + " " + singleDevice.model + " " + singleDevice.storage + " " + singleDevice.color}</h4>
+            <img src={singleDevice.imgURLs[0]} alt="" />
             {singleDeviceFeatures.map((feature, index) => (
                 <p key={index}>
                     {feature}: {singleDevice[feature]}
@@ -33,7 +32,7 @@ const DeviceItem = ({ singleDevice }) => {
             <p>Price: {singleDevice.price}$</p>
             <button onClick={onBuyClick}>Buy</button>
             <br />
-            <Link style={{ color: "purple", fontWeight: 700 }} to={`/goods/single-goods/${singleDevice.id}`}>
+            <Link style={{ color: "purple", fontWeight: 700 }} to={`/devices/single-device/${singleDevice.id}`}>
                 View Details
             </Link>
         </div>
