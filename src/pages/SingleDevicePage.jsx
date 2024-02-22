@@ -1,12 +1,14 @@
 import React from "react";
-import { useGetSingleDeviceQuery } from "../features/devices/devicesSlice";
+import { useGetSingleDeviceFromFirebaseQuery } from "../features/devices/devicesSlice";
 import { useParams } from "react-router-dom";
 
 const SingleDevicePage = () => {
     const { id } = useParams();
-    const { data, isSuccess, isLoading, isError } = useGetSingleDeviceQuery(id);
+    const { data = {}, isSuccess, isLoading, isError } = useGetSingleDeviceFromFirebaseQuery(id);
+    console.log("SingleDevicePage", data);
     const singleGoodsKeys =
-        isSuccess && Object.keys(data).filter((key) => key !== "price" && key !== "id" && key !== "mainCamera_Features");
+        isSuccess &&
+        Object.keys(data).filter((key) => key !== "price" && key !== "id" && key !== "mainCamera_Features" && key !== "imgURLs");
 
     let content;
 
@@ -16,6 +18,7 @@ const SingleDevicePage = () => {
         content = (
             <div>
                 <h4>{data.brand + " " + data.model}</h4>
+                <img src={data.imgURLs[0]} alt="" />
                 {singleGoodsKeys.map((key, index) => (
                     <p key={index}>
                         {key}: {data[key]}

@@ -92,12 +92,41 @@ export const devicesApiSlice = apiSlice.injectEndpoints({
                     throw new Error(err);
                 }
             },
+            providesTags: [{ type: "FilteringValues" }],
         }),
         getSingleDevice: builder.query({
             query: (singleGoodsId) => `/merchandise-improved?id=${singleGoodsId}`,
             transformResponse: (responseDataArr) => {
                 const [singleObj] = responseDataArr;
                 return { ...singleObj };
+            },
+            providesTags: (result, error, arg) => [{ type: "Devices", id: arg }],
+        }),
+        getSingleDeviceFromFirebase: builder.query({
+            async queryFn(id) {
+                //
+                try {
+                    const devicesRef = collection(db, "devices");
+                    const q = query(devicesRef, where("id", "==", Number(id)));
+                    const querySnap = await getDocs(q);
+                    let result2;
+                    // It also works
+                    // querySnap.forEach((doc) => {
+                    //     result2 = {
+                    //         id: doc.id,
+                    //         ...doc.data(),
+                    //         timeStamp: doc.data.timeStamp?.seconds,
+                    //     };
+                    // });
+                    result2 = {
+                        ...querySnap.docs[0].data(),
+                        timeStamp: querySnap.docs[0].data().timeStamp.seconds,
+                    };
+                    console.log("result!!!!!", result2);
+                    return { data: result2 };
+                } catch (err) {
+                    throw new Error(err);
+                }
             },
             providesTags: (result, error, arg) => [{ type: "Devices", id: arg }],
         }),
@@ -110,4 +139,5 @@ export const {
     useGetFilteringDataQuery,
     useGetDevicesFromFirebaseQuery,
     useGetFilteringDataFromFirebaseQuery,
+    useGetSingleDeviceFromFirebaseQuery,
 } = devicesApiSlice;
