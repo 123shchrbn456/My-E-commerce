@@ -61,6 +61,38 @@ export const devicesApiSlice = apiSlice.injectEndpoints({
                 return res;
             },
         }),
+        getFilteringDataFromFirebase: builder.query({
+            async queryFn({ urlCategoryValue, urlBrandValues = [] }) {
+                console.log("!!!!!!", urlCategoryValue, urlBrandValues);
+                try {
+                    const devicesRef = collection(db, "devices");
+
+                    // GET Categories Result
+                    const filterDevicesByCategoryQuery = query(devicesRef, where("category", "==", urlCategoryValue));
+                    const querySnapByCategory = await getDocs(filterDevicesByCategoryQuery);
+                    let categoriesResult = [];
+                    querySnapByCategory.forEach((doc) => categoriesResult.push({ id: doc.id, ...doc.data() }));
+
+                    // GET Categories and Brands Result
+                    const filterDevicesByCategoryAndBrandsQuery = query(
+                        devicesRef,
+                        and(
+                            where("category", "==", urlCategoryValue),
+                            or(...urlBrandValues.map((urlBrandValue) => where("brand", "==", urlBrandValue)))
+                        )
+                    );
+                    const querySnapByCategoryAndBrands = await getDocs(filterDevicesByCategoryAndBrandsQuery);
+                    let categoryAndBrandsResult = [];
+                    querySnapByCategoryAndBrands.forEach((doc) => categoryAndBrandsResult.push({ id: doc.id, ...doc.data() }));
+
+                    // Receiving "Filtering Data" for Checkboxes
+                    const filterCategoriesAndValues = generateFilteringData(categoriesResult, categoryAndBrandsResult, urlBrandValues);
+                    return { data: filterCategoriesAndValues };
+                } catch (err) {
+                    throw new Error(err);
+                }
+            },
+        }),
         getSingleDevice: builder.query({
             query: (singleGoodsId) => `/merchandise-improved?id=${singleGoodsId}`,
             transformResponse: (responseDataArr) => {
@@ -72,4 +104,10 @@ export const devicesApiSlice = apiSlice.injectEndpoints({
     }),
 });
 
-export const { useGetDevicesQuery, useGetSingleDeviceQuery, useGetFilteringDataQuery, useGetDevicesFromFirebaseQuery } = devicesApiSlice;
+export const {
+    useGetDevicesQuery,
+    useGetSingleDeviceQuery,
+    useGetFilteringDataQuery,
+    useGetDevicesFromFirebaseQuery,
+    useGetFilteringDataFromFirebaseQuery,
+} = devicesApiSlice;
