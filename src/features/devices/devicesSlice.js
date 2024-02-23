@@ -36,7 +36,7 @@ export const devicesApiSlice = apiSlice.injectEndpoints({
                     let devicesList = [];
 
                     querySnap.forEach((doc) => {
-                        devicesList.push({ id: doc.id, ...doc.data(), timeStamp: doc.data.timeStamp?.seconds });
+                        devicesList.push({ id: doc.id, ...doc.data(), timeStamp: doc.data().timeStamp?.seconds });
                     });
                     return { data: devicesList };
                 } catch (error) {

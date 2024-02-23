@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { apiSlice } from "../api/apiSlice";
-import { addDoc, collection, serverTimestamp } from "firebase/firestore";
+import { addDoc, collection, getDocs, orderBy, query, serverTimestamp, where } from "firebase/firestore";
 import { db } from "../../firebase";
 
 export const cartApiSlice = apiSlice.injectEndpoints({
@@ -11,13 +11,35 @@ export const cartApiSlice = apiSlice.injectEndpoints({
                     const newOrder = { ...order, timestamp: serverTimestamp() };
                     const docRef = await addDoc(collection(db, "orders"), newOrder);
                     // toast.success("Order is created");
+                    return { data: docRef.id };
                 } catch (err) {
                     console.log(err);
                 }
             },
+            invalidatesTags: [{ type: "PersonalOrders" }],
+        }),
+        getUserOrders: builder.query({
+            async queryFn(userId) {
+                try {
+                    const ordersRef = collection(db, "orders");
+                    // const q = query(ordersRef, where("userRef", "==", auth.currentUser.uid), orderBy("timestamp", "desc"));
+                    const q = query(ordersRef, where("userRef", "==", userId), orderBy("timestamp", "asc"));
+                    const querySnap = await getDocs(q);
+                    let orders = [];
+                    querySnap.forEach((doc) => {
+                        orders.push({ id: doc.id, ...doc.data(), timestamp: doc.data().timestamp?.seconds });
+                    });
+                    return { data: orders };
+                } catch (err) {
+                    throw new Error(err);
+                }
+            },
+            providesTags: [{ type: "PersonalOrders" }],
         }),
     }),
 });
+
+export const { useAddNewOrderToFirebaseMutation, useGetUserOrdersQuery } = cartApiSlice;
 
 const initialState = {
     cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : [],
@@ -94,5 +116,3 @@ export const selectCartTotalAmount = (state) => state.cart.cartTotalAmount;
 export const { addToCart, clearCartItems, decreaseAmountInCart, deleteFromCart, getTotalPriceAndQuantity } = cartSlice.actions;
 
 export const cartReducer = cartSlice.reducer;
-
-export const { useAddNewOrderToFirebaseMutation } = cartApiSlice;

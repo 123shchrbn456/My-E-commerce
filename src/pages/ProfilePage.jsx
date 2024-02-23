@@ -1,9 +1,10 @@
-import { getAuth, updateProfile } from "firebase/auth";
+import { getAuth, indexedDBLocalPersistence, updateProfile } from "firebase/auth";
 import { doc, updateDoc } from "firebase/firestore";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { db } from "../firebase";
+import { useGetUserOrdersQuery } from "../features/cart/cartSlice";
 
 const ProfilePage = () => {
     const auth = getAuth();
@@ -13,6 +14,9 @@ const ProfilePage = () => {
         email: auth.currentUser.email,
     });
     const [editMode, setEditMode] = useState(false);
+
+    const { data: orders, isLoading } = useGetUserOrdersQuery(auth.currentUser.uid);
+    console.log("orders", orders);
 
     const logoutHandler = () => {
         auth.signOut();
@@ -69,6 +73,28 @@ const ProfilePage = () => {
                     </button>
                 </p>
                 <button onClick={logoutHandler}>Sign out</button>
+            </div>
+            <div>
+                <h5>Your orders</h5>
+                {!isLoading && orders.length > 0 ? (
+                    orders.map((order, index) => (
+                        <div key={order.id}>
+                            <h5>Order: #{index + 1}</h5>
+                            <ul>
+                                {order.cartItems.map((cartItem, index) => (
+                                    <li key={index}>
+                                        {cartItem.name} {cartItem.color} {cartItem.storage}|| x{cartItem.quantity} piece || {cartItem.price}{" "}
+                                        $
+                                    </li>
+                                ))}
+                            </ul>
+                            <p>Total quantity: {order.cartTotalQuantity} pieces</p>
+                            <p>Total price: {order.cartTotalAmount} $</p>
+                        </div>
+                    ))
+                ) : (
+                    <p>No orders yet</p>
+                )}
             </div>
         </div>
     );
