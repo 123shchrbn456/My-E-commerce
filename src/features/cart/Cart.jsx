@@ -1,6 +1,8 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { addToCart, decreaseAmountInCart, deleteFromCart } from "./cartSlice";
+import { addToCart, clearCartItems, decreaseAmountInCart, deleteFromCart } from "./cartSlice";
+import Button from "../../ui/Button";
+import { useSendCartItemsMutation } from "../../utils/helpers";
 
 const Cart = ({ children }) => {
     return <div>{children}</div>;
@@ -36,15 +38,33 @@ const Item = ({ cartItem }) => {
                 {cartItem.name} {cartItem.storage} {cartItem.color} {cartItem.price}$
             </p>
             <button onClick={onIncreaseAmountClick}>+</button>
-            <span>{cartItem.amount}</span>
+            <span>{cartItem.quantity}</span>
             <button onClick={onDecreaseAmountClick}>-</button>
             <button onClick={onDeleteItemClick}>Delete</button>
         </div>
     );
 };
 
-const Footer = ({ children }) => {
-    return <div>{children}</div>;
+const Footer = ({ cartTotalQuantity, cartTotalAmount }) => {
+    const onSubmitCartClick = () => {
+        sendCartItems(cartItems);
+    };
+
+    const onClearCartClick = () => {
+        dispatch(clearCartItems());
+    };
+
+    const [sendCartItems] = useSendCartItemsMutation();
+    return (
+        <div>
+            <span>Total quantity: {cartTotalQuantity}</span>
+            <span>Total price: {cartTotalAmount}</span>
+            <Button onClick={onSubmitCartClick}>Submit cart</Button>
+            <Button type="danger" onClick={onClearCartClick}>
+                Clear cart
+            </Button>
+        </div>
+    );
 };
 
 Cart.Header = Header;
