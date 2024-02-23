@@ -1,8 +1,8 @@
 import React from "react";
+import { getAuth } from "firebase/auth";
 import { useDispatch } from "react-redux";
-import { addToCart, clearCartItems, decreaseAmountInCart, deleteFromCart } from "./cartSlice";
+import { addToCart, clearCartItems, decreaseAmountInCart, deleteFromCart, useAddNewOrderToFirebaseMutation } from "./cartSlice";
 import Button from "../../ui/Button";
-import { useSendCartItemsMutation } from "../../utils/helpers";
 
 const Cart = ({ children }) => {
     return <div>{children}</div>;
@@ -45,16 +45,25 @@ const Item = ({ cartItem }) => {
     );
 };
 
-const Footer = ({ cartTotalQuantity, cartTotalAmount }) => {
-    const onSubmitCartClick = () => {
-        sendCartItems(cartItems);
+const Footer = ({ cartItems, cartTotalQuantity, cartTotalAmount }) => {
+    const auth = getAuth();
+    const [addNewOrder, { isLoading, isError }] = useAddNewOrderToFirebaseMutation();
+
+    const onSubmitCartClick = async () => {
+        const orderData = {
+            cartItems,
+            cartTotalQuantity,
+            cartTotalAmount,
+            userRef: auth.currentUser.uid,
+        };
+        await addNewOrder(orderData);
+        console.log(isError);
     };
 
     const onClearCartClick = () => {
         dispatch(clearCartItems());
     };
 
-    const [sendCartItems] = useSendCartItemsMutation();
     return (
         <div>
             <span>Total quantity: {cartTotalQuantity}</span>

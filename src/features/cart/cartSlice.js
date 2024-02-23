@@ -1,4 +1,23 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { apiSlice } from "../api/apiSlice";
+import { addDoc, collection, serverTimestamp } from "firebase/firestore";
+import { db } from "../../firebase";
+
+export const cartApiSlice = apiSlice.injectEndpoints({
+    endpoints: (builder) => ({
+        addNewOrderToFirebase: builder.mutation({
+            async queryFn(order) {
+                try {
+                    const newOrder = { ...order, timestamp: serverTimestamp() };
+                    const docRef = await addDoc(collection(db, "orders"), newOrder);
+                    // toast.success("Order is created");
+                } catch (err) {
+                    console.log(err);
+                }
+            },
+        }),
+    }),
+});
 
 const initialState = {
     cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : [],
@@ -75,3 +94,5 @@ export const selectCartTotalAmount = (state) => state.cart.cartTotalAmount;
 export const { addToCart, clearCartItems, decreaseAmountInCart, deleteFromCart, getTotalPriceAndQuantity } = cartSlice.actions;
 
 export const cartReducer = cartSlice.reducer;
+
+export const { useAddNewOrderToFirebaseMutation } = cartApiSlice;
